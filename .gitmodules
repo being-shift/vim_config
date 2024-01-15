@@ -31,3 +31,6 @@
 [submodule "pack/plugins/start/pack/schemes/opt/vim-one"]
 	path = pack/plugins/start/pack/schemes/opt/vim-one
 	url = https://github.com/rakr/vim-one
+[submodule "pack/schemes/opt/pack/schemes/opt/vim-one"]
+	path = pack/schemes/opt/pack/schemes/opt/vim-one
+	url = https://github.com/rakr/vim-one
