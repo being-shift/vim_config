@@ -19,6 +19,7 @@ hi StatusLine ctermfg=black
 hi StatusLineNC ctermfg=black
 hi SignColumn ctermbg=NONE
 
+
 let g:loaded_matchparen = 0
 let g:airline#extensions#whitespace#enabled = 0
 let g:airline_section_x = '%{ScrollStatus()}'
