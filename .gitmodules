@@ -31,6 +31,7 @@
 [submodule "pack/plugins/start/vim-gitgutter"]
 	path = pack/plugins/start/vim-gitgutter
 	url = https://github.com/airblade/vim-gitgutter
+	branch = main
 [submodule "pack/schemes/opt/vim-one"]
 	path = pack/schemes/opt/vim-one
 	url = https://github.com/rakr/vim-one
