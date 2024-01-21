@@ -9,8 +9,9 @@ set hls
 set t_RV= ttymouse=xterm2
 set splitbelow
 set splitright
+set background=dark
 
-colorscheme slate
+colorscheme one
 hi search ctermbg=130
 hi CursorLine cterm=NONE ctermbg=235
 hi CursorLineNR cterm=bold ctermbg=235
