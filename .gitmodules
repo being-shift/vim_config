@@ -35,3 +35,6 @@
 [submodule "pack/schemes/opt/vim-one"]
 	path = pack/schemes/opt/vim-one
 	url = https://github.com/rakr/vim-one
+[submodule "pack/plugins/start/tagbar"]
+	path = pack/plugins/start/tagbar
+	url = https://github.com/preservim/tagbar.git
