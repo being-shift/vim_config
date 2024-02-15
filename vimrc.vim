@@ -6,9 +6,10 @@ set cursorline
 set hls
 "set ic
 "set clipboard=unnamedplus
-set t_RV= ttymouse=xterm2
+set t_RV=ttymouse=xterm2
 set splitbelow
 set splitright
+set tags +=../tags,tags
 set background=dark
 
 colorscheme one
@@ -76,7 +77,7 @@ map <S-F9> <Esc>:NERDTree<CR>
 imap <F9> <Esc>:NERDTreeToggle<CR>
 imap <C-F9> <Esc>:NERDTreeFocus<CR>
 imap <S-F9> <Esc>:NERDTree<CR>
-nmap <F8>  <Esc>:TagbarToggle<CR>
+nmap <F8> <Esc>:TagbarToggle<CR>
 
 nmap <leader>1 <Plug>BuffetSwitch(1)
 nmap <leader>2 <Plug>BuffetSwitch(2)
