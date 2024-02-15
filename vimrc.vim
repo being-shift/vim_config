@@ -11,6 +11,7 @@ set splitbelow
 set splitright
 set tags +=../tags,tags
 set background=dark
+filetype on
 
 colorscheme one
 hi search ctermbg=130
