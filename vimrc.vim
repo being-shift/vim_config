@@ -37,6 +37,10 @@ let g:indent_guides_enable_on_vim_startup = 1
 let g:indent_guides_auto_colors = 0
 let g:rainbow#pairs = [['(', ')'], ['{', '}'], ['[', ']']]
 
+" 자동 완성 목록의 배경색과 텍스트 색상 설정
+highlight Pmenu ctermfg=black ctermbg=LightGray guifg=black guibg=LightGray
+highlight PmenuSel ctermfg=white ctermbg=Blue gui=reverse
+
 filetype plugin indent off
 
 autocmd VimEnter,Colorscheme * :hi IndentGuidesOdd  ctermfg=darkgreen ctermbg=236
