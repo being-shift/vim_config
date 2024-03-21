@@ -1,3 +1,16 @@
+
+" Use a line cursor within insert mode and a block cursor everywhere else.
+" Reference chart of values:
+"   Ps = 0  -> blinking block.
+"   Ps = 1  -> blinking block (default).
+"   Ps = 2  -> steady block.
+"   Ps = 3  -> blinking underline.
+"   Ps = 4  -> steady underline.
+"   Ps = 5  -> blinking bar (xterm).
+"   Ps = 6  -> steady bar (xterm).
+let &t_SI = "\e[6 q"
+let &t_EI = "\e[2 q"
+
 set number
 set nuw=2
 set ts=4
@@ -12,6 +25,7 @@ set splitright
 set tags +=../tags,tags
 set background=dark
 filetype on
+set encoding=utf-8
 
 colorscheme one
 hi search ctermbg=130
@@ -21,7 +35,6 @@ hi VertSplit ctermfg=black ctermbg=black
 hi StatusLine ctermfg=black
 hi StatusLineNC ctermfg=black
 hi SignColumn ctermbg=NONE
-
 
 let g:loaded_matchparen = 0
 let g:airline#extensions#whitespace#enabled = 0
