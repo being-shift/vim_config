@@ -1,0 +1,2722 @@
+./ADM/ADM9101.xfdl:function fn_groupComm()
+./ADM/ADM9101.xfdl:  	gdsSql.setColumn(nRow,"sqlId","ADM9101.comm000101");	
+./ADM/ADM9101.xfdl:function fn_search()
+./ADM/ADM9101.xfdl:  	gdsSql.setColumn(nRow,"sqlId","ADM9101.data000101");	
+./ADM/ADM9101.xfdl:function fn_searchDetail()
+./ADM/ADM9101.xfdl:  	gdsSql.setColumn(nRow,"sqlId","ADM9101.data000201");	 	
+./ADM/ADM9101.xfdl:function fn_searchMember()
+./ADM/ADM9101.xfdl:  	gdsSql.setColumn(nRow,"sqlId","ADM9101.data000301");	 	
+./ADM/ADM9101.xfdl:function fn_getPtfGrpId()
+./ADM/ADM9101.xfdl:  	gdsSql.setColumn(nRow,"sqlId","ADM9101.data000101_seq01");
+./ADM/ADM9101.xfdl:function fn_saveGroup1()
+./ADM/ADM9101.xfdl:	gdsSql.setColumn(nRow, "sqlId", "ADM9101.ins_FSBD_PTF_USER_GRP_MSTR");
+./ADM/ADM9101.xfdl:	gdsSql.setColumn(nRow, "sqlDs", "Iud");	
+./ADM/ADM9101.xfdl:function fn_saveGroup2()
+./ADM/ADM9101.xfdl:	gdsSql.setColumn(nRow, "sqlId", "ADM9101.ins_FSBD_PTF_USER_GRP_MSTR");
+./ADM/ADM9101.xfdl:	gdsSql.setColumn(nRow, "sqlDs", "Iud");	
+./ADM/ADM9101.xfdl:function fn_delGroup()
+./ADM/ADM9101.xfdl:	gdsSql.setColumn(nRow,"sqlId","ADM9101.del_FSBD_PTF_USER_GRP_MSTR");
+./ADM/ADM9101.xfdl:	gdsSql.setColumn(nRow,"sqlDs","Iud");
+./ADM/ADM9101.xfdl:function fn_saveDetail()
+./ADM/ADM9101.xfdl:	gdsSql.setColumn(nRow, "sqlId", "ADM9101.ins_FSBD_PTF_USER_LS_MT");
+./ADM/ADM9101.xfdl:	gdsSql.setColumn(nRow, "sqlDs", "ds_detail");
+./ADM/ADM9101.xfdl:function fn_deleteGroup()
+./ADM/ADM9101.xfdl:	gdsSql.setColumn(nRow,"sqlId","ADM9101.del_FSBD_PTF_USER_GRP_MSTR");
+./ADM/ADM9101.xfdl:	gdsSql.setColumn(nRow,"sqlDs","Iud");
+./ADM/ADM9101.xfdl:	gdsSql.setColumn(nRow,"sqlId","ADM9101.del_FSBD_PTF_USER_LS_MT");
+./ADM/ADM9101.xfdl:	gdsSql.setColumn(nRow,"sqlDs","Iud");
+./ADM/ADM9101.xfdl:function fn_deleteDetail()
+./ADM/ADM9101.xfdl:	gdsSql.setColumn(nRow,"sqlId","ADM9101.del_FSBD_PTF_USER_LS_MT");
+./ADM/ADM9101.xfdl:	gdsSql.setColumn(nRow,"sqlDs","Iud");
+./ADM/ADM9101P1.xfdl:function fn_comboSearch()
+./ADM/ADM9101P1.xfdl:   	gdsSql.setColumn(nRow, "sqlId", "POPUP.pop2_99B2_combo");
+./ADM/ADM9101P1.xfdl: 	gdsSql.setColumn(nRow, "sqlId", "POPUP.pop5_99B2_1");
+./ADM/ADM9101P1.xfdl:   	gdsSql.setColumn(nRow, "sqlId", "POPUP.pop5_99B2_2");
+./ADM/ADM9101P1.xfdl:function fn_userPtfSearch()
+./ADM/ADM9101P1.xfdl:		gdsSql.setColumn(nRow,"sqlId","ADM9101.data000201");
+./ADM/ADM9101P1.xfdl:		gdsSql.setColumn(nRow,"sqlId","ADM9103.data000201");
+./ADM/ADM9101P1.xfdl:function fn_ptfSearch()
+./ADM/ADM9101P1.xfdl:		gdsSql.setColumn(nRow,"sqlId","POPUP.pop1_99B2");//포트폴리오
+./ADM/ADM9101P1.xfdl:		gdsSql.setColumn(nRow,"sqlId","POPUP.pop2_99B2");
+./ADM/ADM9101P1.xfdl:		gdsSql.setColumn(nRow,"sqlId","POPUP.pop3_99B2");
+./ADM/ADM9101P1.xfdl:		gdsSql.setColumn(nRow,"sqlId","POPUP.pop4_99B2");
+./ADM/ADM9101P1.xfdl:		gdsSql.setColumn(nRow, "sqlId", "POPUP.pop5_99B2"); //공모펀드
+./ADM/ADM9101P1.xfdl:		gdsSql.setColumn(nRow,"sqlId","pop_99G1");
+./ADM/ADM9101P1.xfdl:function fn_ptfDelete()
+./ADM/ADM9101P1.xfdl:	gdsSql.setColumn(nRow,"sqlId","POPUP.del_FSBD_PTF_USER_LIST");
+./ADM/ADM9101P1.xfdl:	gdsSql.setColumn(nRow,"sqlDs","ds_ptfList_del");
+./ADM/ADM9101P1.xfdl:function fn_ptfSave()
+./ADM/ADM9101P1.xfdl:	gdsSql.setColumn(nRow,"sqlId","POPUP.ins_FSBD_PTF_USER_LIST");
+./ADM/ADM9101P1.xfdl:	gdsSql.setColumn(nRow,"sqlDs","ds_ptfList_cp");
+./ADM/ADM9103.xfdl:function fn_groupComm()
+./ADM/ADM9103.xfdl:  	gdsSql.setColumn(nRow,"sqlId","ADM9103.comm000101");	
+./ADM/ADM9103.xfdl:function fn_search()
+./ADM/ADM9103.xfdl:  	gdsSql.setColumn(nRow,"sqlId","ADM9103.data000101");	
+./ADM/ADM9103.xfdl:function fn_searchDetail()
+./ADM/ADM9103.xfdl:  	gdsSql.setColumn(nRow,"sqlId","ADM9103.data000201");	 	
+./ADM/ADM9103.xfdl:function fn_searchMember()
+./ADM/ADM9103.xfdl:  	gdsSql.setColumn(nRow,"sqlId","ADM9103.data000301");	 	
+./ADM/ADM9103.xfdl:function fn_getPtfGrpId()
+./ADM/ADM9103.xfdl:  	gdsSql.setColumn(nRow,"sqlId","ADM9103.data000101_seq01");
+./ADM/ADM9103.xfdl:function fn_saveGroup1()
+./ADM/ADM9103.xfdl:	gdsSql.setColumn(nRow, "sqlId", "ADM9103.ins_FSBD_PTF_USER_GRP_MSTR");
+./ADM/ADM9103.xfdl:	gdsSql.setColumn(nRow, "sqlDs", "Iud");	
+./ADM/ADM9103.xfdl:function fn_saveGroup2()
+./ADM/ADM9103.xfdl:	gdsSql.setColumn(nRow, "sqlId", "ADM9103.ins_FSBD_PTF_USER_GRP_MSTR");
+./ADM/ADM9103.xfdl:	gdsSql.setColumn(nRow, "sqlDs", "Iud");	
+./ADM/ADM9103.xfdl:function fn_delGroup()
+./ADM/ADM9103.xfdl:	gdsSql.setColumn(nRow,"sqlId","ADM9103.del_FSBD_PTF_USER_GRP_MSTR");
+./ADM/ADM9103.xfdl:	gdsSql.setColumn(nRow,"sqlDs","Iud");
+./ADM/ADM9103.xfdl:function fn_saveDetail()
+./ADM/ADM9103.xfdl:	gdsSql.setColumn(nRow, "sqlDs", "ds_detail");
+./ADM/ADM9103.xfdl:	gdsSql.setColumn(nRow, "sqlId", "ADM9103.ins_FSBD_PTF_USER_LS_MT");
+./ADM/ADM9103.xfdl:function fn_deleteGroup()
+./ADM/ADM9103.xfdl:	gdsSql.setColumn(nRow,"sqlId","ADM9103.del_FSBD_PTF_USER_GRP_MSTR");
+./ADM/ADM9103.xfdl:	gdsSql.setColumn(nRow,"sqlDs","Iud");
+./ADM/ADM9103.xfdl:	gdsSql.setColumn(nRow,"sqlId","ADM9103.del_FSBD_PTF_USER_LS_MT");
+./ADM/ADM9103.xfdl:	gdsSql.setColumn(nRow,"sqlDs","Iud");
+./ADM/ADM9103.xfdl:function fn_deleteDetail()
+./ADM/ADM9103.xfdl:	gdsSql.setColumn(nRow,"sqlId","ADM9103.del_FSBD_PTF_USER_LS_MT");
+./ADM/ADM9103.xfdl:	gdsSql.setColumn(nRow,"sqlDs","Iud");
+./ADM/ADM9105.xfdl:function fn_search()
+./ADM/ADM9105.xfdl:	gdsSql.setColumn(nRow,"sqlId","ADM9105.data000101");
+./ADM/ADM9105.xfdl:function fn_detail()
+./ADM/ADM9105.xfdl:	gdsSql.setColumn(nRow,"sqlId","ADM9105."+sqlId);
+./ADM/ADM9105.xfdl:function fn_etf()
+./ADM/ADM9105.xfdl:	gdsSql.setColumn(nRow,"sqlId","ADM9105.dataETF");
+./ADM/ADM9105.xfdl:function fn_save()
+./ADM/ADM9105.xfdl:	gdsSql.setColumn(nRow, "sqlId", "ADM9105.del_FSBD_AM_UNIVERSE");
+./ADM/ADM9105.xfdl:		gdsSql.setColumn(nRow, "sqlId", "ADM9105.ins_FSBD_AM_UNIVERSE");
+./ADM/ADM9105.xfdl:		gdsSql.setColumn(nRow, "sqlId", "ADM9105.mgr_FSBD_PTF_MSTR");
+./ADM/ADM9105.xfdl:		gdsSql.setColumn(nRow, "sqlId", "ADM9105.del_E_BB_TICKER_MSTR");
+./ADM/ADM9105.xfdl:		gdsSql.setColumn(nRow, "sqlId", "ADM9105.ins_FSBD_ETF_MSTR");
+./ADM/ADM9105.xfdl:		gdsSql.setColumn(nRow, "sqlId", "ADM9105.ins_E_BB_TICKER_MSTR");
+./ADM/ADM9105.xfdl:function fn_delete()
+./ADM/ADM9105.xfdl:	gdsSql.setColumn(nRow, "sqlId", "ADM9105.del_FSBD_AM_UNIVERSE");
+./ADM/ADM9105.xfdl:	gdsSql.setColumn(nRow, "sqlDs", "ds_data0010");
+./ADM/ADM9105.xfdl:function fn_combo_AST()
+./ADM/ADM9105.xfdl:	gdsSql.setColumn(nRow,"sqlId","ADM9105.combo_AST");
+./ADM/ADM9105.xfdl:function fn_combo_STY()
+./ADM/ADM9105.xfdl:	gdsSql.setColumn(nRow,"sqlId","ADM9105.combo_STY");
+./ADM/ADM9105.xfdl:function fn_combo_AMT()
+./ADM/ADM9105.xfdl:	gdsSql.setColumn(nRow,"sqlId","ADM9105.combo_AMT");
+./ADM/ADM9105.xfdl:function fn_combo_PTF()
+./ADM/ADM9105.xfdl:	gdsSql.setColumn(nRow,"sqlId","ADM9105.combo_PTF");
+./ADM/ADM9105.xfdl:function fn_combo_ETF()
+./ADM/ADM9105.xfdl:	gdsSql.setColumn(nRow,"sqlId","ADM9105.combo_ETF");
+./ADM/ADM9109.xfdl:function fn_search()
+./ADM/ADM9109.xfdl:  	gdsSql.setColumn(nRow,"sqlId","ADM9109.data000101");
+./ADM/ADM9109.xfdl:function fn_update()
+./ADM/ADM9109.xfdl:  	gdsSql.setColumn(nRow,"sqlId","ADM9109.mgr_FSBD_AST_COLOR");
+./ADM/ADM9109.xfdl:	gdsSql.setColumn(nRow,"sqlDs","Iud");
+./ADM/ADM9113.xfdl:function fn_search()
+./ADM/ADM9113.xfdl:  	gdsSql.setColumn(nRow,"sqlId","ADM9113.data000101");
+./ADM/ADM9113.xfdl:function fn_chkData(sRgnCatCd,sIsoCnty)
+./ADM/ADM9113.xfdl:	gdsSql.setColumn(nRow,"sqlId","ADM9113.chk_data");
+./ADM/ADM9113.xfdl:function fn_save()
+./ADM/ADM9113.xfdl:	gdsSql.setColumn(nRow,"sqlId","ADM9113.ins_FSBD_RGN_CNTY_MAP_MT");
+./ADM/ADM9113.xfdl:	gdsSql.setColumn(nRow,"sqlDs","Iud");
+./ADM/ADM9113.xfdl:	gdsSql.setColumn(nRow,"sqlId","ADM9113.upd_FSBD_RGN_CNTY_MAP_MT");
+./ADM/ADM9113.xfdl:	gdsSql.setColumn(nRow,"sqlDs","Iud");
+./ADM/ADM9113.xfdl:function fn_delete()
+./ADM/ADM9113.xfdl:	gdsSql.setColumn(nRow,"sqlId","ADM9113.del_FSBD_RGN_CNTY_MAP_MT");
+./ADM/ADM9113.xfdl:	gdsSql.setColumn(nRow,"sqlDs","Iud");							 
+./ADM/ADM9117.xfdl:function fn_search()
+./ADM/ADM9117.xfdl:  	gdsSql.setColumn(nRow,"sqlId","ADM9117.data000101");
+./ADM/ADM9117.xfdl:function fn_searchDetail()
+./ADM/ADM9117.xfdl:  	gdsSql.setColumn(nRow,"sqlId","ADM9117.data000201");
+./ADM/ADM9125.xfdl:function fn_search()
+./ADM/ADM9125.xfdl:  	gdsSql.setColumn(nRow,"sqlId","ADM9125.data0010");
+./ADM/ADM9125.xfdl:function btn_save_MSTR()
+./ADM/ADM9125.xfdl:		gdsSql.setColumn(nRow, "sqlId", "ADM9125.upd_FSBD_EDF_GR_MT");
+./ADM/ADM9125.xfdl:		gdsSql.setColumn(nRow, "sqlDs", "Iud");
+./ADM/ADM9125.xfdl:function btn_delete_MSTR()
+./ADM/ADM9125.xfdl:		gdsSql.setColumn(nRow,"sqlId","ADM9125.del_FSBD_EDF_GR_MT_ALL");
+./ADM/ADM9125.xfdl:		gdsSql.setColumn(nRow,"sqlDs","Iud");
+./ADM/ADM9125.xfdl:function fn_search_MT()
+./ADM/ADM9125.xfdl:  	gdsSql.setColumn(nRow,"sqlId","ADM9125.data0020");
+./ADM/ADM9125.xfdl:function btn_save_MT(obj:Button,  e:ClickEventInfo)
+./ADM/ADM9125.xfdl:		gdsSql.setColumn(nRow, "sqlId", "ADM9125.mgr_FSBD_EDF_GR_MT");
+./ADM/ADM9125.xfdl:		gdsSql.setColumn(nRow, "sqlDs", "Iud");
+./ADM/ADM9125.xfdl:function btn_delete_MT(obj:Button,  e:ClickEventInfo)
+./ADM/ADM9125.xfdl:			gdsSql.setColumn(nRow, "sqlId", "ADM9125.mgr_FSBD_EDF_GR_MT");
+./ADM/ADM9125.xfdl:			gdsSql.setColumn(nRow, "sqlDs", "Iud");
+./ADM/ADM9125.xfdl:		gdsSql.setColumn(nRow,"sqlId","ADM9125.del_FSBD_EDF_GR_MT");
+./ADM/ADM9125.xfdl:		gdsSql.setColumn(nRow,"sqlDs","Iud");
+./ADM/ADM9129.xfdl:function fn_search()
+./ADM/ADM9129.xfdl:	gdsSql.setColumn(nRow,"sqlId","ADM9129.data100101");
+./ADM/ADM9129.xfdl:	gdsSql.setColumn(nRow,"sqlId","ADM9129.data000101");
+./ADM/ADM9129.xfdl:function fn_save()
+./ADM/ADM9129.xfdl:		gdsSql.setColumn(nRow,"sqlId","ADM9129.mgr_FSBD_PTF_VAR_CM_MT");
+./ADM/ADM9129.xfdl:		gdsSql.setColumn(nRow,"sqlDs","Iud");		
+./ADM/ADM9129.xfdl:		gdsSql.setColumn(nRow,"sqlId","ADM9129.upd_FSBD_VAR_GEN_MSTR");
+./ADM/ADM9129.xfdl:		gdsSql.setColumn(nRow,"sqlDs","Iud");
+./ADM/ADM9129.xfdl:		gdsSql.setColumn(nRow,"sqlId","ADM9129.ins_FSBD_VAR_GEN_MSTR");
+./ADM/ADM9129.xfdl:		gdsSql.setColumn(nRow,"sqlDs","Iud");
+./ADM/ADM9129.xfdl:function fn_delete()
+./ADM/ADM9129.xfdl:	gdsSql.setColumn(nRow,"sqlId",vSql);
+./ADM/ADM9129.xfdl:	gdsSql.setColumn(nRow,"sqlDs","Iud");
+./ADM/ADM9129.xfdl:function tab_main_tabpage1_btn_cf_onclick(obj:Button,  e:ClickEventInfo)
+./ADM/ADM9129.xfdl:	gdsSql.setColumn(nRow,"sqlId","ADM9129.data000201");
+./ADM/ADM9133.xfdl:function fn_search()
+./ADM/ADM9133.xfdl:	gdsSql.setColumn(nRow, "sqlId", "ADM9133.data000101");
+./ADM/ADM9133.xfdl:	gdsSql.setColumn(nRow, "sqlId", "ADM9133.data000301");
+./ADM/ADM9133.xfdl:function fn_detailSearch1()
+./ADM/ADM9133.xfdl:	gdsSql.setColumn(nRow, "sqlId","ADM9133.data000201");
+./ADM/ADM9133.xfdl:function fn_detailSearch2()
+./ADM/ADM9133.xfdl:	gdsSql.setColumn(nRow, "sqlId","ADM9133.data000401");
+./ADM/ADM9133.xfdl:function fn_saveWgt()
+./ADM/ADM9133.xfdl:	gdsSql.setColumn(nRow, "sqlId", "ADM9133.mgr_FSBD_TRD_AGCY_TRG_WGT");
+./ADM/ADM9133.xfdl:	gdsSql.setColumn(nRow, "sqlDs", "Iud");
+./ADM/ADM9133.xfdl:function fn_deleteWgt()
+./ADM/ADM9133.xfdl:	gdsSql.setColumn(nRow, "sqlId","ADM9133.del_FSBD_TRD_AGCY_TRG_WGT");
+./ADM/ADM9133.xfdl:	gdsSql.setColumn(nRow,"sqlDs","Iud");
+./ADM/ADM9133.xfdl:function fn_saveGrad()
+./ADM/ADM9133.xfdl:	gdsSql.setColumn(nRow, "sqlId", "ADM9133.mgr_FSBD_TRD_AGCY_GRD");
+./ADM/ADM9133.xfdl:	gdsSql.setColumn(nRow, "sqlDs", "Iud");
+./ADM/ADM9133.xfdl:function fn_deleteGrad()
+./ADM/ADM9133.xfdl:	gdsSql.setColumn(nRow, "sqlId","ADM9133.del_FSBD_TRD_AGCY_GRD");
+./ADM/ADM9133.xfdl:	gdsSql.setColumn(nRow,"sqlDs","Iud");
+./ADM/ADM9133P1.xfdl:function fn_search()
+./ADM/ADM9133P1.xfdl:	gdsSql.setColumn(nRow,"sqlId","ADM9133.data000101_pop01");
+./ADM/ADM9137.xfdl:function fn_ptfSearch()
+./ADM/ADM9137.xfdl:   	gdsSql.setColumn(nRow,"sqlId","ADM9137.combo000101");
+./ADM/ADM9137.xfdl:function fn_search()
+./ADM/ADM9137.xfdl:   	gdsSql.setColumn(nRow,"sqlId","ADM9137.data000101");
+./ADM/ADM9137.xfdl:   	gdsSql.setColumn(nRow,"sqlId","ADM9137.data000201");
+./ADM/ADM9137.xfdl:function fn_save()
+./ADM/ADM9137.xfdl:				gdsSql.setColumn(nRow,"sqlId","ADM9137.upd_FSBD_PTF_REL_MT_DEL");
+./ADM/ADM9137.xfdl:				gdsSql.setColumn(nRow,"sqlDs","Iud");
+./ADM/ADM9137.xfdl:				gdsSql.setColumn(nRow,"sqlId","ADM9225.upd_FSBD_PTF_REL_MT_BF");
+./ADM/ADM9137.xfdl:				gdsSql.setColumn(nRow,"sqlDs","Iud");
+./ADM/ADM9137.xfdl:			gdsSql.setColumn(nRow,"sqlId","ADM9137.mgr_FSBD_PTF_REL_MT_MG");
+./ADM/ADM9137.xfdl:			gdsSql.setColumn(nRow,"sqlDs","ds_Dump");
+./ADM/ADM9137.xfdl:			gdsSql.setColumn(nRow,"sqlId","ADM9137.mgr_FSBD_PTF_REL_MT_AF");
+./ADM/ADM9137.xfdl:			gdsSql.setColumn(nRow,"sqlDs","ds_save");
+./ADM/ADM9137P1.xfdl:function fn_search()
+./ADM/ADM9137P1.xfdl:	gdsSql.setColumn(nRow,"sqlId","ADM9137.chk0010");
+./ADM/ADM9137P1.xfdl:function fn_save()
+./ADM/ADM9137P1.xfdl:	gdsSql.setColumn(nRow,"sqlId","ADM9137.udp_FSBD_PTF_REL_MT_POP");
+./ADM/ADM9137P1.xfdl:	gdsSql.setColumn(nRow,"sqlDs","Iud");
+./ADM/ADM9139.xfdl:function fn_search()
+./ADM/ADM9139.xfdl:	gdsSql.setColumn(nRow,"sqlId","ADM9139.data000101");
+./ADM/ADM9139.xfdl:function fn_subSearch()
+./ADM/ADM9139.xfdl:	gdsSql.setColumn(nRow,"sqlId","ADM9139.data000201");
+./ADM/ADM9139.xfdl:function btn_del_onclick(obj:Button,  e:ClickEventInfo)
+./ADM/ADM9139.xfdl:	gdsSql.setColumn(nRow,"sqlId","ADM9139.del_FSBD_AGCY_CI");
+./ADM/ADM9139.xfdl:	gdsSql.setColumn(nRow, "sqlDs", "Iud");
+./ADM/ADM9139P1.xfdl:function fn_save()
+./ADM/ADM9139P1.xfdl:	gdsSql.setColumn(nRow, "sqlId", "ADM9139.mgr_FSBD_AGCY_CI");
+./ADM/ADM9139P1.xfdl:	gdsSql.setColumn(nRow, "sqlDs", "ds_save");
+./ADM/ADM9146.xfdl:function fn_search()
+./ADM/ADM9146.xfdl:   	gdsSql.setColumn(nRow, "sqlId","ADM9146.data100101");
+./ADM/ADM9146.xfdl:function fn_dataSearch(nrow)
+./ADM/ADM9146.xfdl:   	gdsSql.setColumn(nRow, "sqlId","ADM9146.data100201");
+./ADM/ADM9146.xfdl:function fn_tabSearch1(nrow)
+./ADM/ADM9146.xfdl:   	gdsSql.setColumn(nRow, "sqlId","ADM9146.data110101");
+./ADM/ADM9146.xfdl:function fn_tabSearch2(nrow)
+./ADM/ADM9146.xfdl:   	gdsSql.setColumn(nRow, "sqlId","ADM9146.data120101");
+./ADM/ADM9146.xfdl:function fn_PtfCode()
+./ADM/ADM9146.xfdl:   	gdsSql.setColumn(nRow, "sqlId","ADM9146.chk_PTF_CODE");
+./ADM/ADM9146.xfdl:function fn_selBmCode()
+./ADM/ADM9146.xfdl:   	gdsSql.setColumn(nRow, "sqlId","ADM9146.chk_BM_CODE");
+./ADM/ADM9146.xfdl:function fn_selEendDt(sStDt,sEndte,sID)
+./ADM/ADM9146.xfdl:   	gdsSql.setColumn(nRow, "sqlId","ADM9146.chk_END_DT");
+./ADM/ADM9146.xfdl:function fn_copySave()
+./ADM/ADM9146.xfdl:	gdsSql.setColumn(nRow, "sqlId",  "ADM9146.ins_COPY_PtfMaster");
+./ADM/ADM9146.xfdl:	gdsSql.setColumn(nRow, "sqlDs","ds_save1");
+./ADM/ADM9146.xfdl:function fn_PtfMasterSave()
+./ADM/ADM9146.xfdl:	gdsSql.setColumn(nRow, "sqlId",  "ADM9146.mgr_PtfMaster");
+./ADM/ADM9146.xfdl:	gdsSql.setColumn(nRow, "sqlDs","ds_save1");
+./ADM/ADM9146.xfdl:function fn_BmInfoMtSave()
+./ADM/ADM9146.xfdl:	gdsSql.setColumn(nRow, "sqlId","ADM9146.mgr_BmInfoMt");
+./ADM/ADM9146.xfdl:	gdsSql.setColumn(nRow, "sqlDs","ds_save1");
+./ADM/ADM9146.xfdl:function fn_BmRelMtSave()
+./ADM/ADM9146.xfdl:	gdsSql.setColumn(nRow, "sqlId","ADM9146.mgr_BmRelMt");
+./ADM/ADM9146.xfdl:	gdsSql.setColumn(nRow, "sqlDs","ds_save1");
+./ADM/ADM9146.xfdl:function fn_WtcdPtfEntyEvlCompSave()
+./ADM/ADM9146.xfdl:function fn_WtodPtfRtnSave()
+./ADM/ADM9146.xfdl:function fn_WtodPtfSubRtnSave()
+./ADM/ADM9146.xfdl:function fn_WtodPtfDtlRtnSave()
+./ADM/ADM9146.xfdl:function fn_PtfMasterGenTcdSave()
+./ADM/ADM9146.xfdl:	gdsSql.setColumn(nRow, "sqlId",  "ADM9146.mgr_PtfMaster_GEN_TCD");
+./ADM/ADM9146.xfdl:	gdsSql.setColumn(nRow, "sqlDs","ds_save1");
+./ADM/ADM9146.xfdl:function fn_PtfMasterDelete()
+./ADM/ADM9146.xfdl:  	gdsSql.setColumn(nRow, "sqlId","ADM9146.del_PtfMaster");
+./ADM/ADM9146.xfdl:	gdsSql.setColumn(nRow,"sqlDs", "ds_save1");
+./ADM/ADM9146.xfdl:function fn_BmInfoMtDelete()
+./ADM/ADM9146.xfdl:  	gdsSql.setColumn(nRow, "sqlId","ADM9146.del_BmInfoMt");
+./ADM/ADM9146.xfdl:	gdsSql.setColumn(nRow,"sqlDs", "ds_save1");
+./ADM/ADM9146.xfdl:function fn_BmRelMtDelete()
+./ADM/ADM9146.xfdl:  	gdsSql.setColumn(nRow, "sqlId","ADM9146.del_BmRelMt");
+./ADM/ADM9146.xfdl:	gdsSql.setColumn(nRow,"sqlDs", "ds_save1");
+./ADM/ADM9146P1.xfdl: function fn_SrcTcd()
+./ADM/ADM9146P1.xfdl:   	if(fv_Gubun == 01)gdsSql.setColumn(nRow,"sqlId","ADM9146.POP_data000101");
+./ADM/ADM9146P1.xfdl:   	else gdsSql.setColumn(nRow,"sqlId","ADM9146.POP_data000102");
+./ADM/ADM9146P1.xfdl:function fn_search()
+./ADM/ADM9146P1.xfdl:   	gdsSql.setColumn(nRow, "sqlId","ADM9146_POP_rq");
+./ADM/ADM9146P1.xfdl:   	if(fv_Gubun == 01)gdsSql.setColumn(nRow,"sqlId","ADM9146.POP_data000201");
+./ADM/ADM9146P1.xfdl:   	else gdsSql.setColumn(nRow,"sqlId","ADM9146.POP_data000202");
+./ADM/ADM9146P2.xfdl:function fn_search()
+./ADM/ADM9146P2.xfdl:   	gdsSql.setColumn(nRow, "sqlId","ADM9146.chk_PTF_CODE");
+./ADM/ADM9151.xfdl:function fn_sendTran(sTranDvcd)
+./ADM/ADM9151.xfdl:		gdsSql.setColumn(nRow, "sqlId", "ADM9151.data000101");
+./ADM/ADM9151.xfdl:		gdsSql.setColumn(nRow, "sqlId", "ADM9151.upd_FSBD_EW_ITEM_MSTR");
+./ADM/ADM9151.xfdl:		gdsSql.setColumn(nRow, "sqlDs", "Iud");
+./ADM/ADM9152.xfdl:function fn_sendTran(sTranDvcd)
+./ADM/ADM9152.xfdl:		gdsSql.setColumn(nRow, "sqlId", "ADM9152.data000101");
+./ADM/ADM9152.xfdl:		gdsSql.setColumn(nRow, "sqlId", "ADM9152.mgr_FSBD_EW_ITEM_MSTR");
+./ADM/ADM9152.xfdl:		gdsSql.setColumn(nRow, "sqlDs", "Iud");
+./ADM/ADM9152.xfdl:		gdsSql.setColumn(nRow,"sqlId","ADM9152.del_FSBD_EW_ITEM_MSTR");
+./ADM/ADM9152.xfdl:		gdsSql.setColumn(nRow,"sqlDs","Iud");
+./ADM/ADM9156.xfdl:function fn_sendTran(sTranDvcd)
+./ADM/ADM9156.xfdl:		gdsSql.setColumn(nRow, "sqlId", "ADM9156.header000101");
+./ADM/ADM9156.xfdl:		gdsSql.setColumn(nRow, "sqlId", "ADM9156.data00010" + div_search.rdo_ptf.value);
+./ADM/ADM9156.xfdl:		gdsSql.setColumn(nRow, "sqlId", "ADM9156.mgr_FSBD_PTF_CSH_PROJ");
+./ADM/ADM9156.xfdl:		gdsSql.setColumn(nRow, "sqlDs", "Iud");
+./ADM/ADM9161.xfdl:function fn_sendTran(sCompDvcd){
+./ADM/ADM9161.xfdl:		gdsSql.setColumn(nRow, "sqlId", "ADM9161.ff_data000101");
+./ADM/ADM9161.xfdl:		gdsSql.setColumn(nRow, "sqlId", "ADM9161.ff_data000201");
+./ADM/ADM9161.xfdl:		gdsSql.setColumn(nRow, "sqlId", "ADM9161.ff_data000301");
+./ADM/ADM9161.xfdl:		gdsSql.setColumn(nRow, "sqlId", "ADM9161.ff_data000401");
+./ADM/ADM9161.xfdl:		gdsSql.setColumn(nRow, "sqlId", "ADM9161.upd_FSBD_PTF_MSTR_AST_DO"); 
+./ADM/ADM9161.xfdl:		gdsSql.setColumn(nRow, "sqlDs", "Iud");
+./ADM/ADM9161.xfdl:		gdsSql.setColumn(nRow, "sqlId", "ADM9161.upd_FSBD_PTF_MSTR_KOFIA_FUND_CD"); 
+./ADM/ADM9161.xfdl:		gdsSql.setColumn(nRow, "sqlDs", "Iud");
+./ADM/ADM9161.xfdl:		gdsSql.setColumn(nRow, "sqlId", "ADM9161.upd_FSBD_ENTY_MSTR"); 
+./ADM/ADM9161.xfdl:		gdsSql.setColumn(nRow, "sqlDs", "Iud");
+./ADM/ADM9161.xfdl:		gdsSql.setColumn(nRow, "sqlId", "ADM9161.inst_FSBD_PTF_MSTR"); 
+./ADM/ADM9161.xfdl:		gdsSql.setColumn(nRow, "sqlDs", "Iud");
+./ADM/ADM9161P1.xfdl:function fn_sendTran(sTranDvcd)
+./ADM/ADM9161P1.xfdl:		gdsSql.setColumn(nRow, "sqlId", "ADM9161.pop000101");
+./ADM/ADM9161_bak.xfdl:function fn_sendTran(sTranDvcd)
+./ADM/ADM9161_bak.xfdl:		gdsSql.setColumn(nRow, "sqlId", "ADM9161.ff_data000101");
+./ADM/ADM9161_bak.xfdl:		gdsSql.setColumn(nRow, "sqlId", "ADM9161.upd_FSBD_ENTY_MSTR"); // 자산코드 갱신
+./ADM/ADM9161_bak.xfdl:		gdsSql.setColumn(nRow, "sqlDs", "Iud");
+./ADM/ADM9162.xfdl:function fn_sendTran(sCompDvcd){
+./ADM/ADM9162.xfdl:		gdsSql.setColumn(nRow, "sqlId", "ADM9162.ff_data000401");
+./ADM/ADM9162.xfdl:		gdsSql.setColumn(nRow, "sqlId", "ADM9162.mgr_FSBD_PTF_MSTR_OCIO"); 
+./ADM/ADM9162.xfdl:		gdsSql.setColumn(nRow, "sqlDs", "Iud");
+./ADM/ADM9162.xfdl:		gdsSql.setColumn(nRow,"sqlId","ADM9162.del_FSBD_PTF_MSTR_OCIO");
+./ADM/ADM9162.xfdl:		gdsSql.setColumn(nRow,"sqlDs","Iud");
+./ADM/ADM9162_B.xfdl:function fn_sendTran(sCompDvcd){
+./ADM/ADM9162_B.xfdl:		gdsSql.setColumn(nRow, "sqlId", "ADM9162.ff_data000401");
+./ADM/ADM9162_B.xfdl:		gdsSql.setColumn(nRow, "sqlId", "ADM9162.mgr_FSBD_PTF_MSTR_OCIO"); 
+./ADM/ADM9162_B.xfdl:		gdsSql.setColumn(nRow, "sqlDs", "Iud");
+./ADM/ADM9175.xfdl:function fn_search()
+./ADM/ADM9175.xfdl:   	gdsSql.setColumn(nRow, "sqlId", "ADM9175.data000101");
+./ADM/ADM9175.xfdl:function fn_searchSub()
+./ADM/ADM9175.xfdl:   	gdsSql.setColumn(nRow, "sqlId", "ADM9175.data000201");
+./ADM/ADM9175.xfdl:function fn_delete()
+./ADM/ADM9175.xfdl:	gdsSql.setColumn(nRow, "sqlId", "ADM9175.del_FSBD_PTF_VAR_CM_MT");
+./ADM/ADM9175.xfdl:	gdsSql.setColumn(nRow, "sqlDs", "Iud");
+./ADM/ADM9175.xfdl:function fn_insert()
+./ADM/ADM9175.xfdl:	gdsSql.setColumn(nRow, "sqlId", "ADM9175.ins_FSBD_PTF_VAR_CM_MT");
+./ADM/ADM9175.xfdl:	gdsSql.setColumn(nRow, "sqlDs", "Iud");
+./ADM/ADM9195.xfdl:function fn_sendTran(sCompDvcd)
+./ADM/ADM9195.xfdl:	gdsSql.setColumn(nRow, "sqlId", "ADM9195.data000101");
+./ADM/ADM9201.xfdl:function fn_search()
+./ADM/ADM9201.xfdl:  	gdsSql.setColumn(nRow,"sqlId","ADM9201.data000101");
+./ADM/ADM9201.xfdl:function fn_save()
+./ADM/ADM9201.xfdl:	gdsSql.setColumn(nRow,"sqlId","ADM9201.del_FSSY_MENU_REL_MT");
+./ADM/ADM9201.xfdl:	gdsSql.setColumn(nRow,"sqlDs","Iud");
+./ADM/ADM9201.xfdl:	gdsSql.setColumn(nRow,"sqlId","ADM9201.mgr_FSSY_MENU_MSTR");
+./ADM/ADM9201.xfdl:	gdsSql.setColumn(nRow,"sqlDs","Iud");
+./ADM/ADM9201.xfdl:	gdsSql.setColumn(nRow,"sqlId","ADM9201.mgr_FSSY_MENU_REL_MT");
+./ADM/ADM9201.xfdl:	gdsSql.setColumn(nRow,"sqlDs","Iud2");
+./ADM/ADM9201.xfdl:function fn_delete()
+./ADM/ADM9201.xfdl:		gdsSql.setColumn(nRow,"sqlId","ADM9201.del_FSSY_MENU_MSTR");
+./ADM/ADM9201.xfdl:		gdsSql.setColumn(nRow,"sqlDs","Iud");
+./ADM/ADM9201.xfdl:		gdsSql.setColumn(nRow,"sqlId","ADM9201.del_FSSY_MENU_REL_MT");
+./ADM/ADM9201.xfdl:		gdsSql.setColumn(nRow,"sqlDs","Iud");
+./ADM/ADM9201.xfdl:		gdsSql.setColumn(nRow,"sqlId","ADM9201.del_FSSY_GRP_MENU_MT");
+./ADM/ADM9201.xfdl:		gdsSql.setColumn(nRow,"sqlDs","Iud");
+./ADM/ADM9201.xfdl:		gdsSql.setColumn(nRow,"sqlId","ADM9201.del_FSSY_USER_FAV_MENU");
+./ADM/ADM9201.xfdl:		gdsSql.setColumn(nRow,"sqlDs","Iud");
+./ADM/ADM9201.xfdl:		gdsSql.setColumn(nRow,"sqlId","ADM9201.del_FSSY_USER_MENU_MT");
+./ADM/ADM9201.xfdl:		gdsSql.setColumn(nRow,"sqlDs","Iud");
+./ADM/ADM9201P1.xfdl:function fn_search()
+./ADM/ADM9201P1.xfdl:  	gdsSql.setColumn(nRow, "sqlId", "ADM9201.data000101_pop01");
+./ADM/ADM9201P2.xfdl:function fn_search()
+./ADM/ADM9201P2.xfdl:  	gdsSql.setColumn(nRow, "sqlId", "ADM9201.data000101_pop02");
+./ADM/ADM9205.xfdl:function fn_search()
+./ADM/ADM9205.xfdl:	gdsSql.setColumn(nRow,"sqlId","ADM9205.data000101");
+./ADM/ADM9205.xfdl:function fn_save()
+./ADM/ADM9205.xfdl:	gdsSql.setColumn(nRow,"sqlId","ADM9205.ins_FSSY_GRP_MSTR");
+./ADM/ADM9205.xfdl:	gdsSql.setColumn(nRow,"sqlDs","Iud");
+./ADM/ADM9205.xfdl:	gdsSql.setColumn(nRow,"sqlId","ADM9205.upd_FSSY_GRP_MSTR");
+./ADM/ADM9205.xfdl:	gdsSql.setColumn(nRow,"sqlDs","Iud");
+./ADM/ADM9205.xfdl:function fn_delete()
+./ADM/ADM9205.xfdl:		 gdsSql.setColumn(nRow,"sqlId","ADM9205.del_FSSY_GRP_MSTR");
+./ADM/ADM9205.xfdl:		 gdsSql.setColumn(nRow,"sqlDs","Iud");
+./ADM/ADM9205.xfdl:		 gdsSql.setColumn(nRow,"sqlId","ADM9205.del_FSSY_GRP_USER_MT");
+./ADM/ADM9205.xfdl:		 gdsSql.setColumn(nRow,"sqlDs","Iud");
+./ADM/ADM9205.xfdl:		 gdsSql.setColumn(nRow,"sqlId","ADM9205.del_FSSY_USER_MENU_MT");
+./ADM/ADM9205.xfdl:		 gdsSql.setColumn(nRow,"sqlDs","Iud");
+./ADM/ADM9205.xfdl:		 gdsSql.setColumn(nRow,"sqlId","ADM9205.del_FSBD_GRP_PTF_MT");
+./ADM/ADM9205.xfdl:		 gdsSql.setColumn(nRow,"sqlDs","Iud");		 
+./ADM/ADM9205P1.xfdl:function fn_searchGroup()
+./ADM/ADM9205P1.xfdl:  	gdsSql.setColumn(nRow, "sqlId", "ADM9205.data000101_pop01");
+./ADM/ADM9205P1.xfdl:function fn_searchUser()
+./ADM/ADM9205P1.xfdl:  	gdsSql.setColumn(nRow, "sqlId", "ADM9205.data000201_pop01");
+./ADM/ADM9205P1.xfdl:function fn_saveUser()
+./ADM/ADM9205P1.xfdl:	gdsSql.setColumn(nRow, "sqlId", "ADM9205.ins_FSSY_GRP_USER_MT");
+./ADM/ADM9205P1.xfdl:	gdsSql.setColumn(nRow, "sqlDs", "ds_save");
+./ADM/ADM9205P1.xfdl:function fn_deleteUser()
+./ADM/ADM9205P1.xfdl:	gdsSql.setColumn(nRow,"sqlId","ADM9205.del_FSSY_GRP_USER_MT_POP");
+./ADM/ADM9205P2.xfdl:function fn_search()
+./ADM/ADM9205P2.xfdl:  	gdsSql.setColumn(nRow, "sqlId", "ADM9205.ff_data000101_pop02");
+./ADM/ADM9205P2.xfdl:function fn_output()
+./ADM/ADM9205P2.xfdl:  	gdsSql.setColumn(nRow, "sqlId", "ADM9205.data000201_pop02");
+./ADM/ADM9205P2.xfdl:function fn_delete()
+./ADM/ADM9205P2.xfdl:  	gdsSql.setColumn(nRow, "sqlId", "ADM9205.del_FSBD_GRP_PTF_MT");
+./ADM/ADM9205P2.xfdl:function fn_save()
+./ADM/ADM9205P2.xfdl:  	gdsSql.setColumn(nRow, "sqlId", "ADM9205.ins_FSBD_GRP_PTF_MT");
+./ADM/ADM9205P2.xfdl:  	gdsSql.setColumn(nRow, "sqlDs","Iud");
+./ADM/ADM9209.xfdl:function fn_search()
+./ADM/ADM9209.xfdl:  	gdsSql.setColumn(nRow,"sqlId","ADM9209.data000101");
+./ADM/ADM9209.xfdl:function fn_save()
+./ADM/ADM9209.xfdl:		gdsSql.setColumn(nRow, "sqlId", "ADM9209.mgr_FSSY_USER_MSTR");
+./ADM/ADM9209.xfdl:		gdsSql.setColumn(nRow, "sqlDs", "ds_list");
+./ADM/ADM9209.xfdl:function fn_delete()
+./ADM/ADM9209.xfdl:		 gdsSql.setColumn(nRow,"sqlId","ADM9209.del_FSSY_USER_MSTR");
+./ADM/ADM9209.xfdl:		 gdsSql.setColumn(nRow,"sqlDs","Iud");
+./ADM/ADM9209.xfdl:		 gdsSql.setColumn(nRow,"sqlId","ADM9209.del_FSSY_GRP_USER_MT");
+./ADM/ADM9209.xfdl:		 gdsSql.setColumn(nRow,"sqlDs","Iud");
+./ADM/ADM9209.xfdl:		 gdsSql.setColumn(nRow,"sqlId","ADM9209.del_FSSY_USER_MENU_MT");
+./ADM/ADM9209.xfdl:		 gdsSql.setColumn(nRow,"sqlDs","Iud");	 
+./ADM/ADM9209.xfdl:		 gdsSql.setColumn(nRow,"sqlId","ADM9209.del_FSSY_USER_FAV_MENU");
+./ADM/ADM9209.xfdl:		 gdsSql.setColumn(nRow,"sqlDs","Iud");	
+./ADM/ADM9209.xfdl:		 gdsSql.setColumn(nRow,"sqlId","ADM9209.del_FSBD_PTF_USER_LS_MT");
+./ADM/ADM9209.xfdl:		 gdsSql.setColumn(nRow,"sqlDs","Iud");	
+./ADM/ADM9209.xfdl:		 gdsSql.setColumn(nRow,"sqlId","ADM9209.del_FSBD_PTF_USER_LIST");
+./ADM/ADM9209.xfdl:		 gdsSql.setColumn(nRow,"sqlDs","Iud");	
+./ADM/ADM9209.xfdl:		 gdsSql.setColumn(nRow,"sqlId","ADM9209.del_FSBD_PTF_USER_GRP_MSTR");
+./ADM/ADM9209.xfdl:		 gdsSql.setColumn(nRow,"sqlDs","Iud");			 		 		 		 
+./ADM/ADM9209.xfdl:		 gdsSql.setColumn(nRow,"sqlId","ADM9209.del_FSBD_AA_OPTM_MT");
+./ADM/ADM9209.xfdl:		 gdsSql.setColumn(nRow,"sqlDs","Iud");			 
+./ADM/ADM9209.xfdl:function fn_pwReset_onclick(obj:Button,  e:ClickEventInfo)
+./ADM/ADM9209.xfdl:		 gdsSql.setColumn(nRow,"sqlId","ADM9209.upd_pwd_FSSY_USER_MSTR");
+./ADM/ADM9209.xfdl:		 gdsSql.setColumn(nRow,"sqlDs","Iud"); 
+./ADM/ADM9209P1.xfdl:function fn_searchUser()
+./ADM/ADM9209P1.xfdl:  	gdsSql.setColumn(nRow, "sqlId", "ADM9209.data000101_pop01");
+./ADM/ADM9209P1.xfdl:function fn_searchGroup()
+./ADM/ADM9209P1.xfdl:  	gdsSql.setColumn(nRow, "sqlId", "ADM9209.data000201_pop01");
+./ADM/ADM9209P1.xfdl:function fn_saveUser()
+./ADM/ADM9209P1.xfdl:	gdsSql.setColumn(nRow, "sqlId", "ADM9209.ins_FSSY_GRP_USER_MT");
+./ADM/ADM9209P1.xfdl:	gdsSql.setColumn(nRow, "sqlDs", "ds_save");
+./ADM/ADM9209P1.xfdl:function fn_deleteUser()
+./ADM/ADM9209P1.xfdl:	gdsSql.setColumn(nRow,"sqlId","ADM9209.del_FSSY_GRP_USER_MT");
+./ADM/ADM9213.xfdl:function fn_Lfdata()
+./ADM/ADM9213.xfdl:	gdsSql.setColumn(nRow,"sqlId","ADM9213.data100101");
+./ADM/ADM9213.xfdl:	gdsSql.setColumn(nRow,"sqlId","ADM9213.data200101"); 	
+./ADM/ADM9213.xfdl:function fn_Rtdata()
+./ADM/ADM9213.xfdl:	gdsSql.setColumn(nRow,"sqlId","ADM9213.data000201");
+./ADM/ADM9213.xfdl:function fn_save()
+./ADM/ADM9213.xfdl:		gdsSql.setColumn(nRow,"sqlId","ADM9213.mgr_MENU_MT");
+./ADM/ADM9213.xfdl:		gdsSql.setColumn(nRow,"sqlDs","ds_save");
+./ADM/ADM9217.xfdl:function fn_search()
+./ADM/ADM9217.xfdl:  	gdsSql.setColumn(nRow,"sqlId","ADM9217.data000101");
+./ADM/ADM9217.xfdl:function fn_searchDetail()
+./ADM/ADM9217.xfdl:  	gdsSql.setColumn(nRow,"sqlId","ADM9217.data000201");
+./ADM/ADM9217.xfdl:function fn_save1()
+./ADM/ADM9217.xfdl:	 gdsSql.setColumn(nRow,"sqlId","ADM9217.ins_FSSY_CMN_CD_MT_GRP");
+./ADM/ADM9217.xfdl:	 gdsSql.setColumn(nRow,"sqlDs","Iud");
+./ADM/ADM9217.xfdl:	 gdsSql.setColumn(nRow,"sqlId","ADM9217.upd_FSSY_CMN_CD_MT_GRP");
+./ADM/ADM9217.xfdl:	 gdsSql.setColumn(nRow,"sqlDs","Iud");
+./ADM/ADM9217.xfdl:function fn_detele1()
+./ADM/ADM9217.xfdl:	 gdsSql.setColumn(nRow,"sqlId","ADM9217.del_FSSY_CMN_CD_MT_GRP");
+./ADM/ADM9217.xfdl:	 gdsSql.setColumn(nRow,"sqlDs","Iud");
+./ADM/ADM9217.xfdl:function fn_save2()
+./ADM/ADM9217.xfdl:	gdsSql.setColumn(nRow, "sqlId", "ADM9217.mgr_FSSY_CMN_CD_MT_DTL");
+./ADM/ADM9217.xfdl:	gdsSql.setColumn(nRow, "sqlDs", "ds_detail");
+./ADM/ADM9217.xfdl:function fn_detele2()
+./ADM/ADM9217.xfdl:	 gdsSql.setColumn(nRow,"sqlId","ADM9217.del_FSSY_CMN_CD_MT_DTL");
+./ADM/ADM9217.xfdl:	 gdsSql.setColumn(nRow,"sqlDs","Iud");
+./ADM/ADM9221.xfdl:function fn_search()
+./ADM/ADM9221.xfdl:  	gdsSql.setColumn(nRow,"sqlId","ADM9221.data000101");
+./ADM/ADM9221.xfdl:function fn_save()
+./ADM/ADM9221.xfdl:		gdsSql.setColumn(nRow, "sqlId", "ADM9221.mgr_FSBD_PTF_MSTR");
+./ADM/ADM9221.xfdl:		gdsSql.setColumn(nRow, "sqlDs", "ds_save");
+./ADM/ADM9221.xfdl:function fn_delete()
+./ADM/ADM9221.xfdl:		gdsSql.setColumn(nRow,"sqlId","ADM9221.del_FSBD_PTF_MSTR");
+./ADM/ADM9221.xfdl:		gdsSql.setColumn(nRow,"sqlDs","Iud");
+./ADM/ADM9221.xfdl:		gdsSql.setColumn(nRow,"sqlId","ADM9221.del_FSBD_PTF_REL_MT");
+./ADM/ADM9221.xfdl:		gdsSql.setColumn(nRow,"sqlDs","Iud2");
+./ADM/ADM9221.xfdl:function fn_MT()
+./ADM/ADM9221.xfdl:		gdsSql.setColumn(nRow, "sqlId", "ADM9221.del_FSBD_PTF_REL_MT_ROOT");
+./ADM/ADM9221.xfdl:			gdsSql.setColumn(nRow, "sqlId", "ADM9221.ins_FSBD_PTF_REL_MT_ROOT");
+./ADM/ADM9221P1.xfdl:function fn_search()
+./ADM/ADM9221P1.xfdl:  	gdsSql.setColumn(nRow, "sqlId", "ADM9221.data000101_pop01");
+./ADM/ADM9225.xfdl:function fn_composPtfCd()
+./ADM/ADM9225.xfdl:  	gdsSql.setColumn(nRow,"sqlId","ADM9225.combo0010");
+./ADM/ADM9225.xfdl:function fn_search()
+./ADM/ADM9225.xfdl:		gdsSql.setColumn(nRow,"sqlId","ADM9225.data100101");
+./ADM/ADM9225.xfdl:		gdsSql.setColumn(nRow,"sqlId","ADM9225.data100201"); 	
+./ADM/ADM9225.xfdl:		gdsSql.setColumn(nRow,"sqlId","ADM9225.data200101");
+./ADM/ADM9225.xfdl:		gdsSql.setColumn(nRow,"sqlId","ADM9225.data200201"); 	
+./ADM/ADM9225.xfdl:		gdsSql.setColumn(nRow,"sqlId","ADM9225.data300101");
+./ADM/ADM9225.xfdl:		gdsSql.setColumn(nRow,"sqlId","ADM9225.data300201"); 	
+./ADM/ADM9225.xfdl:function grd_list_01_oncelllclick(obj:Grid, e:GridClickEventInfo)
+./ADM/ADM9225.xfdl:	gdsSql.setColumn(nRow,"sqlId","ADM9225.data100301"); 	
+./ADM/ADM9225.xfdl:function tabpage1_btn_save_onclick()
+./ADM/ADM9225.xfdl:		gdsSql.setColumn(nRow,"sqlId","ADM9225.del_FSBD_PTF_REL_MT_AAA");
+./ADM/ADM9225.xfdl:		gdsSql.setColumn(nRow,"sqlDs","Iud");
+./ADM/ADM9225.xfdl:			gdsSql.setColumn(nRow,"sqlId","ADM9225.ins_FSBD_PTF_REL_MT_AAA");
+./ADM/ADM9225.xfdl:			gdsSql.setColumn(nRow,"sqlDs","Iud");
+./ADM/ADM9225.xfdl:function tabpage2_btn_save_onclick()
+./ADM/ADM9225.xfdl:				gdsSql.setColumn(nRow,"sqlId","ADM9225.upd_FSBD_PTF_REL_MT_DEL");
+./ADM/ADM9225.xfdl:				gdsSql.setColumn(nRow,"sqlDs","Iud");
+./ADM/ADM9225.xfdl:			gdsSql.setColumn(nRow,"sqlId","ADM9225.mgr_FSBD_PTF_REL_MT_MGR");
+./ADM/ADM9225.xfdl:			gdsSql.setColumn(nRow,"sqlDs","ds_Dump");
+./ADM/ADM9225.xfdl:			gdsSql.setColumn(nRow,"sqlId","ADM9225.mgr_FSBD_PTF_REL_MT_AF");
+./ADM/ADM9225.xfdl:			gdsSql.setColumn(nRow,"sqlDs","ds_save");
+./ADM/ADM9229.xfdl:function fn_search()
+./ADM/ADM9229.xfdl:	gdsSql.setColumn(nRow,"sqlId","ADM9229.data"+tIdx+"00101");
+./ADM/ADM9229.xfdl:function fn_subSearch()
+./ADM/ADM9229.xfdl:  	gdsSql.setColumn(nRow,"sqlId","ADM9229.data100201");
+./ADM/ADM9229.xfdl:function fn_delete()
+./ADM/ADM9229.xfdl:	gdsSql.setColumn(nRow,"sqlId","ADM9229.del_FSBD_PTF_REL_MT_ALL");
+./ADM/ADM9229.xfdl:	gdsSql.setColumn(nRow,"sqlDs","Iud");
+./ADM/ADM9229.xfdl:function fn_subSave()
+./ADM/ADM9229.xfdl:	gdsSql.setColumn(nRow, "sqlId", "ADM9229.mgr_FSBD_PTF_REL_MT");
+./ADM/ADM9229.xfdl:	gdsSql.setColumn(nRow, "sqlDs", "Iud");
+./ADM/ADM9229.xfdl:function fn_save2()
+./ADM/ADM9229.xfdl:	gdsSql.setColumn(nRow, "sqlId", "ADM9229.mgr_FSBD_BM_INFO_MT");
+./ADM/ADM9229.xfdl:	gdsSql.setColumn(nRow, "sqlDs", "Iud");
+./ADM/ADM9229.xfdl:function fn_subDelete()
+./ADM/ADM9229.xfdl:		gdsSql.setColumn(nRow, "sqlId", "ADM9229.mgr_FSBD_PTF_REL_MT");
+./ADM/ADM9229.xfdl:		gdsSql.setColumn(nRow, "sqlDs", "Iud");
+./ADM/ADM9229.xfdl:	gdsSql.setColumn(nRow,"sqlId","ADM9229.del_FSBD_PTF_REL_MT");
+./ADM/ADM9229.xfdl:	gdsSql.setColumn(nRow,"sqlDs","Iud");
+./ADM/ADM9229.xfdl:function fn_subDeleteAll()
+./ADM/ADM9229.xfdl:	gdsSql.setColumn(nRow,"sqlId","ADM9229.del_FSBD_PTF_REL_MT_ALL");
+./ADM/ADM9229.xfdl:function fn_delete2()
+./ADM/ADM9229.xfdl:	gdsSql.setColumn(nRow,"sqlId","ADM9229.del_FSBD_BM_INFO_MT");
+./ADM/ADM9229.xfdl:	gdsSql.setColumn(nRow,"sqlDs","Iud");
+./ADM/ADM9229.xfdl:function fn_checkData(fv_sPtfCd_new)
+./ADM/ADM9229.xfdl:		gdsSql.setColumn(nRow,"sqlId","ADM9229.chk1010");
+./ADM/ADM9229.xfdl:function fn_seqUpdate()
+./ADM/ADM9229.xfdl:	gdsSql.setColumn(nRow,"sqlId","ADM9229.upd_FSBD_PTF_REL_MT_SEQ");
+./ADM/ADM9233.xfdl:function fn_search()
+./ADM/ADM9233.xfdl:  	gdsSql.setColumn(nRow,"sqlId","ADM9233.data000101");
+./ADM/ADM9233.xfdl:function fn_save()
+./ADM/ADM9233.xfdl:	gdsSql.setColumn(nRow, "sqlDs", "ds_list");	
+./ADM/ADM9233.xfdl:		gdsSql.setColumn(nRow, "sqlId", "ADM9233.ins_FSBD_TML_FILE_MT");
+./ADM/ADM9233.xfdl:		gdsSql.setColumn(nRow, "sqlId", "ADM9233.upd_FSBD_TML_FILE_MT");
+./ADM/ADM9233.xfdl:function fn_delete()
+./ADM/ADM9233.xfdl:	gdsSql.setColumn(nRow, "sqlId", "ADM9233.del_FSBD_TML_FILE_MT");
+./ADM/ADM9233.xfdl:	gdsSql.setColumn(nRow, "sqlDs", "ds_list");
+./ADM/ADM9233.xfdl:function fn_fileDeleteFile()
+./ADM/ADM9233.xfdl:	gdsSql.setColumn(nRow,"path",ds_list.getColumn(ds_list.rowposition,"PATH_NM"));
+./ADM/ADM9233.xfdl:	gdsSql.setColumn(nRow,"fileName",sFileName);
+./ADM/ADM9237.xfdl:function fn_search()
+./ADM/ADM9237.xfdl:  	gdsSql.setColumn(nRow,"sqlId","ADM9237.ff_data000101");
+./ADM/ADM9237.xfdl:function fn_chk_data(AST_MNMGT_CD)
+./ADM/ADM9237.xfdl:	gdsSql.setColumn(nRow,"sqlId","ADM9237.data000101_chk");
+./ADM/ADM9237.xfdl:function fn_save()
+./ADM/ADM9237.xfdl:	gdsSql.setColumn(nRow, "sqlId", "ADM9237.mgr_ff_FSBD_AM_MSTR");
+./ADM/ADM9237.xfdl:	gdsSql.setColumn(nRow, "sqlDs", "ds_save01");
+./ADM/ADM9237.xfdl:function fn_delete()
+./ADM/ADM9237.xfdl:	gdsSql.setColumn(nRow,"sqlId","ADM9237.del_FSBD_AM_MSTR");
+./ADM/ADM9237.xfdl:	gdsSql.setColumn(nRow,"sqlDs","Iud");
+./ADM/ADM9237.xfdl:	gdsSql.setColumn(nRow,"sqlId","ADM9237.del_FSBD_AM_RCRD_MT_ALL");
+./ADM/ADM9237.xfdl:	gdsSql.setColumn(nRow,"sqlDs","Iud2");
+./ADM/ADM9237.xfdl.20231017:function fn_search()
+./ADM/ADM9237.xfdl.20231017:  	gdsSql.setColumn(nRow,"sqlId","ADM9237.ff_data000101");
+./ADM/ADM9237.xfdl.20231017:function fn_chk_data(AST_MNMGT_CD)
+./ADM/ADM9237.xfdl.20231017:	gdsSql.setColumn(nRow,"sqlId","ADM9237.data000101_chk");
+./ADM/ADM9237.xfdl.20231017:function fn_save()
+./ADM/ADM9237.xfdl.20231017:	gdsSql.setColumn(nRow, "sqlId", "ADM9237.mgr_ff_FSBD_AM_MSTR");
+./ADM/ADM9237.xfdl.20231017:	gdsSql.setColumn(nRow, "sqlDs", "ds_save01");
+./ADM/ADM9237.xfdl.20231017:function fn_delete()
+./ADM/ADM9237.xfdl.20231017:	gdsSql.setColumn(nRow,"sqlId","ADM9237.del_FSBD_AM_MSTR");
+./ADM/ADM9237.xfdl.20231017:	gdsSql.setColumn(nRow,"sqlDs","Iud");
+./ADM/ADM9237.xfdl.20231017:	gdsSql.setColumn(nRow,"sqlId","ADM9237.del_FSBD_AM_RCRD_MT_ALL");
+./ADM/ADM9237.xfdl.20231017:	gdsSql.setColumn(nRow,"sqlDs","Iud2");
+./ADM/ADM9241.xfdl:function fn_search()
+./ADM/ADM9241.xfdl:  	gdsSql.setColumn(nRow,"sqlId","ADM9241.data000101");
+./ADM/ADM9241.xfdl:function fn_subSearch()
+./ADM/ADM9241.xfdl:  	gdsSql.setColumn(nRow,"sqlId","ADM9241.data000201");
+./ADM/ADM9241.xfdl:function fn_chk_data(MGR_CD)
+./ADM/ADM9241.xfdl:	gdsSql.setColumn(nRow,"sqlId","ADM9241.data000101_chk");
+./ADM/ADM9241.xfdl:function fn_save()
+./ADM/ADM9241.xfdl:	gdsSql.setColumn(nRow, "sqlId", "ADM9241.mgr_FSBD_MGR_MSTR");
+./ADM/ADM9241.xfdl:	gdsSql.setColumn(nRow, "sqlDs", "Iud");
+./ADM/ADM9241.xfdl:function fn_delete()
+./ADM/ADM9241.xfdl:	gdsSql.setColumn(nRow,"sqlId","ADM9241.del_FSBD_MGR_MSTR");
+./ADM/ADM9241.xfdl:	gdsSql.setColumn(nRow,"sqlDs","Iud");
+./ADM/ADM9241.xfdl:	gdsSql.setColumn(nRow,"sqlId","ADM9241.del_FSBD_MGR_RCRD_MT_ALL");
+./ADM/ADM9241.xfdl:	gdsSql.setColumn(nRow,"sqlDs","Iud2");
+./ADM/ADM9241.xfdl:function fn_subSave()
+./ADM/ADM9241.xfdl:	gdsSql.setColumn(nRow, "sqlId", "ADM9241.del_FSBD_MGR_RCRD_MT_ALL");
+./ADM/ADM9241.xfdl:	gdsSql.setColumn(nRow, "sqlId", "ADM9241.mgr_FSBD_MGR_RCRD_MT");
+./ADM/ADM9241.xfdl:	gdsSql.setColumn(nRow, "sqlDs", "ds_save02");
+./ADM/ADM9241.xfdl:function fn_subDelete()
+./ADM/ADM9241.xfdl:	gdsSql.setColumn(nRow,"sqlId","ADM9241.del_FSBD_MGR_RCRD_MT");
+./ADM/ADM9241.xfdl:	gdsSql.setColumn(nRow,"sqlDs","Iud");
+./ADM/ADM9301.xfdl:function fn_search()
+./ADM/ADM9301.xfdl:  	gdsSql.setColumn(nRow,"sqlId","ADM9301.data000101");
+./ADM/ADM9301.xfdl:function fn_searchUnitProcess()
+./ADM/ADM9301.xfdl:  	gdsSql.setColumn(nRow,"sqlId","ADM9301.data000301");
+./ADM/ADM9301.xfdl:function fn_searchMapping_sub(Bch_id)
+./ADM/ADM9301.xfdl:  	gdsSql.setColumn(nRow,"sqlId","ADM9301.data000201");
+./ADM/ADM9301.xfdl:function fn_deleteGroupMap(arryDelJobList)
+./ADM/ADM9301.xfdl:	gdsSql.setColumn(nRow,"sqlId","ADM9301.del_FSSY_BCH_JOB_PROC_MAP_MT");
+./ADM/ADM9301.xfdl:function fn_save(obj:Button,  e:ClickEventInfo)
+./ADM/ADM9301.xfdl:	gdsSql.setColumn(nRow,"sqlId","ADM9301.ins_FSSY_BCH_GRP_MT");
+./ADM/ADM9301.xfdl:	gdsSql.setColumn(nRow,"sqlDs","Iud");
+./ADM/ADM9301.xfdl:	gdsSql.setColumn(nRow,"sqlId","ADM9301.upd_FSSY_BCH_GRP_MT");
+./ADM/ADM9301.xfdl:	gdsSql.setColumn(nRow,"sqlDs","Iud");
+./ADM/ADM9301.xfdl:	gdsSql.setColumn(nRow,"sqlId","ADM9301.del_FSSY_BCH_GRP_MT");
+./ADM/ADM9301.xfdl:	gdsSql.setColumn(nRow,"sqlDs","Iud");
+./ADM/ADM9301.xfdl:function fn_saveUnitProcess()
+./ADM/ADM9301.xfdl:	 gdsSql.setColumn(nRow,"sqlId","ADM9301.ins_FSSY_BCH_PROC_MT");
+./ADM/ADM9301.xfdl:	 gdsSql.setColumn(nRow,"sqlDs","Iud");
+./ADM/ADM9301.xfdl:	 gdsSql.setColumn(nRow,"sqlId","ADM9301.upd_FSSY_BCH_PROC_MT");
+./ADM/ADM9301.xfdl:	 gdsSql.setColumn(nRow,"sqlDs","Iud");
+./ADM/ADM9301.xfdl:	 gdsSql.setColumn(nRow,"sqlId","ADM9301.del_FSSY_BCH_PROC_MT");
+./ADM/ADM9301.xfdl:	 gdsSql.setColumn(nRow,"sqlDs","Iud");
+./ADM/ADM9301.xfdl:function fn_saveMapping()
+./ADM/ADM9301.xfdl:	 gdsSql.setColumn(nRow,"sqlId","ADM9301.ins_FSSY_BCH_JOB_PROC_MAP_MT");
+./ADM/ADM9301.xfdl:	 gdsSql.setColumn(nRow,"sqlDs","Iud");
+./ADM/ADM9301.xfdl:	 gdsSql.setColumn(nRow,"sqlId","ADM9301.upd_FSSY_BCH_JOB_PROC_MAP_MT");
+./ADM/ADM9301.xfdl:	 gdsSql.setColumn(nRow,"sqlDs","Iud");
+./ADM/ADM9301.xfdl:	 gdsSql.setColumn(nRow,"sqlId","ADM9301.del_FSSY_BCH_JOB_PROC_MAP_MT");
+./ADM/ADM9301.xfdl:	 gdsSql.setColumn(nRow,"sqlDs","Iud");
+./ADM/ADM9305.xfdl:function fn_search()
+./ADM/ADM9305.xfdl:  	gdsSql.setColumn(nRow,"sqlId","ADM9305.data000101");
+./ADM/ADM9305.xfdl:function fn_save()
+./ADM/ADM9305.xfdl:		gdsSql.setColumn(nRow, "sqlId", "ADM9305.mgr_FSSY_BCH_SCHED_MT");
+./ADM/ADM9305.xfdl:		gdsSql.setColumn(nRow, "sqlDs", "Iud");
+./ADM/ADM9305.xfdl:function fn_delete()
+./ADM/ADM9305.xfdl:		gdsSql.setColumn(nRow,"sqlId","ADM9305.del_FSSY_BCH_SCHED_MT");
+./ADM/ADM9305.xfdl:		gdsSql.setColumn(nRow,"sqlDs","Iud");
+./ADM/ADM9309.xfdl:function fn_searchJobList()
+./ADM/ADM9309.xfdl:  	gdsSql.setColumn(nRow,"sqlId","ADM9309.data000101");
+./ADM/ADM9309.xfdl:function fn_searchSchedule()
+./ADM/ADM9309.xfdl:  	gdsSql.setColumn(nRow,"sqlId","ADM9309.data000201");
+./ADM/ADM9309.xfdl:function fn_searchProcessList(Bch_id)
+./ADM/ADM9309.xfdl:  	gdsSql.setColumn(nRow,"sqlId","ADM9309.data000301");
+./ADM/ADM9309.xfdl:function fn_searchBatchLog(run_Rqst_Id)
+./ADM/ADM9309.xfdl:  	gdsSql.setColumn(nRow,"sqlId","ADM9309.data000401");
+./ADM/ADM9309.xfdl:function fn_saveExecute()
+./ADM/ADM9309.xfdl:	gdsSql.setColumn(nRow,"sqlId","ADM9309.ins_FSSY_BCH_JOB_TT");
+./ADM/ADM9309.xfdl:	gdsSql.setColumn(nRow,"sqlDs","Iud");
+./ADM/ADM9309.xfdl:function fn_reUpdateExecute()
+./ADM/ADM9309.xfdl:	gdsSql.setColumn(nRow,"sqlId","ADM9309.upd_FSSY_BCH_JOB_TT");
+./ADM/ADM9309.xfdl:	gdsSql.setColumn(nRow,"sqlDs","Iud");
+./ADM/ADM9309.xfdl:function fn_deleteSchedule()
+./ADM/ADM9309.xfdl:		gdsSql.setColumn(nRow,"sqlId","ADM9309.del_FSSY_BCH_JOB_TT");
+./ADM/ADM9309.xfdl:		gdsSql.setColumn(nRow,"sqlDs","ds_list01");
+./ADM/ADM9309.xfdl:function fn_deleteBatchLog()
+./ADM/ADM9309.xfdl:	gdsSql.setColumn(nRow,"sqlId","ADM9309.del_FSSY_BCH_LOG_TT");
+./ADM/ADM9309.xfdl:	gdsSql.setColumn(nRow,"sqlDs","ds_BatchLog");
+./ADM/ADM9309.xfdl:function fn_execute_pop(obj:Button,  e:ClickEventInfo)
+./ADM/ADM9309.xfdl:		gdsSql.setColumn(nRow,"sqlId","COMMON.getFromToTrdDate");
+./ADM/ADM9317.xfdl:function fn_searchJobList()
+./ADM/ADM9317.xfdl:		gdsSql.setColumn(nRow,"sqlId","ADM9317.data100101");
+./ADM/ADM9317.xfdl:		gdsSql.setColumn(nRow,"sqlId","ADM9317.data200101");
+./ADM/ADM9317.xfdl:function fn_execute()
+./ADM/ADM9317.xfdl:	gdsSql.setColumn(nRow,"sqlId","COMMON.getFromToTrdDate");
+./ADM/ADM9317.xfdl:function fn_runProc()
+./ADM/ADM9317.xfdl:	gdsSql.setColumn(nRow,"sqlId","ADM9317.ins_FSSY_BCH_JOB_TT");
+./ADM/ADM9317.xfdl:	gdsSql.setColumn(nRow,"sqlDs","Iud");
+./ADM/ADM9317.xfdl:function fn_gugansel()
+./ADM/ADM9317.xfdl:		gdsSql.setColumn(nRow,"sqlId","POPUP.pop1_99B2");
+./ADM/ADM9317.xfdl:		gdsSql.setColumn(nRow,"sqlId","POPUP.pop4_99B2");
+./ADM/ADM9317.xfdl:function grd_list01_oncelldblclick(obj:Grid, e:GridClickEventInfo)
+./ADM/ADM9317.xfdl:  	gdsSql.setColumn(nRow,"sqlId","ADM9317.data000101");
+./ADM/ADM9321.xfdl:function fn_search()
+./ADM/ADM9321.xfdl:		gdsSql.setColumn(nRow,"sqlId","ADM9321.data100101");		
+./ADM/ADM9321.xfdl:		gdsSql.setColumn(nRow,"sqlId","ADM9321.data200101");		
+./ADM/ADM9321.xfdl:function fn_search_list(strSqlId)
+./ADM/ADM9321.xfdl:	gdsSql.setColumn(nRow,"sqlId",strSqlId);		
+./ADM/ADM9321.xfdl:function fn_save_list(strSqlId)
+./ADM/ADM9321.xfdl:		gdsSql.setColumn(nRow, "sqlId", strSqlId);
+./ADM/ADM9321.xfdl:		gdsSql.setColumn(nRow, "sqlDs", "Iud");
+./ADM/ADM9321.xfdl:function fn_insert_list()
+./ADM/ADM9321.xfdl:	gdsSql.setColumn(nRow, "sqlId", strSqlId);
+./ADM/ADM9392.xfdl:function fn_search(obj:Button,  e:ClickEventInfo)
+./ADM/ADM9392.xfdl:		gdsSql.setColumn(nRow,"sqlId","ADM9392FOF.fp_data0001001");
+./ADM/ADM9392.xfdl:		gdsSql.setColumn(nRow,"sqlId","ADM9392FOF.fp_data0001002");	
+./ADM/ADM9392.xfdl:function fn_searchDetailList(bch_Id)
+./ADM/ADM9392.xfdl:			gdsSql.setColumn(nRow,"sqlId","ADM9392FOF.fp_data00020301");
+./ADM/ADM9392.xfdl:			gdsSql.setColumn(nRow,"sqlId","ADM9392FOF.fp_data00020301E");
+./ADM/ADM9392.xfdl:			gdsSql.setColumn(nRow,"sqlId","ADM9392FOF.fp_data00020302");
+./ADM/ADM9392.xfdl:			gdsSql.setColumn(nRow,"sqlId","ADM9392FOF.fp_data00020302E");
+./ADM/ADM9392.xfdl:			gdsSql.setColumn(nRow,"sqlId","ADM9392FOF.fp_data00020401");
+./ADM/ADM9392.xfdl:			gdsSql.setColumn(nRow,"sqlId","ADM9392FOF.fp_data00020401E");
+./ADM/ADM9392.xfdl:			gdsSql.setColumn(nRow,"sqlId","ADM9392FOF.fp_data00020402");
+./ADM/ADM9392.xfdl:        	gdsSql.setColumn(nRow,"sqlId","ADM9392FOF.fp_data00020402E");
+./ADM/ADM9392.xfdl:			gdsSql.setColumn(nRow,"sqlId","ADM9392FOF.fp_data00020403");
+./ADM/ADM9392.xfdl:        	gdsSql.setColumn(nRow,"sqlId","ADM9392FOF.fp_data00020403E");
+./ADM/ADM9392.xfdl:			gdsSql.setColumn(nRow,"sqlId","ADM9392FOF.fp_data00020404");
+./ADM/ADM9392.xfdl:        	gdsSql.setColumn(nRow,"sqlId","ADM9392FOF.fp_data00020404E");
+./ADM/ADM9392.xfdl:			gdsSql.setColumn(nRow,"sqlId","ADM9392FOF.fp_data00020501");
+./ADM/ADM9392.xfdl:        	gdsSql.setColumn(nRow,"sqlId","ADM9392FOF.fp_data00020501E");
+./ADM/ADM9392.xfdl:			gdsSql.setColumn(nRow,"sqlId","ADM9392FOF.fp_data00020801");
+./ADM/ADM9392.xfdl:			gdsSql.setColumn(nRow,"sqlId","ADM9392FOF.fp_data00020801E");
+./ADM/ADM9392.xfdl:			gdsSql.setColumn(nRow,"sqlId","ADM9392FOF.fp_data00021201");
+./ADM/ADM9392.xfdl:			gdsSql.setColumn(nRow,"sqlId","ADM9392FOF.fp_data00021201E");
+./ADM/ADM9392.xfdl:			gdsSql.setColumn(nRow,"sqlId","ADM9392FOF.fp_data00021202");
+./ADM/ADM9392.xfdl:			gdsSql.setColumn(nRow,"sqlId","ADM9392FOF.fp_data00021202E");
+./ADM/ADM9392.xfdl:			gdsSql.setColumn(nRow,"sqlId","ADM9392FOF.fp_data00021303");
+./ADM/ADM9392.xfdl:			gdsSql.setColumn(nRow,"sqlId","ADM9392FOF.fp_data00021303E");
+./ADM/ADM9392.xfdl:			gdsSql.setColumn(nRow,"sqlId","ADM9392FOF.fp_data00021401");
+./ADM/ADM9392.xfdl:			gdsSql.setColumn(nRow,"sqlId","ADM9392FOF.fp_data00021401E");
+./ADM/ADM9392.xfdl:			gdsSql.setColumn(nRow,"sqlId","ADM9392FOF.fp_data00021601");
+./ADM/ADM9392.xfdl:			gdsSql.setColumn(nRow,"sqlId","ADM9392FOF.fp_data00021601E");
+./ADM/ADM9392.xfdl:function fn_callBack(svcId,iErrorCode,sErrorMsg)
+./ADM/ADM9392.xfdl:				gdsSql.setColumn(nRow, "sqlId", "ADM9392FOF.ins_FSSY_DLY_CHK_EXCEPTION");
+./ADM/ADM9392.xfdl:				gdsSql.setColumn(nRow, "sqlDs", "ds_save_e");
+./ADM/ADM9392.xfdl:function fn_save()
+./ADM/ADM9392.xfdl: 		gdsSql.setColumn(nRow, "sqlId", "ADM9392FOF.upd_FSSY_DLY_CHK_MAST");
+./ADM/ADM9392.xfdl: 		gdsSql.setColumn(nRow, "sqlDs", "ds_save");
+./ADM/ADM9392_20231123.xfdl:function fn_search(obj:Button,  e:ClickEventInfo)
+./ADM/ADM9392_20231123.xfdl:		gdsSql.setColumn(nRow,"sqlId","ADM9392.fp_data0001001");
+./ADM/ADM9392_20231123.xfdl:		gdsSql.setColumn(nRow,"sqlId","ADM9392.fp_data0001002");	
+./ADM/ADM9392_20231123.xfdl:function fn_searchDetailList(bch_Id)
+./ADM/ADM9392_20231123.xfdl:			gdsSql.setColumn(nRow,"sqlId","ADM9392.fp_data00020101");			
+./ADM/ADM9392_20231123.xfdl:			gdsSql.setColumn(nRow,"sqlId","ADM9392.fp_data00020101E");
+./ADM/ADM9392_20231123.xfdl:			gdsSql.setColumn(nRow,"sqlId","ADM9392.fp_data00020102");			
+./ADM/ADM9392_20231123.xfdl:			gdsSql.setColumn(nRow,"sqlId","ADM9392.fp_data00020102E");			
+./ADM/ADM9392_20231123.xfdl:			gdsSql.setColumn(nRow,"sqlId","ADM9392.fp_data00020103");		
+./ADM/ADM9392_20231123.xfdl:			gdsSql.setColumn(nRow,"sqlId","ADM9392.fp_data00020103E");			
+./ADM/ADM9392_20231123.xfdl:			gdsSql.setColumn(nRow,"sqlId","ADM9392.fp_data00020104");		
+./ADM/ADM9392_20231123.xfdl:			gdsSql.setColumn(nRow,"sqlId","ADM9392.fp_data00020104E");			
+./ADM/ADM9392_20231123.xfdl:			gdsSql.setColumn(nRow,"sqlId","ADM9392.fp_data00020201");
+./ADM/ADM9392_20231123.xfdl:			gdsSql.setColumn(nRow,"sqlId","ADM9392.fp_data00020201E");
+./ADM/ADM9392_20231123.xfdl:			gdsSql.setColumn(nRow,"sqlId","ADM9392.fp_data00020202");
+./ADM/ADM9392_20231123.xfdl:			gdsSql.setColumn(nRow,"sqlId","ADM9392.fp_data00020202E");
+./ADM/ADM9392_20231123.xfdl:			gdsSql.setColumn(nRow,"sqlId","ADM9392.fp_data00020301");
+./ADM/ADM9392_20231123.xfdl:			gdsSql.setColumn(nRow,"sqlId","ADM9392.fp_data00020301E");
+./ADM/ADM9392_20231123.xfdl:			gdsSql.setColumn(nRow,"sqlId","ADM9392.fp_data00020302");
+./ADM/ADM9392_20231123.xfdl:			gdsSql.setColumn(nRow,"sqlId","ADM9392.fp_data00020302E");
+./ADM/ADM9392_20231123.xfdl:			gdsSql.setColumn(nRow,"sqlId","ADM9392.fp_data00020401");
+./ADM/ADM9392_20231123.xfdl:			gdsSql.setColumn(nRow,"sqlId","ADM9392.fp_data00020401E");
+./ADM/ADM9392_20231123.xfdl:			gdsSql.setColumn(nRow,"sqlId","ADM9392.fp_data00020402");
+./ADM/ADM9392_20231123.xfdl:        	gdsSql.setColumn(nRow,"sqlId","ADM9392.fp_data00020402E");
+./ADM/ADM9392_20231123.xfdl:			gdsSql.setColumn(nRow,"sqlId","ADM9392.fp_data00020403");
+./ADM/ADM9392_20231123.xfdl:        	gdsSql.setColumn(nRow,"sqlId","ADM9392.fp_data00020403E");
+./ADM/ADM9392_20231123.xfdl:			gdsSql.setColumn(nRow,"sqlId","ADM9392.fp_data00020404");
+./ADM/ADM9392_20231123.xfdl:        	gdsSql.setColumn(nRow,"sqlId","ADM9392.fp_data00020404E");
+./ADM/ADM9392_20231123.xfdl:			gdsSql.setColumn(nRow,"sqlId","ADM9392.fp_data00020501");
+./ADM/ADM9392_20231123.xfdl:        	gdsSql.setColumn(nRow,"sqlId","ADM9392.fp_data00020501E");
+./ADM/ADM9392_20231123.xfdl:			gdsSql.setColumn(nRow,"sqlId","ADM9392.fp_data00020601");
+./ADM/ADM9392_20231123.xfdl:			gdsSql.setColumn(nRow,"sqlId","ADM9392.fp_data00020601E");
+./ADM/ADM9392_20231123.xfdl:			gdsSql.setColumn(nRow,"sqlId","ADM9392.fp_data00020602");
+./ADM/ADM9392_20231123.xfdl:			gdsSql.setColumn(nRow,"sqlId","ADM9392.fp_data00020602E");
+./ADM/ADM9392_20231123.xfdl:			gdsSql.setColumn(nRow,"sqlId","ADM9392.fp_data00020701");
+./ADM/ADM9392_20231123.xfdl:			gdsSql.setColumn(nRow,"sqlId","ADM9392.fp_data00020701E");
+./ADM/ADM9392_20231123.xfdl:			gdsSql.setColumn(nRow,"sqlId","ADM9392.fp_data00020801");
+./ADM/ADM9392_20231123.xfdl:			gdsSql.setColumn(nRow,"sqlId","ADM9392.fp_data00020801E");
+./ADM/ADM9392_20231123.xfdl:			gdsSql.setColumn(nRow,"sqlId","ADM9392.fp_data00020901");
+./ADM/ADM9392_20231123.xfdl:			gdsSql.setColumn(nRow,"sqlId","ADM9392.fp_data00020901E");
+./ADM/ADM9392_20231123.xfdl:			gdsSql.setColumn(nRow,"sqlId","ADM9392.fp_data00020902");
+./ADM/ADM9392_20231123.xfdl:			gdsSql.setColumn(nRow,"sqlId","ADM9392.fp_data00020902E");
+./ADM/ADM9392_20231123.xfdl:			gdsSql.setColumn(nRow,"sqlId","ADM9392.fp_data00020903");
+./ADM/ADM9392_20231123.xfdl:			gdsSql.setColumn(nRow,"sqlId","ADM9392.fp_data00020903E");
+./ADM/ADM9392_20231123.xfdl:			gdsSql.setColumn(nRow,"sqlId","ADM9392.fp_data00021001");
+./ADM/ADM9392_20231123.xfdl:			gdsSql.setColumn(nRow,"sqlId","ADM9392.fp_data00021001E");
+./ADM/ADM9392_20231123.xfdl:			gdsSql.setColumn(nRow,"sqlId","ADM9392.fp_data00021101");
+./ADM/ADM9392_20231123.xfdl:			gdsSql.setColumn(nRow,"sqlId","ADM9392.fp_data00021101E");
+./ADM/ADM9392_20231123.xfdl:			gdsSql.setColumn(nRow,"sqlId","ADM9392.fp_data00021102");
+./ADM/ADM9392_20231123.xfdl:			gdsSql.setColumn(nRow,"sqlId","ADM9392.fp_data00021102E");
+./ADM/ADM9392_20231123.xfdl:			gdsSql.setColumn(nRow,"sqlId","ADM9392.fp_data00021103");
+./ADM/ADM9392_20231123.xfdl:			gdsSql.setColumn(nRow,"sqlId","ADM9392.fp_data00021103E");
+./ADM/ADM9392_20231123.xfdl:			gdsSql.setColumn(nRow,"sqlId","ADM9392.fp_data00021201");
+./ADM/ADM9392_20231123.xfdl:			gdsSql.setColumn(nRow,"sqlId","ADM9392.fp_data00021201E");
+./ADM/ADM9392_20231123.xfdl:			gdsSql.setColumn(nRow,"sqlId","ADM9392.fp_data00021202");
+./ADM/ADM9392_20231123.xfdl:			gdsSql.setColumn(nRow,"sqlId","ADM9392.fp_data00021202E");
+./ADM/ADM9392_20231123.xfdl:			gdsSql.setColumn(nRow,"sqlId","ADM9392.fp_data00021301");
+./ADM/ADM9392_20231123.xfdl:			gdsSql.setColumn(nRow,"sqlId","ADM9392.fp_data00021301E");
+./ADM/ADM9392_20231123.xfdl:			gdsSql.setColumn(nRow,"sqlId","ADM9392.fp_data00021302");
+./ADM/ADM9392_20231123.xfdl:			gdsSql.setColumn(nRow,"sqlId","ADM9392.fp_data00021302E");
+./ADM/ADM9392_20231123.xfdl:			gdsSql.setColumn(nRow,"sqlId","ADM9392.fp_data00021303");
+./ADM/ADM9392_20231123.xfdl:			gdsSql.setColumn(nRow,"sqlId","ADM9392.fp_data00021303E");
+./ADM/ADM9392_20231123.xfdl:			gdsSql.setColumn(nRow,"sqlId","ADM9392.fp_data00021401");
+./ADM/ADM9392_20231123.xfdl:			gdsSql.setColumn(nRow,"sqlId","ADM9392.fp_data00021401E");
+./ADM/ADM9392_20231123.xfdl:			gdsSql.setColumn(nRow,"sqlId","ADM9392.fp_data00021501");
+./ADM/ADM9392_20231123.xfdl:			gdsSql.setColumn(nRow,"sqlId","ADM9392.fp_data00021501E");
+./ADM/ADM9392_20231123.xfdl:function fn_callBack(svcId,iErrorCode,sErrorMsg)
+./ADM/ADM9392_20231123.xfdl:				gdsSql.setColumn(nRow, "sqlId", "ADM9392.ins_FSSY_DLY_CHK_EXCEPTION");
+./ADM/ADM9392_20231123.xfdl:				gdsSql.setColumn(nRow, "sqlDs", "ds_save_e");
+./ADM/ADM9392_20231123.xfdl:function fn_save()
+./ADM/ADM9392_20231123.xfdl: 		gdsSql.setColumn(nRow, "sqlId", "ADM9392.upd_FSSY_DLY_CHK_MAST");
+./ADM/ADM9392_20231123.xfdl: 		gdsSql.setColumn(nRow, "sqlDs", "ds_save");
+./ADM/ADM9392_B.xfdl:function fn_search(obj:Button,  e:ClickEventInfo)
+./ADM/ADM9392_B.xfdl:  	gdsSql.setColumn(nRow,"sqlId","ADM9392.fp_data0001001");
+./ADM/ADM9392_B.xfdl:function fn_searchDetailList(bch_Id)
+./ADM/ADM9392_B.xfdl:		gdsSql.setColumn(nRow,"sqlId","ADM9392.fp_data00020101");
+./ADM/ADM9392_B.xfdl:		gdsSql.setColumn(nRow,"sqlId","ADM9392.fp_data00020102");
+./ADM/ADM9392_B.xfdl:		gdsSql.setColumn(nRow,"sqlId","ADM9392.fp_data00020103");
+./ADM/ADM9392_B.xfdl:		gdsSql.setColumn(nRow,"sqlId","ADM9392.fp_data00020201");
+./ADM/ADM9392_B.xfdl:		gdsSql.setColumn(nRow,"sqlId","ADM9392.fp_data00020202");
+./ADM/ADM9392_B.xfdl:		gdsSql.setColumn(nRow,"sqlId","ADM9392.fp_data00020301");
+./ADM/ADM9392_B.xfdl:		gdsSql.setColumn(nRow,"sqlId","ADM9392.fp_data00020401");
+./ADM/ADM9392_B.xfdl:		gdsSql.setColumn(nRow,"sqlId","ADM9392.fp_data00020402");
+./ADM/ADM9392_B.xfdl:		gdsSql.setColumn(nRow,"sqlId","ADM9392.fp_data00020601");
+./ADM/ADM9392_B.xfdl:		gdsSql.setColumn(nRow,"sqlId","ADM9392.fp_data00020701");
+./ADM/ADM9392_B.xfdl:		gdsSql.setColumn(nRow,"sqlId","ADM9392.fp_data00020801");
+./ADM/ADM9392_B.xfdl:		gdsSql.setColumn(nRow,"sqlId","ADM9392.fp_data00020901");
+./ADM/ADM9392_B.xfdl:		gdsSql.setColumn(nRow,"sqlId","ADM9392.fp_data00020902");
+./ADM/ADM9392_B.xfdl:		gdsSql.setColumn(nRow,"sqlId","ADM9392.fp_data00020903");
+./ADM/ADM9392_B.xfdl:		gdsSql.setColumn(nRow,"sqlId","ADM9392.fp_data00021001");
+./ADM/ADM9392_B.xfdl:		gdsSql.setColumn(nRow,"sqlId","ADM9392.fp_data00021101");
+./ADM/ADM9392_B.xfdl:		gdsSql.setColumn(nRow,"sqlId","ADM9392.fp_data00021102");
+./ADM/ADM9392_B.xfdl:		gdsSql.setColumn(nRow,"sqlId","ADM9392.fp_data00021201");
+./ADM/ADM9392_B.xfdl:		gdsSql.setColumn(nRow,"sqlId","ADM9392.fp_data00021202");
+./ADM/ADM9401.xfdl:function fn_search()
+./ADM/ADM9401.xfdl:  	gdsSql.setColumn(nRow,"sqlId","ADM9401.data000101");
+./ADM/ADM9401.xfdl:function fn_search2_sub(Tab_Id)
+./ADM/ADM9401.xfdl:  	gdsSql.setColumn(nRow,"sqlId","ADM9401.data000201");
+./ADM/ADM9405.xfdl:function fn_search()
+./ADM/ADM9405.xfdl:  	gdsSql.setColumn(nRow,"sqlId","ADM9405.data000101");
+./ADM/ADM9405.xfdl:function fn_search2(Tab_Id,Tab_Nm)
+./ADM/ADM9405.xfdl:  	gdsSql.setColumn(nRow,"sqlId","ADM9405.data000201");
+./ADM/ADM9488.xfdl:function fn_search()
+./ADM/ADM9488.xfdl:   	gdsSql.setColumn(nRow,"sqlId","PLN4321.DATA010101");    // 원래포트
+./ADM/ADM9488.xfdl:function btn_save_onclick(obj:Button,  e:ClickEventInfo)
+./ADM/ADM9488.xfdl:   	gdsSql.setColumn(nRow,"sqlId","PLN4311.ins_FSOD_ALTN_PTF_RTN_2_S");    // 원래포트
+./ADM/ADM9488.xfdl:	gdsSql.setColumn(nRow,"sqlDs","ds_save1");	
+./ANL/ANL1101.xfdl:function fn_search()
+./ANL/ANL1101.xfdl:   	gdsSql.setColumn(nRow,"sqlId","ANL1101.ff_data000101");    
+./ANL/ANL1105.xfdl:function fn_search()
+./ANL/ANL1105.xfdl:   	gdsSql.setColumn(nRow,"sqlId","ANL1105.header000101");//헤더조회
+./ANL/ANL1105.xfdl:   	gdsSql.setColumn(nRow,"sqlId","ANL1105.header000101_bm");//BM헤더조회
+./ANL/ANL1105.xfdl:	gdsSql.setColumn(nRow,"sqlId","ANL1105.ff_data000101");//데이타 리스트조회
+./ANL/ANL1105.xfdl:	gdsSql.setColumn(nRow,"sqlId","ANL1105.ff_chart000101");//챠트리 스트조회
+./ANL/ANL1107.xfdl:function fn_search()
+./ANL/ANL1107.xfdl:   	gdsSql.setColumn(nRow, "sqlId","ANL1107.ff_data000101");
+./ANL/ANL1107.xfdl:function fn_chartSearch(freqTyp)
+./ANL/ANL1107.xfdl:   	gdsSql.setColumn(nRow, "sqlId","ANL1107.header000101");
+./ANL/ANL1107.xfdl:   	gdsSql.setColumn(nRow, "sqlId","ANL1107.ff_chart000101");
+./ANL/ANL1109.xfdl:function fn_search()
+./ANL/ANL1109.xfdl:	gdsSql.setColumn(nRow,"sqlId","ANL1109.ff_data000101");
+./ANL/ANL1110.xfdl:function fn_search()
+./ANL/ANL1110.xfdl:   	gdsSql.setColumn(nRow, "sqlId","ANL1110.ff_data000101");
+./ANL/ANL1110.xfdl:function fn_chartSearch(freqTyp)
+./ANL/ANL1110.xfdl:   	gdsSql.setColumn(nRow, "sqlId","ANL1110.header000101");
+./ANL/ANL1110.xfdl:   	gdsSql.setColumn(nRow, "sqlId","ANL1110.ff_chart000101");
+./ANL/ANL1121.xfdl:function fn_search()
+./ANL/ANL1121.xfdl:   	gdsSql.setColumn(nRow,"sqlId","ANL1121.ff_data000101");
+./ANL/ANL1125.xfdl:function fn_header()
+./ANL/ANL1125.xfdl:   	gdsSql.setColumn(nRow, "sqlId","ANL1125.header000101");   
+./ANL/ANL1125.xfdl:function fn_searchData()
+./ANL/ANL1125.xfdl:   	gdsSql.setColumn(nRow, "sqlId","ANL1125.data000101");   	
+./ANL/ANL1129.xfdl:function fn_searchProc()
+./ANL/ANL1129.xfdl:   	gdsSql.setColumn(nRow, "sqlId", "ANL1129.data000101");
+./ANL/ANL1129.xfdl:function fn_searchHeader()
+./ANL/ANL1129.xfdl:   	gdsSql.setColumn(nRow, "sqlId", "ANL1129.header000101");
+./ANL/ANL1129.xfdl:function fn_search()
+./ANL/ANL1129.xfdl:   	gdsSql.setColumn(nRow, "sqlId", "ANL1129.data000201");	// 상단 그리드 조회
+./ANL/ANL1129.xfdl:   	gdsSql.setColumn(nRow, "sqlId", "ANL1129.chart000101");	// 차트 조회	
+./ANL/ANL1129_bak.xfdl:function fn_searchProc()
+./ANL/ANL1129_bak.xfdl:   	gdsSql.setColumn(nRow, "sqlId", "ANL1129.data000101");
+./ANL/ANL1129_bak.xfdl:function fn_searchHeader()
+./ANL/ANL1129_bak.xfdl:   	gdsSql.setColumn(nRow, "sqlId", "ANL1129.header000101");
+./ANL/ANL1129_bak.xfdl:function fn_search()
+./ANL/ANL1129_bak.xfdl:   	gdsSql.setColumn(nRow, "sqlId", "ANL1129.data000201");	// 상단 그리드 조회
+./ANL/ANL1129_bak.xfdl:   	gdsSql.setColumn(nRow, "sqlId", "ANL1129.chart000101");	// 차트 조회	
+./ANL/ANL1211.xfdl:function fn_search()
+./ANL/ANL1211.xfdl:  	gdsSql.setColumn(nRow, "sqlId", "ANL1211.data_common");
+./ANL/ANL1211.xfdl:		gdsSql.setColumn(nRow, "sqlId", "ANL1211.ff_data0010");
+./ANL/ANL1211.xfdl:		gdsSql.setColumn(nRow, "sqlId", "ANL1211.ff_data0020");
+./ANL/ANL1211.xfdl:		gdsSql.setColumn(nRow, "sqlId", "ANL1211.data0030");
+./ANL/ANL1211.xfdl:		gdsSql.setColumn(nRow, "sqlId", "ANL1211.data0040");
+./ANL/ANL1221.xfdl:function fn_tab1_search()
+./ANL/ANL1221.xfdl:				gdsSql.setColumn(nRow,"sqlId","ANL1221.ff_data100101");
+./ANL/ANL1221.xfdl:		gdsSql.setColumn(nRow,"sqlId","ANL1221.ff_data100103");
+./ANL/ANL1221.xfdl:function fn_sub1_search(ptfCd)
+./ANL/ANL1221.xfdl:			gdsSql.setColumn(nRow,"sqlId","ANL1221.ff_data100201");
+./ANL/ANL1221.xfdl:function fn_tab2_search()
+./ANL/ANL1221.xfdl:   	gdsSql.setColumn(nRow,"sqlId","ANL1221.data200101");
+./ANL/ANL1221.xfdl:function fn_sub2_search(ptfCd)
+./ANL/ANL1221.xfdl:   	gdsSql.setColumn(nRow,"sqlId","ANL1221.data200201");
+./ANL/ANL1221.xfdl:function fn_tab3_search()
+./ANL/ANL1221.xfdl:	gdsSql.setColumn(nRow,"sqlId","ANL1221.data300101");
+./ANL/ANL1221.xfdl:function fn_sub3_search(ptfCd)
+./ANL/ANL1221.xfdl:   	gdsSql.setColumn(nRow,"sqlId","ANL1221.data300201");
+./ANL/ANL1235.xfdl:function fn_search()
+./ANL/ANL1235.xfdl:   	gdsSql.setColumn(nRow,"sqlId","ANL1235.data100101");
+./ANL/ANL1235.xfdl:function fn_tab1Chart()
+./ANL/ANL1235.xfdl:   	gdsSql.setColumn(nRow,"sqlId","ANL1235.chart100101");
+./ANL/ANL1235.xfdl:   	gdsSql.setColumn(nRow,"sqlId","ANL1235.chart100201");
+./ANL/ANL1235.xfdl:   	gdsSql.setColumn(nRow,"sqlId","ANL1235.chart100301");
+./ANL/ANL1235.xfdl:   	gdsSql.setColumn(nRow,"sqlId","ANL1235.chart100401");
+./ANL/ANL1235.xfdl:function fn_searchTab2H()
+./ANL/ANL1235.xfdl:   	gdsSql.setColumn(nRow,"sqlId","ANL1235.data200101");
+./ANL/ANL1235.xfdl:   	gdsSql.setColumn(nRow,"sqlId","ANL1235.data200201");
+./ANL/ANL1235.xfdl:function fn_searchTab3H()
+./ANL/ANL1235.xfdl:   	gdsSql.setColumn(nRow,"sqlId","ANL1235.data300101");
+./ANL/ANL1235.xfdl:   	gdsSql.setColumn(nRow,"sqlId","ANL1235.header300201");
+./ANL/ANL1235.xfdl:function fn_searchTab3D()
+./ANL/ANL1235.xfdl:   	gdsSql.setColumn(nRow,"sqlId","ANL1235.data300201");
+./ANL/ANL1235.xfdl:function fn_searchTab4H()
+./ANL/ANL1235.xfdl:   	gdsSql.setColumn(nRow,"sqlId","ANL1235.header400101");
+./ANL/ANL1235.xfdl:function fn_searchTab4D()
+./ANL/ANL1235.xfdl:   	gdsSql.setColumn(nRow,"sqlId","ANL1235.data400101");   	
+./ANL/ANL1235.xfdl:   	gdsSql.setColumn(nRow,"sqlId","ANL1235.data200201");
+./FRAME/FRM_CHANG_PW.xfdl:function fn_changePwd()
+./FRAME/FRM_CHANG_PW.xfdl:	gdsSql.setColumn(nRow,"sqlId","COMMON.upd_FSSY_USER_MSTR");
+./FRAME/FRM_LF_MENU_BOOKMARK.xfdl:function fn_tranBookmarkSave(nRow)
+./FRAME/FRM_LF_MENU_BOOKMARK.xfdl:	gdsSql.setColumn(nRow,"sqlId","COMMON.del_FSSY_USER_FAV_MENU");
+./FRAME/FRM_LF_MENU_BOOKMARK.xfdl:	gdsSql.setColumn(nRow,"sqlDs","ds_save1");
+./FRAME/FRM_LOGIN.xfdl:function fn_getUserLdapInfo(SvcID,sWinUser)
+./FRAME/FRM_LOGIN.xfdl:   	gdsSql.setColumn(nRow,"sqlId","COMMON.userLdapInfo"); 	
+./FRAME/FRM_LOGIN.xfdl:function fn_ipCheckService()
+./FRAME/FRM_LOGIN.xfdl:   	gdsSql.setColumn(nRow,"sqlId","COMMON.userIpCheck"); 	
+./FRAME/FRM_LOGIN.xfdl:function fn_getUserInfo()
+./FRAME/FRM_LOGIN.xfdl:		gdsSql.setColumn(nRow,"sqlId","COMMON.userInfo"); 	
+./FRAME/FRM_LOGIN.xfdl:function fn_getCommon()
+./FRAME/FRM_LOGIN.xfdl:   	gdsSql.setColumn(nRow,"sqlId","COMMON.codeInfo");  //공통코드
+./FRAME/FRM_LOGIN.xfdl:   	gdsSql.setColumn(nRow,"sqlId","COMMON.bizDtInfo"); 	//영업일 정보 조회
+./FRAME/FRM_LOGIN.xfdl:   	gdsSql.setColumn(nRow,"sqlId","COMMON.menuNAuth");
+./FRAME/FRM_LOGIN.xfdl:   	gdsSql.setColumn(nRow,"sqlId","COMMON.favMenuInfo");
+./FRAME/FRM_LOGIN.xfdl:   	gdsSql.setColumn(nRow,"sqlId","defPortio");
+./FRAME/FRM_LOGIN.xfdl:    gdsSql.setColumn(nRow,"sqlTp","sel_DefPtfList");  //사용자 포트폴리오 조회
+./FRAME/FRM_WF_WORKFRAME.xfdl:function fn_tranBookmarkSave(obj)
+./FRAME/FRM_WF_WORKFRAME.xfdl:		gdsSql.setColumn(nRow,"sqlId","COMMON.ins_FSSY_USER_FAV_MENU");
+./FRAME/FRM_WF_WORKFRAME.xfdl:		gdsSql.setColumn(nRow,"sqlDs","dsOutput0");
+./FRAME/FRM_WF_WORKFRAME.xfdl:		gdsSql.setColumn(nRow,"sqlId","COMMON.del_FSSY_USER_FAV_MENU");
+./FRAME/FRM_WF_WORKFRAME.xfdl:		gdsSql.setColumn(nRow,"sqlDs","dsOutput0");
+./GUIDE/FrameGuide_LOGIN.xfdl:function fn_getUserLdapInfo(SvcID,sWinUser)
+./GUIDE/FrameGuide_LOGIN.xfdl:   	gdsSql.setColumn(nRow,"sqlId","COMMON.userLdapInfo"); 	
+./GUIDE/FrameGuide_LOGIN.xfdl:function fn_ipCheckService()
+./GUIDE/FrameGuide_LOGIN.xfdl:   	gdsSql.setColumn(nRow,"sqlId","COMMON.userIpCheck"); 	
+./GUIDE/FrameGuide_LOGIN.xfdl:function fn_getUserInfo()
+./GUIDE/FrameGuide_LOGIN.xfdl:		gdsSql.setColumn(nRow,"sqlId","COMMON.userInfo"); 	
+./GUIDE/FrameGuide_LOGIN.xfdl:function fn_getCommon()
+./GUIDE/FrameGuide_LOGIN.xfdl:   	gdsSql.setColumn(nRow,"sqlId","COMMON.codeInfo");  //공통코드
+./GUIDE/FrameGuide_LOGIN.xfdl:   	gdsSql.setColumn(nRow,"sqlId","COMMON.bizDtInfo"); 	//영업일 정보 조회
+./GUIDE/FrameGuide_LOGIN.xfdl:   	gdsSql.setColumn(nRow,"sqlId","COMMON.menuNAuth");
+./GUIDE/FrameGuide_LOGIN.xfdl:   	gdsSql.setColumn(nRow,"sqlId","COMMON.favMenuInfo");
+./GUIDE/FrameGuide_LOGIN.xfdl:   	gdsSql.setColumn(nRow,"sqlId","defPortio");
+./GUIDE/Template001.xfdl:function fn_search()
+./GUIDE/Template001.xfdl:   	gdsSql.setColumn(nRow,"sqlId","rq_WTBD_ALT_PTF_MSTR");
+./GUIDE/Template001.xfdl:function fn_save()
+./GUIDE/Template001.xfdl:	gdsSql.setColumn(nRow, "SVC_ID", "tr_WTBD_ALT_PTF_MSTR");
+./GUIDE/Template001.xfdl:	gdsSql.setColumn(nRow, "sqlDs", "ds_save1");
+./GUIDE/Template002.xfdl:function fn_search()
+./GUIDE/Template002.xfdl:   	gdsSql.setColumn(nRow,"sqlId","rq_WTBD_ALT_PTF_MSTR");
+./GUIDE/Template002.xfdl:function fn_save()
+./GUIDE/Template002.xfdl:	gdsSql.setColumn(nRow, "SVC_ID", "tr_WTBD_ALT_PTF_MSTR");
+./GUIDE/Template002.xfdl:	gdsSql.setColumn(nRow, "sqlDs", "ds_save1");
+./GUIDE/Template003.xfdl:function fn_search()
+./GUIDE/Template003.xfdl:   	gdsSql.setColumn(nRow,"sqlId","rq_WTBD_ALT_PTF_MSTR");
+./GUIDE/Template003.xfdl:function fn_save()
+./GUIDE/Template003.xfdl:	gdsSql.setColumn(nRow, "SVC_ID", "tr_WTBD_ALT_PTF_MSTR");
+./GUIDE/Template003.xfdl:	gdsSql.setColumn(nRow, "sqlDs", "ds_save1");
+./GUIDE/Template004.xfdl:function fn_search()
+./GUIDE/Template004.xfdl:   	gdsSql.setColumn(nRow,"sqlId","rq_WTBD_ALT_PTF_MSTR");
+./GUIDE/Template004.xfdl:function fn_save()
+./GUIDE/Template004.xfdl:	gdsSql.setColumn(nRow, "SVC_ID", "tr_WTBD_ALT_PTF_MSTR");
+./GUIDE/Template004.xfdl:	gdsSql.setColumn(nRow, "sqlDs", "ds_save1");
+./GUIDE/Template005.xfdl:function fn_search()
+./GUIDE/Template005.xfdl:   	gdsSql.setColumn(nRow,"sqlId","rq_WTBD_ALT_PTF_MSTR");
+./GUIDE/Template005.xfdl:function fn_save()
+./GUIDE/Template005.xfdl:	gdsSql.setColumn(nRow, "SVC_ID", "tr_WTBD_ALT_PTF_MSTR");
+./GUIDE/Template005.xfdl:	gdsSql.setColumn(nRow, "sqlDs", "ds_save1");
+./GUIDE/Template006.xfdl:function fn_search()
+./GUIDE/Template006.xfdl:   	gdsSql.setColumn(nRow,"sqlId","rq_WTBD_ALT_PTF_MSTR");
+./GUIDE/Template006.xfdl:function fn_save()
+./GUIDE/Template006.xfdl:	gdsSql.setColumn(nRow, "SVC_ID", "tr_WTBD_ALT_PTF_MSTR");
+./GUIDE/Template006.xfdl:	gdsSql.setColumn(nRow, "sqlDs", "ds_save1");
+./GUIDE/Template007.xfdl:function fn_search()
+./GUIDE/Template007.xfdl:   	gdsSql.setColumn(nRow,"sqlId","rq_WTBD_ALT_PTF_MSTR");
+./GUIDE/Template007.xfdl:function fn_save()
+./GUIDE/Template007.xfdl:	gdsSql.setColumn(nRow, "SVC_ID", "tr_WTBD_ALT_PTF_MSTR");
+./GUIDE/Template007.xfdl:	gdsSql.setColumn(nRow, "sqlDs", "ds_save1");
+./HUG/HUG8511.xfdl:function fn_search()
+./HUG/HUG8511.xfdl:   	gdsSql.setColumn(nRow,"sqlId","HUG8511.ff_data000101");    
+./HUG/HUG8512.xfdl:function fn_search()
+./HUG/HUG8512.xfdl:   	gdsSql.setColumn(nRow,"sqlId","HUG8512.header000101");//헤더조회
+./HUG/HUG8512.xfdl:   	gdsSql.setColumn(nRow,"sqlId","HUG8512.header000101_bm");//BM헤더조회
+./HUG/HUG8512.xfdl:	gdsSql.setColumn(nRow,"sqlId","HUG8512.ff_data000101");//데이타 리스트조회
+./HUG/HUG8512.xfdl:	gdsSql.setColumn(nRow,"sqlId","HUG8512.ff_chart000101");//챠트리 스트조회
+./HUG/HUG8513.xfdl:function fn_search()
+./HUG/HUG8513.xfdl:   	gdsSql.setColumn(nRow, "sqlId","HUG8513.ff_data000101");
+./HUG/HUG8513.xfdl:function fn_chartSearch(freqTyp)
+./HUG/HUG8513.xfdl:   	gdsSql.setColumn(nRow, "sqlId","HUG8513.header000101");
+./HUG/HUG8513.xfdl:   	gdsSql.setColumn(nRow, "sqlId","HUG8513.ff_chart000101");
+./HUG/HUG8514.xfdl:function fn_search()
+./HUG/HUG8514.xfdl:	gdsSql.setColumn(nRow,"sqlId","HUG8514.ff_data000101");
+./HUG/HUG8521.xfdl:function fn_search()
+./HUG/HUG8521.xfdl:  	gdsSql.setColumn(nRow, "sqlId", "STS2302.data000101");
+./HUG/HUG8522.xfdl:function fn_search()
+./HUG/HUG8522.xfdl:		gdsSql.setColumn(nRow, "sqlId", "STS2402.data000101"); 
+./HUG/HUG8522.xfdl:		gdsSql.setColumn(nRow, "sqlId", "STS2402.ff_data000102");
+./HUG/HUG8523.xfdl:function fn_search()
+./HUG/HUG8523.xfdl:	gdsSql.setColumn(nRow,"sqlId","STS2702.data000101");
+./HUG/HUG8523.xfdl:function fn_chartSearch1(subRow)
+./HUG/HUG8523.xfdl:	gdsSql.setColumn(nRow, "sqlId","STS2702.chart000101");
+./HUG/HUG8523_B.xfdl:function fn_search()
+./HUG/HUG8523_B.xfdl:  	gdsSql.setColumn(nRow,"sqlId","HUG8523.data000101");
+./HUG/HUG8523_B.xfdl:function fn_chartSearch()
+./HUG/HUG8523_B.xfdl:  	gdsSql.setColumn(nRow,"sqlId","HUG8523.header000101");
+./HUG/HUG8523_B.xfdl:function fn_chartData()
+./HUG/HUG8523_B.xfdl:  	gdsSql.setColumn(nRow,"sqlId","HUG8523.chart000101");
+./HUG/HUG8524.xfdl:function fn_searchHead()
+./HUG/HUG8524.xfdl:	gdsSql.setColumn(nRow, "sqlId", "HUG8524.header000101");
+./HUG/HUG8524.xfdl:function fn_search()
+./HUG/HUG8524.xfdl:	gdsSql.setColumn(nRow, "sqlId", "HUG8524.data000101");
+./HUG/HUG8524.xfdl:function fn_searchChartHead()
+./HUG/HUG8524.xfdl:	gdsSql.setColumn(nRow, "sqlId", "HUG8524.header000102");
+./HUG/HUG8524.xfdl:function fn_searchChart()
+./HUG/HUG8524.xfdl:	gdsSql.setColumn(nRow, "sqlId", "HUG8524.chart000101");
+./HUG/HUG8531.xfdl:function fn_search()
+./HUG/HUG8531.xfdl:		gdsSql.setColumn(nRow,"sqlId","HUG8531.data1000101");
+./HUG/HUG8531.xfdl:		gdsSql.setColumn(nRow,"sqlId","HUG8531.data2000101");
+./HUG/HUG8532.xfdl:function fn_search()
+./HUG/HUG8532.xfdl:	gdsSql.setColumn(nRow, "sqlId", "HUG8532.header000101"); //header	
+./HUG/HUG8532.xfdl:	gdsSql.setColumn(nRow, "sqlId", "HUG8532.data"+tIdx+"00101"); //STD
+./HUG/HUG8533.xfdl:function fn_search()
+./HUG/HUG8533.xfdl:   	gdsSql.setColumn(nRow, "sqlId","MON3123.data000101");
+./HUG/HUG8533.xfdl:function fn_searchSub()
+./HUG/HUG8533.xfdl:   	gdsSql.setColumn(nRow, "sqlId","MON3123.data000102");
+./HUG/HUG8533.xfdl:function fv_ins_VaR_R_ENG()
+./HUG/HUG8533.xfdl:	gdsSql.setColumn(nRow, "sqlId", "MON3123.ins_FSSY_R_ENG_JOB");	
+./HUG/HUG8533.xfdl:	gdsSql.setColumn(nRow, "sqlDs", "ds_save1");
+./HUG/HUG8534.xfdl:function fn_upSearch()
+./HUG/HUG8534.xfdl:   	gdsSql.setColumn(nRow, "sqlId","MON3125.data000101");
+./HUG/HUG8534.xfdl:function fn_rowSearch(upRow)
+./HUG/HUG8534.xfdl:   	gdsSql.setColumn(nRow, "sqlId","MON3125.data000201");
+./HUG/HUG8535.xfdl:function fn_sendTran(sTranDvcd)
+./HUG/HUG8535.xfdl:		gdsSql.setColumn(nRow, "sqlId", "MON3115.dat100101");
+./HUG/HUG8535.xfdl:		gdsSql.setColumn(nRow, "sqlId", "MON3115.chart100101");
+./HUG/HUG8535.xfdl:		gdsSql.setColumn(nRow, "sqlId", "HUG8535.data100201");
+./HUG/HUG8535.xfdl:		gdsSql.setColumn(nRow, "sqlId", "HUG8535.data200101");
+./HUG/HUG8535.xfdl:		gdsSql.setColumn(nRow, "sqlId", "HUG8535.data200201");
+./HUG/HUG8536_bak.xfdl:function fn_search()
+./HUG/HUG8536_bak.xfdl:  	gdsSql.setColumn(nRow,"sqlId","STS2711.data000101");
+./HUG/HUG8536_bak.xfdl:function fn_chartSearch()
+./HUG/HUG8536_bak.xfdl:  	gdsSql.setColumn(nRow,"sqlId","STS2711.header000101");
+./HUG/HUG8536_bak.xfdl:function fn_chartData()
+./HUG/HUG8536_bak.xfdl:  	gdsSql.setColumn(nRow,"sqlId","STS2711.chart000101");
+./HUG/HUG8541.xfdl:function fn_search()
+./HUG/HUG8541.xfdl:	gdsSql.setColumn(nRow,"sqlId","HUG8541.data000101");
+./HUG/HUG8541.xfdl:function fn_detailSearch()
+./HUG/HUG8541.xfdl:   	gdsSql.setColumn(nRow,"sqlId","HUG8541.data000201");
+./HUG/HUG8541.xfdl:function fn_aplcSearch()
+./HUG/HUG8541.xfdl:   	gdsSql.setColumn(nRow, "sqlId","HUG8541.pop000102");
+./HUG/HUG8541.xfdl:function fn_saveListSearch(lmtCd,ptfCd)
+./HUG/HUG8541.xfdl:   	gdsSql.setColumn(nRow,"sqlId","HUG8541.data000301");
+./HUG/HUG8541.xfdl:function fn_newLmtSearch(ptfCd)
+./HUG/HUG8541.xfdl:   	gdsSql.setColumn(nRow,"sqlId","HUG8541.data000304");
+./HUG/HUG8541.xfdl:function fn_newLmtSearch_one(ptfCd)
+./HUG/HUG8541.xfdl:   	gdsSql.setColumn(nRow,"sqlId","HUG8541.data000305");
+./HUG/HUG8541.xfdl:function fn_save()
+./HUG/HUG8541.xfdl:	gdsSql.setColumn(nRow,"sqlId","HUG8541.mgr_FSBD_LMT_MT");
+./HUG/HUG8541.xfdl:	gdsSql.setColumn(nRow, "sqlDs","ds_save1");
+./HUG/HUG8541.xfdl:	gdsSql.setColumn(nRow,"sqlId","HUG8541.mgr_FSBD_LMT_INP_MT");
+./HUG/HUG8541.xfdl:	gdsSql.setColumn(nRow, "sqlDs","ds_save");	
+./HUG/HUG8541.xfdl:function fn_aplcDelete()
+./HUG/HUG8541.xfdl:	gdsSql.setColumn(nRow,"sqlId","HUG8541.del_FSBD_LMT_INP_MT");	
+./HUG/HUG8541.xfdl:function fn_delete()
+./HUG/HUG8541.xfdl:		gdsSql.setColumn(nRow,"sqlId","MON3141.del_FSBD_LMT_MT");
+./HUG/HUG8541.xfdl:		gdsSql.setColumn(nRow,"sqlDs","Iud");
+./HUG/HUG8541.xfdl:		gdsSql.setColumn(nRow,"sqlId","MON3141.del_FSBD_LMT_INP_MT");
+./HUG/HUG8541.xfdl:		gdsSql.setColumn(nRow,"sqlDs","Iud");					 
+./HUG/HUG8541P1.xfdl:function fn_search()
+./HUG/HUG8541P1.xfdl:   	gdsSql.setColumn(nRow, "sqlId","HUG8541.pop000101");
+./HUG/HUG8542.xfdl:function fn_enddate()
+./HUG/HUG8542.xfdl:   	gdsSql.setColumn(nRow, "sqlId","HUG8542.data000102");
+./HUG/HUG8542.xfdl:function fn_search()
+./HUG/HUG8542.xfdl:   	gdsSql.setColumn(nRow, "sqlId","HUG8542.data000101");
+./HUG/HUG8542.xfdl:function fn_search2()
+./HUG/HUG8542.xfdl:   	gdsSql.setColumn(nRow, "sqlId","HUG8542.data000201");
+./HUG/HUG8542.xfdl:function fn_search3()
+./HUG/HUG8542.xfdl:   	gdsSql.setColumn(nRow, "sqlId","HUG8542.data000301");
+./HUG/HUG8542P1.xfdl:function fn_search()
+./HUG/HUG8542P1.xfdl:	gdsSql.setColumn(nRow, "sqlId", "HUG8542.pop000101");
+./HUG/HUG8542P1.xfdl:function fn_save()
+./HUG/HUG8542P1.xfdl:	gdsSql.setColumn(nRow, "sqlId", "HUG8542.mgr_FSOD_PTF_LMT_DATA");
+./HUG/HUG8542P1.xfdl:	gdsSql.setColumn(nRow, "sqlDs", "ds_list");
+./HUG/HUG8542P1.xfdl:function fn_update()
+./HUG/HUG8542P1.xfdl:	gdsSql.setColumn(nRow, "sqlId", "HUG8542.mgr_FSOD_PTF_LMT_DATA_VIO");
+./HUG/HUG8542P1.xfdl:	gdsSql.setColumn(nRow, "sqlDs", "ds_list");
+./HUG/STS2711.xfdl:function fn_search()
+./HUG/STS2711.xfdl:  	gdsSql.setColumn(nRow,"sqlId","STS2711.data000101");
+./HUG/STS2711.xfdl:function fn_chartSearch()
+./HUG/STS2711.xfdl:  	gdsSql.setColumn(nRow,"sqlId","STS2711.header000101");
+./HUG/STS2711.xfdl:function fn_chartData()
+./HUG/STS2711.xfdl:  	gdsSql.setColumn(nRow,"sqlId","STS2711.chart000101");
+./LIB/libApp.xjs:function gfn_getStockItem(sPtfLiTCd)
+./LIB/libApp.xjs:   	gdsSql.setColumn(nRow,"sqlId","POPUP.pop_99D_def");
+./LIB/libDate.xjs:function gfn_chkTrdDate(sDate)
+./LIB/libDate.xjs:			gdsSql.setColumn(nRow,"sqlId","COMMON.chkTrdDate");
+./LIB/libUtil.xjs:function gfn_fileInsert()
+./LIB/libUtil.xjs:	gdsSql.setColumn(nRow,"sqlId","COMMON.ins_FSBD_ATCH_FILE_MT");
+./LIB/libUtil.xjs:	gdsSql.setColumn(nRow,"sqlDs","gds_file");
+./MGT/MGT6101.xfdl:function fn_search()
+./MGT/MGT6101.xfdl:  	gdsSql.setColumn(nRow, "sqlId", "MGT6101.data000102");
+./MGT/MGT6101.xfdl:function fn_pId()
+./MGT/MGT6101.xfdl:  	gdsSql.setColumn(nRow, "sqlId", "MGT6101.data000101");
+./MGT/MGT6101.xfdl:function fn_fileInfo()
+./MGT/MGT6101.xfdl:	gdsSql.setColumn(nRow,"sqlId","COMMON.atchFileMTInfo");
+./MGT/MGT6101.xfdl:function fn_save()
+./MGT/MGT6101.xfdl:	gdsSql.setColumn(nRow, "sqlDs", "ds_list");
+./MGT/MGT6101.xfdl:		gdsSql.setColumn(nRow, "sqlId", "MGT6101.ins_FSBD_IVST_BBS");
+./MGT/MGT6101.xfdl:		gdsSql.setColumn(nRow, "sqlId", "MGT6101.upd_FSBD_IVST_BBS");
+./MGT/MGT6101.xfdl:function fn_delete()
+./MGT/MGT6101.xfdl:	gdsSql.setColumn(nRow, "sqlId", "MGT6101.del_FSBD_ITM_MSTR");
+./MGT/MGT6101.xfdl:	gdsSql.setColumn(nRow, "sqlDs", "ds_list");
+./MGT/MGT6101.xfdl:	gdsSql.setColumn(nRow, "sqlId", "COMMON.del_FSBD_ATCH_FILE_MT");
+./MGT/MGT6101.xfdl:	gdsSql.setColumn(nRow, "sqlDs", "ds_list");
+./MGT/MGT6101.xfdl:function fn_fileDeleteFile()
+./MGT/MGT6101.xfdl:		gdsSql.setColumn(nRow,"path",FILE_SERVER_PATH+fv_atchFileTypCd);
+./MGT/MGT6101.xfdl:		gdsSql.setColumn(nRow,"fileName",sFileName);
+./MGT/MGT6101P1.xfdl:function fn_search()
+./MGT/MGT6101P1.xfdl:		gdsSql.setColumn(nRow, "sqlId", "MGT6101.data000101_POP");	
+./MGT/MGT6110.xfdl:function fn_ComCdselect()
+./MGT/MGT6110.xfdl:	gdsSql.setColumn(nRow,"sqlId","MGT6110.comm000101");//부서
+./MGT/MGT6110.xfdl:	gdsSql.setColumn(nRow,"sqlId","MGT6110.comm000201");//직원
+./MGT/MGT6110.xfdl:function fn_search()
+./MGT/MGT6110.xfdl:	gdsSql.setColumn(nRow,"sqlId","MGT6110.data000101");
+./MGT/MGT6110.xfdl:	gdsSql.setColumn(nRow,"sqlId","MGT6110.data000301");
+./MGT/MGT6110.xfdl:function fn_chkSelect(value)
+./MGT/MGT6110.xfdl:	gdsSql.setColumn(nRow,"sqlId","MGT6110.data000201");
+./MGT/MGT6110.xfdl:function fn_activity(value)
+./MGT/MGT6110.xfdl:	gdsSql.setColumn(nRow,"sqlId","MGT6110.data000501");
+./MGT/MGT6110.xfdl:	gdsSql.setColumn(nRow,"sqlId","MGT6110.data000502");
+./MGT/MGT6110.xfdl:function fn_chkCode()
+./MGT/MGT6110.xfdl:	gdsSql.setColumn(nRow,"sqlId","MGT6110.data000503");
+./MGT/MGT6110.xfdl:function fn_Pinsert()
+./MGT/MGT6110.xfdl:  	gdsSql.setColumn(nRow, "sqlId", "MGT6110.mgr_FSBD_PRCS_MSTR");
+./MGT/MGT6110.xfdl:	gdsSql.setColumn(nRow, "sqlDs", "ds_list1");
+./MGT/MGT6110.xfdl:function fn_Pdelete()
+./MGT/MGT6110.xfdl:  	gdsSql.setColumn(nRow, "sqlId", "MGT6110.del_FSBD_PRCS_MSTR");
+./MGT/MGT6110.xfdl:function fn_Ainsert()
+./MGT/MGT6110.xfdl:  	gdsSql.setColumn(nRow, "sqlId", "MGT6110.mgr_FSBD_PRCS_MSTR");
+./MGT/MGT6110.xfdl:	gdsSql.setColumn(nRow, "sqlDs", "ds_activity");
+./MGT/MGT6110.xfdl:  	gdsSql.setColumn(nRow, "sqlId", "MGT6110.mgr_FSBD_PRCS_RISK_MSTR");
+./MGT/MGT6110.xfdl:	gdsSql.setColumn(nRow, "sqlDs", "ds_activityList");
+./MGT/MGT6110.xfdl:function fn_Adelete()
+./MGT/MGT6110.xfdl:  	gdsSql.setColumn(nRow, "sqlId", "MGT6110.del_FSBD_PRCS_MSTR");
+./MGT/MGT6110.xfdl:	gdsSql.setColumn(nRow, "sqlId", "MGT6110.del_FSBD_PRCS_RISK_MSTR");
+./MGT/MGT6110.xfdl:function fn_Adelete2()
+./MGT/MGT6110.xfdl:  	gdsSql.setColumn(nRow, "sqlId", "MGT6110.del_FSBD_PRCS_RISK_MSTR");
+./MGT/MGT6110.xfdl:function fn_chkSave()
+./MGT/MGT6110.xfdl:	gdsSql.setColumn(nRow, "sqlId", "MGT6110.ins_FSBD_PRCS_LIST");
+./MGT/MGT6110.xfdl:	gdsSql.setColumn(nRow, "sqlDs", "ds_save");
+./MGT/MGT6110.xfdl:function fn_chkdelete()
+./MGT/MGT6110.xfdl:  	gdsSql.setColumn(nRow, "sqlId", "MGT6110.del_FSBD_PRCS_LIST");
+./MGT/MGT6111.xfdl:function fn_search()
+./MGT/MGT6111.xfdl:  	gdsSql.setColumn(nRow, "sqlId", "MGT6111.data000101");
+./MGT/MGT6111.xfdl:function fn_searchTab()
+./MGT/MGT6111.xfdl:  	gdsSql.setColumn(nRow, "sqlId", "MGT6111.data100101");
+./MGT/MGT6111.xfdl:  	gdsSql.setColumn(nRow, "sqlId", "MGT6111.data100201");
+./MGT/MGT6111.xfdl:  	gdsSql.setColumn(nRow, "sqlId", "MGT6111.data100301");  	
+./MGT/MGT6111.xfdl:function fn_saveTab()
+./MGT/MGT6111.xfdl:	gdsSql.setColumn(nRow, "sqlId", "MGT6111.mgr_FSBD_PRCS_ACTV_LIST");
+./MGT/MGT6111.xfdl:	gdsSql.setColumn(nRow, "sqlDs", "Iud");
+./MGT/MGT6201.xfdl:function fn_astCdComboSelect()
+./MGT/MGT6201.xfdl:  	gdsSql.setColumn(nRow, "sqlId", "MGT6201.comm000101");
+./MGT/MGT6201.xfdl:function fn_search()
+./MGT/MGT6201.xfdl:  	gdsSql.setColumn(nRow, "sqlId", "MGT6201.data000101");
+./MGT/MGT6201.xfdl:function fn_fileInfo()
+./MGT/MGT6201.xfdl:	gdsSql.setColumn(nRow,"sqlId","COMMON.atchFileMTInfo");
+./MGT/MGT6201.xfdl:function fn_save()
+./MGT/MGT6201.xfdl:	gdsSql.setColumn(nRow, "sqlDs", "ds_list");
+./MGT/MGT6201.xfdl:		gdsSql.setColumn(nRow, "sqlId", "MGT6201.ins_FSBD_IVST_BBS");
+./MGT/MGT6201.xfdl:		gdsSql.setColumn(nRow, "sqlId", "MGT6201.upd_FSBD_IVST_BBS");
+./MGT/MGT6201.xfdl:function fn_delete()
+./MGT/MGT6201.xfdl:	gdsSql.setColumn(nRow, "sqlId", "MGT6201.del_FSBD_IVST_BBS");
+./MGT/MGT6201.xfdl:	gdsSql.setColumn(nRow, "sqlDs", "ds_list");
+./MGT/MGT6201.xfdl:	gdsSql.setColumn(nRow, "sqlId", "COMMON.del_FSBD_ATCH_FILE_MT");
+./MGT/MGT6201.xfdl:	gdsSql.setColumn(nRow, "sqlDs", "ds_list");
+./MGT/MGT6201.xfdl:function fn_fileDeleteFile()
+./MGT/MGT6201.xfdl:		gdsSql.setColumn(nRow,"path",FILE_SERVER_PATH+fv_atchFileTypCd);
+./MGT/MGT6201.xfdl:		gdsSql.setColumn(nRow,"fileName",sFileName);
+./MGT/MGT6201P1.xfdl:function fn_search()
+./MGT/MGT6201P1.xfdl:		gdsSql.setColumn(nRow, "sqlId", "MGT6201.pop000101");	
+./MGT/MGT6201P1.xfdl:function fn_userSave()
+./MGT/MGT6201P1.xfdl:		gdsSql.setColumn(nRow, "sqlId", "MGT6201.mgr_pop000101");
+./MGT/MGT6201P1.xfdl:	gdsSql.setColumn(nRow, "sqlDs", "ds_save");
+./MGT/MGT6205.xfdl:function fn_astMngmtComboSelect()
+./MGT/MGT6205.xfdl:  	gdsSql.setColumn(nRow, "sqlId", "MGT6205.comm000101");
+./MGT/MGT6205.xfdl:  	gdsSql.setColumn(nRow, "sqlId", "MGT6205.comm000201");
+./MGT/MGT6205.xfdl:function fn_search()
+./MGT/MGT6205.xfdl:  	gdsSql.setColumn(nRow, "sqlId", "MGT6205.data000101");
+./MGT/MGT6205.xfdl:function fn_pIdComboSelect()
+./MGT/MGT6205.xfdl:  	gdsSql.setColumn(nRow, "sqlId", "MGT6205.comm000102");
+./MGT/MGT6205.xfdl:function fn_fileInfo()
+./MGT/MGT6205.xfdl:	gdsSql.setColumn(nRow,"sqlId","COMMON.atchFileMTInfo");
+./MGT/MGT6205.xfdl:function fn_save()
+./MGT/MGT6205.xfdl:	gdsSql.setColumn(nRow, "sqlDs", "ds_save");
+./MGT/MGT6205.xfdl:		gdsSql.setColumn(nRow, "sqlId", "MGT6205.ins_FSBD_MTL_MT");
+./MGT/MGT6205.xfdl:		gdsSql.setColumn(nRow, "sqlId", "MGT6205.upd_FSBD_MTL_MT");
+./MGT/MGT6205.xfdl:function fn_delete()
+./MGT/MGT6205.xfdl:	gdsSql.setColumn(nRow, "sqlId", "MGT6205.del_FSBD_MTL_MT");
+./MGT/MGT6205.xfdl:	gdsSql.setColumn(nRow, "sqlDs", "ds_list");
+./MGT/MGT6205.xfdl:	gdsSql.setColumn(nRow, "sqlId", "COMMON.del_FSBD_ATCH_FILE_MT");
+./MGT/MGT6205.xfdl:	gdsSql.setColumn(nRow, "sqlDs", "ds_list");
+./MGT/MGT6205.xfdl:function fn_fileDeleteFile()
+./MGT/MGT6205.xfdl:		gdsSql.setColumn(nRow,"path",FILE_SERVER_PATH+fv_atchFileTypCd);
+./MGT/MGT6205.xfdl:		gdsSql.setColumn(nRow,"fileName",sFileName);
+./MGT/MGT6205P1.xfdl:function fn_search()
+./MGT/MGT6205P1.xfdl:		gdsSql.setColumn(nRow, "sqlId", "MGT6205.pop000101");	
+./MGT/MGT6213.xfdl:function fn_search()
+./MGT/MGT6213.xfdl:   	gdsSql.setColumn(nRow,"sqlId","MGT6213.ff_data000101");
+./MGT/MGT6213.xfdl:   	gdsSql.setColumn(nRow,"sqlId","MGT6213.ff_data000102");
+./MGT/MGT6213.xfdl:function fn_subSearch()
+./MGT/MGT6213.xfdl:   	gdsSql.setColumn(nRow,"sqlId","MGT6213.ff_data000201");
+./MGT/MGT6213.xfdl:function fn_saveData()
+./MGT/MGT6213.xfdl:   	gdsSql.setColumn(nRow,"sqlId","MGT6213.ins_ff_FSBD_PTF_UL_DER_EVL_COMP");
+./MGT/MGT6213.xfdl:   	gdsSql.setColumn(nRow,"sqlDs","Iud");
+./MGT/MGT6213_bak.xfdl:function fn_search()
+./MGT/MGT6213_bak.xfdl:   	gdsSql.setColumn(nRow,"sqlId","MGT6213.ff_data000101");
+./MGT/MGT6213_bak.xfdl:   	gdsSql.setColumn(nRow,"sqlId","MGT6213.ff_data000102");
+./MGT/MGT6213_bak.xfdl:function fn_subSearch()
+./MGT/MGT6213_bak.xfdl:   	gdsSql.setColumn(nRow,"sqlId","MGT6213.ff_data000201");
+./MGT/MGT6213_bak.xfdl:function fn_saveData()
+./MGT/MGT6213_bak.xfdl:   	gdsSql.setColumn(nRow,"sqlId","MGT6213.ins_ff_FSBD_PTF_UL_DER_EVL_COMP");
+./MGT/MGT6213_bak.xfdl:   	gdsSql.setColumn(nRow,"sqlDs","Iud");
+./MGT/MGT6313.xfdl:function fn_search()
+./MGT/MGT6313.xfdl:  	gdsSql.setColumn(nRow, "sqlId", "MGT6313.data000101");
+./MGT/MGT6313.xfdl:function fn_fileInfo()
+./MGT/MGT6313.xfdl:	gdsSql.setColumn(nRow,"sqlId","COMMON.atchFileMTInfo");
+./MGT/MGT6313.xfdl:function fn_save()
+./MGT/MGT6313.xfdl:	gdsSql.setColumn(nRow, "sqlDs", "ds_list");
+./MGT/MGT6313.xfdl:		gdsSql.setColumn(nRow, "sqlId", "MGT6313.ins_FSBD_IVST_BBS");
+./MGT/MGT6313.xfdl:		gdsSql.setColumn(nRow, "sqlId", "MGT6313.upd_FSBD_IVST_BBS");
+./MGT/MGT6313.xfdl:function fn_delete()
+./MGT/MGT6313.xfdl:	gdsSql.setColumn(nRow, "sqlId", "MGT6313.del_FSBD_IVST_BBS");
+./MGT/MGT6313.xfdl:	gdsSql.setColumn(nRow, "sqlDs", "ds_list");
+./MGT/MGT6313.xfdl:	gdsSql.setColumn(nRow, "sqlId", "COMMON.del_FSBD_ATCH_FILE_MT");
+./MGT/MGT6313.xfdl:	gdsSql.setColumn(nRow, "sqlDs", "ds_list");
+./MGT/MGT6313.xfdl:function fn_fileDeleteFile()
+./MGT/MGT6313.xfdl:		gdsSql.setColumn(nRow,"path",FILE_SERVER_PATH+fv_atchFileTypCd);
+./MGT/MGT6313.xfdl:		gdsSql.setColumn(nRow,"fileName",sFileName);
+./MGT/MGT6313P1.xfdl:function fn_search()
+./MGT/MGT6313P1.xfdl:		gdsSql.setColumn(nRow, "sqlId", "MGT6313.pop000101");	
+./MGT/MGT6313P1.xfdl:function fn_userSave()
+./MGT/MGT6313P1.xfdl:		gdsSql.setColumn(nRow, "sqlId", "MGT6313.mgr_pop000101");
+./MGT/MGT6313P1.xfdl:	gdsSql.setColumn(nRow, "sqlDs", "ds_save");
+./MGT/MGT6321.xfdl:function fn_astMngmtComboSelect()
+./MGT/MGT6321.xfdl:  	gdsSql.setColumn(nRow, "sqlId", "MGT6321.comm000101");
+./MGT/MGT6321.xfdl:function fn_search()
+./MGT/MGT6321.xfdl:  	gdsSql.setColumn(nRow, "sqlId", "MGT6321.data000101");
+./MGT/MGT6321.xfdl:function fn_pIdComboSelect()
+./MGT/MGT6321.xfdl:  	gdsSql.setColumn(nRow, "sqlId", "MGT6321.comm000102");
+./MGT/MGT6321.xfdl:function fn_fileInfo()
+./MGT/MGT6321.xfdl:	gdsSql.setColumn(nRow,"sqlId","COMMON.atchFileMTInfo");
+./MGT/MGT6321.xfdl:function fn_save()
+./MGT/MGT6321.xfdl:	gdsSql.setColumn(nRow, "sqlDs", "ds_save");
+./MGT/MGT6321.xfdl:		gdsSql.setColumn(nRow, "sqlId", "MGT6321.ins_FSBD_MTL_MT");
+./MGT/MGT6321.xfdl:		gdsSql.setColumn(nRow, "sqlId", "MGT6321.upd_FSBD_MTL_MT");
+./MGT/MGT6321.xfdl:function fn_delete()
+./MGT/MGT6321.xfdl:	gdsSql.setColumn(nRow, "sqlId", "MGT6321.del_FSBD_MTL_MT");
+./MGT/MGT6321.xfdl:	gdsSql.setColumn(nRow, "sqlDs", "ds_list");
+./MGT/MGT6321.xfdl:	gdsSql.setColumn(nRow, "sqlId", "COMMON.del_FSBD_ATCH_FILE_MT");
+./MGT/MGT6321.xfdl:	gdsSql.setColumn(nRow, "sqlDs", "ds_list");
+./MGT/MGT6321.xfdl:function fn_fileDeleteFile()
+./MGT/MGT6321.xfdl:		gdsSql.setColumn(nRow,"path",FILE_SERVER_PATH+fv_atchFileTypCd);
+./MGT/MGT6321.xfdl:		gdsSql.setColumn(nRow,"fileName",sFileName);
+./MGT/MGT6326.xfdl:function fn_search()
+./MGT/MGT6326.xfdl:  	gdsSql.setColumn(nRow, "sqlId", "MGT6326.data000101");
+./MGT/MGT6326.xfdl:function fn_subSearch()
+./MGT/MGT6326.xfdl:  	gdsSql.setColumn(nRow, "sqlId", "MGT6326.data100101");
+./MGT/MGT6326.xfdl:  	gdsSql.setColumn(nRow, "sqlId", "MGT6326.data100201");
+./MGT/MGT6326.xfdl:  	gdsSql.setColumn(nRow, "sqlId", "MGT6326.data200101");
+./MGT/MGT6326.xfdl:function fn_keySearch()
+./MGT/MGT6326.xfdl:  	gdsSql.setColumn(nRow, "sqlId", "MGT6326.chk_000101");
+./MGT/MGT6326.xfdl:function fn_save()
+./MGT/MGT6326.xfdl:	gdsSql.setColumn(nRow, "sqlDs", "Iud");	
+./MGT/MGT6326.xfdl:			gdsSql.setColumn(nRow, "sqlId", "MGT6326.ins_FSBD_INV_MSTR");
+./MGT/MGT6326.xfdl:			gdsSql.setColumn(nRow, "sqlId", "MGT6326.upd_FSBD_INV_MSTR");
+./MGT/MGT6326.xfdl:		gdsSql.setColumn(nRow, "sqlId", "MGT6326.ins_FSBD_INV_RCRD_MT");
+./MGT/MGT6326.xfdl:function fn_delete()
+./MGT/MGT6326.xfdl:	gdsSql.setColumn(nRow, "sqlDs", "Iud");	
+./MGT/MGT6326.xfdl:		gdsSql.setColumn(nRow, "sqlId", "MGT6326.del_FSBD_INV_MSTR");
+./MGT/MGT6326.xfdl:		gdsSql.setColumn(nRow, "sqlId", "MGT6326.del_FSBD_INV_RCRD_MT");
+./MGT/MGT6326P1.xfdl:function fn_search()
+./MGT/MGT6326P1.xfdl:   	gdsSql.setColumn(nRow, "sqlId","MGT6326.pop_000101");
+./MON/MON2721.xfdl:function fn_search()
+./MON/MON2721.xfdl:  	gdsSql.setColumn(nRow, "sqlId", "STS2721.data000101");
+./MON/MON2721.xfdl:function fn_searchChart(chartRow)
+./MON/MON2721.xfdl:	gdsSql.setColumn(nRow,"sqlId","STS2721.chart000101");
+./MON/MON2723.xfdl:function fn_search()
+./MON/MON2723.xfdl:  	gdsSql.setColumn(nRow, "sqlId", "STS2723.ff_data000101");
+./MON/MON2723.xfdl:function fn_chartSearch(ptfCd1, ptfCd2)
+./MON/MON2723.xfdl:	gdsSql.setColumn(nRow,"sqlId","STS2723.ff_chart000101");
+./MON/MON2723.xfdl:	gdsSql.setColumn(nRow,"sqlId","STS2723.ff_chart000201");
+./MON/MON3101.xfdl:function fn_search()
+./MON/MON3101.xfdl:		gdsSql.setColumn(nRow,"sqlId","MON3101.ff_data100101");
+./MON/MON3101.xfdl:		gdsSql.setColumn(nRow,"sqlId","MON3101.data200101");
+./MON/MON3103.xfdl:function fn_search()
+./MON/MON3103.xfdl:		gdsSql.setColumn(nRow,"sqlId","MON3103.data100101");
+./MON/MON3103.xfdl:		gdsSql.setColumn(nRow,"sqlId","MON3103.data200101");
+./MON/MON3105.xfdl:function fn_search()
+./MON/MON3105.xfdl:	gdsSql.setColumn(nRow, "sqlId", "MON3105.ff_header000101"); //header	
+./MON/MON3105.xfdl:		gdsSql.setColumn(nRow, "sqlId", "MON3105.ff_data900101"); //STD
+./MON/MON3105.xfdl:		gdsSql.setColumn(nRow, "sqlId", "MON3105.data"+tIdx+"00101"); //STD
+./MON/MON3111.xfdl:function fn_search()
+./MON/MON3111.xfdl:  	gdsSql.setColumn(nRow, "sqlId", "MON3111.ft_chart000101");
+./MON/MON3115.xfdl:function fn_sendTran(sTranDvcd)
+./MON/MON3115.xfdl:		gdsSql.setColumn(nRow, "sqlId", "MON3115.dat100101");
+./MON/MON3115.xfdl:		gdsSql.setColumn(nRow, "sqlId", "MON3115.chart100101");
+./MON/MON3115.xfdl:		gdsSql.setColumn(nRow, "sqlId", "MON3115.data100201");
+./MON/MON3115.xfdl:		gdsSql.setColumn(nRow, "sqlId", "MON3115.data200101");
+./MON/MON3115.xfdl:		gdsSql.setColumn(nRow, "sqlId", "MON3115.data200201");
+./MON/MON3116.xfdl:function fn_tabInfoSearch()
+./MON/MON3116.xfdl:	gdsSql.setColumn(nRow, "sqlId", "MON3116.chk010101");
+./MON/MON3116.xfdl:function fn_search()
+./MON/MON3116.xfdl:	gdsSql.setColumn(nRow, "sqlId", "MON3116.data100101");
+./MON/MON3116.xfdl:	gdsSql.setColumn(nRow, "sqlId", "MON3116.data000201");
+./MON/MON3116.xfdl:function fn_chartSearch1()
+./MON/MON3116.xfdl:	gdsSql.setColumn(nRow, "sqlId", "MON3116.chart100101"); 
+./MON/MON3116.xfdl:function fn_chartSearch2()
+./MON/MON3116.xfdl:	gdsSql.setColumn(nRow, "sqlId", "MON3116.chart100101"); 
+./MON/MON3116.xfdl:function fn_chartSearch3()
+./MON/MON3116.xfdl:	gdsSql.setColumn(nRow, "sqlId", "MON3116.chart100101"); 
+./MON/MON3116P1.xfdl:function fn_search()
+./MON/MON3116P1.xfdl:   	gdsSql.setColumn(nRow, "sqlId","MON3116.pop010101");
+./MON/MON3119.xfdl:function fn_searchHead()
+./MON/MON3119.xfdl:  	gdsSql.setColumn(nRow,"sqlId","MON3119.header000101");
+./MON/MON3119.xfdl:function fn_search()
+./MON/MON3119.xfdl:  	gdsSql.setColumn(nRow, "sqlId", "MON3119.data000101");
+./MON/MON3123.xfdl:function fn_search()
+./MON/MON3123.xfdl:   	gdsSql.setColumn(nRow, "sqlId","MON3123.data000101");
+./MON/MON3123.xfdl:function fn_searchSub()
+./MON/MON3123.xfdl:   	gdsSql.setColumn(nRow, "sqlId","MON3123.data000102");
+./MON/MON3123.xfdl:function fv_ins_VaR_R_ENG()
+./MON/MON3123.xfdl:	gdsSql.setColumn(nRow, "sqlId", "MON3123.ins_FSSY_R_ENG_JOB");	
+./MON/MON3123.xfdl:	gdsSql.setColumn(nRow, "sqlDs", "ds_save1");
+./MON/MON3123.xfdl:function fn_searchAF()
+./MON/MON3123.xfdl:   	gdsSql.setColumn(nRow, "sqlId", "MON3123.data000101_AF");
+./MON/MON3125.xfdl:function fn_upSearch()
+./MON/MON3125.xfdl:   	gdsSql.setColumn(nRow, "sqlId","MON3125.datafof000101");
+./MON/MON3125.xfdl:function fn_rowSearch(upRow)
+./MON/MON3125.xfdl:   	gdsSql.setColumn(nRow, "sqlId","MON3125.datafof000201");
+./MON/MON3125P1.xfdl:function fn_search()
+./MON/MON3125P1.xfdl:	gdsSql.setColumn(nRow, "sqlId", "MON3125.pop000101");
+./MON/MON3125_bak.xfdl:function fn_upSearch()
+./MON/MON3125_bak.xfdl:   	gdsSql.setColumn(nRow, "sqlId","MON3125.data000101");
+./MON/MON3125_bak.xfdl:function fn_rowSearch(upRow)
+./MON/MON3125_bak.xfdl:   	gdsSql.setColumn(nRow, "sqlId","MON3125.data000201");
+./MON/MON3141.xfdl:function fn_search()
+./MON/MON3141.xfdl:	gdsSql.setColumn(nRow,"sqlId","MON3141.data000101");
+./MON/MON3141.xfdl:function fn_detailSearch()
+./MON/MON3141.xfdl:   	gdsSql.setColumn(nRow,"sqlId","MON3141.data000201");
+./MON/MON3141.xfdl:function fn_aplcSearch()
+./MON/MON3141.xfdl:   	gdsSql.setColumn(nRow, "sqlId","MON3141.pop000102");
+./MON/MON3141.xfdl:function fn_saveListSearch(lmtCd,ptfCd)
+./MON/MON3141.xfdl:   	gdsSql.setColumn(nRow,"sqlId","MON3141.data000301");
+./MON/MON3141.xfdl:function fn_newLmtSearch(ptfCd)
+./MON/MON3141.xfdl:   	gdsSql.setColumn(nRow,"sqlId","MON3141.data000304");
+./MON/MON3141.xfdl:function fn_newLmtSearch_one(ptfCd)
+./MON/MON3141.xfdl:   	gdsSql.setColumn(nRow,"sqlId","MON3141.data000305");
+./MON/MON3141.xfdl:function fn_save()
+./MON/MON3141.xfdl:	gdsSql.setColumn(nRow,"sqlId","MON3141.mgr_FSBD_LMT_MT");
+./MON/MON3141.xfdl:	gdsSql.setColumn(nRow, "sqlDs","ds_save1");
+./MON/MON3141.xfdl:	gdsSql.setColumn(nRow,"sqlId","MON3141.mgr_FSBD_LMT_INP_MT");
+./MON/MON3141.xfdl:	gdsSql.setColumn(nRow, "sqlDs","ds_save");	
+./MON/MON3141.xfdl:function fn_aplcDelete()
+./MON/MON3141.xfdl:	gdsSql.setColumn(nRow,"sqlId","MON3141.del_FSBD_LMT_INP_MT");	
+./MON/MON3141.xfdl:function fn_delete()
+./MON/MON3141.xfdl:		gdsSql.setColumn(nRow,"sqlId","MON3141.del_FSBD_LMT_MT");
+./MON/MON3141.xfdl:		gdsSql.setColumn(nRow,"sqlDs","Iud");
+./MON/MON3141.xfdl:		gdsSql.setColumn(nRow,"sqlId","MON3141.del_FSBD_LMT_INP_MT");
+./MON/MON3141.xfdl:		gdsSql.setColumn(nRow,"sqlDs","Iud");					 
+./MON/MON3141P1.xfdl:function fn_search()
+./MON/MON3141P1.xfdl:   	gdsSql.setColumn(nRow, "sqlId","MON3141.pop000101");
+./MON/MON3143.xfdl:function fn_enddate()
+./MON/MON3143.xfdl:   	gdsSql.setColumn(nRow, "sqlId","MON3143.data000102");
+./MON/MON3143.xfdl:function fn_search()
+./MON/MON3143.xfdl:   	gdsSql.setColumn(nRow, "sqlId","MON3143.data000101");
+./MON/MON3143.xfdl:function fn_search2()
+./MON/MON3143.xfdl:   	gdsSql.setColumn(nRow, "sqlId","MON3143.data000201");
+./MON/MON3143.xfdl:function fn_search3()
+./MON/MON3143.xfdl:   	gdsSql.setColumn(nRow, "sqlId","MON3143.data000301");
+./MON/MON3143P1.xfdl:function fn_search()
+./MON/MON3143P1.xfdl:	gdsSql.setColumn(nRow, "sqlId", "MON3143.pop000101");
+./MON/MON3143P1.xfdl:function fn_save()
+./MON/MON3143P1.xfdl:	gdsSql.setColumn(nRow, "sqlId", "MON3143.mgr_FSOD_PTF_LMT_DATA");
+./MON/MON3143P1.xfdl:	gdsSql.setColumn(nRow, "sqlDs", "ds_list");
+./MON/MON3143P1.xfdl:function fn_update()
+./MON/MON3143P1.xfdl:	gdsSql.setColumn(nRow, "sqlId", "MON3143.mgr_FSOD_PTF_LMT_DATA_VIO");
+./MON/MON3143P1.xfdl:	gdsSql.setColumn(nRow, "sqlDs", "ds_list");
+./MON/MON3145.xfdl:function fn_enddate()
+./MON/MON3145.xfdl:   	gdsSql.setColumn(nRow, "sqlId","MON3145.data000201");
+./MON/MON3145.xfdl:function fn_search()
+./MON/MON3145.xfdl:   	gdsSql.setColumn(nRow, "sqlId","MON3145.data000101");
+./MON/MON3145.xfdl:function fn_search2()
+./MON/MON3145.xfdl:   	gdsSql.setColumn(nRow, "sqlId","MON3143.data000301");
+./MON/MON3153.xfdl:function fn_search()
+./MON/MON3153.xfdl:		gdsSql.setColumn(nRow,"sqlId","MON3153.data000101");
+./MON/MON3153.xfdl:function fn_subSearch()
+./MON/MON3153.xfdl:		gdsSql.setColumn(nRow,"sqlId","MON3153.ff_data000201");
+./MON/MON3155.xfdl:function fn_search()
+./MON/MON3155.xfdl:  	gdsSql.setColumn(nRow, "sqlId", "MON3155.data000101");
+./MON/MON3155.xfdl:function fn_subSearch()
+./MON/MON3155.xfdl:  	gdsSql.setColumn(nRow, "sqlId", "MON3155.data000201");   	
+./MON/MON3157.xfdl:function fn_search()									
+./MON/MON3157.xfdl:  	gdsSql.setColumn(nRow, "sqlId", "MON3157.data000101");								
+./MON/MON3157.xfdl:function fn_subSearch()									
+./MON/MON3157.xfdl:  	gdsSql.setColumn(nRow, "sqlId", "MON3157.data000201");								
+./MON/MON3157.xfdl:  	gdsSql.setColumn(nRow, "sqlId", "MON3157.data000202");								
+./MON/MON3157P1.xfdl:function fn_search()
+./MON/MON3157P1.xfdl:   	gdsSql.setColumn(nRow, "sqlId","MON3157.pop_Corp");
+./MON/MON3158.xfdl:function fn_search()
+./MON/MON3158.xfdl:  	gdsSql.setColumn(nRow,"sqlId","MON3158.ff_data000101");
+./MON/MON3158.xfdl:function fn_subSearch()
+./MON/MON3158.xfdl:  	gdsSql.setColumn(nRow,"sqlId","MON3158.ff_data000201");
+./MON/MON3158.xfdl_bak:function fn_search()
+./MON/MON3158.xfdl_bak:  	gdsSql.setColumn(nRow,"sqlId","MON3158.ff_data000101");
+./MON/MON3158.xfdl_bak:function fn_subSearch()
+./MON/MON3158.xfdl_bak:  	gdsSql.setColumn(nRow,"sqlId","MON3158.ff_data000201");
+./MON/MON3175.xfdl:function fn_sendTran(sTranDvcd)
+./MON/MON3175.xfdl:		gdsSql.setColumn(nRow, "sqlId", "MON3175.data100101");
+./MON/MON3175.xfdl:		gdsSql.setColumn(nRow, "sqlId", "MON3175.data100201");
+./MON/MON3175.xfdl:		gdsSql.setColumn(nRow, "sqlId", "MON3175.pop000102");
+./MON/MON3175P1.xfdl:function fn_sendTran(sTranDvcd)
+./MON/MON3175P1.xfdl:		gdsSql.setColumn(nRow, "sqlId", "MON3175.pop000101"); // 좌측 그리드
+./MON/MON3175P1.xfdl:			gdsSql.setColumn(nRow, "sqlId", "MON3175.pop000102"); // 우측 그리드
+./MON/MON3175P1.xfdl:		gdsSql.setColumn(nRow, "sqlId", "MON3175.pop_EsgRtg");
+./MON/MON3175P1.xfdl:		gdsSql.setColumn(nRow, "sqlId", "POPUP.ins_FSBD_PTF_USER_LIST");
+./MON/MON3175P1.xfdl:		gdsSql.setColumn(nRow, "sqlDs", "Iud");
+./MON/MON3175P1.xfdl:		gdsSql.setColumn(nRow, "sqlId", "POPUP.del_FSBD_PTF_USER_LIST");
+./MON/MON3175P1.xfdl:		gdsSql.setColumn(nRow, "sqlDs", "Iud");
+./MON/MON3175P2.xfdl:function fn_sendTran(sTranDvcd)
+./MON/MON3175P2.xfdl:		gdsSql.setColumn(nRow, "sqlId", "MON3175.pop_LipperGLC");
+./MON/MON3179.xfdl:function fn_search()
+./MON/MON3179.xfdl:   	gdsSql.setColumn(nRow,"sqlId","MON3179.ff_data000101");
+./MON/MON3179.xfdl:function fn_subSearch()
+./MON/MON3179.xfdl:   	gdsSql.setColumn(nRow,"sqlId","MON3179.ff_data000201");
+./MON/MON3211.xfdl:function fn_search()
+./MON/MON3211.xfdl:   	gdsSql.setColumn(nRow, "sqlId", "MON3211.ff_chart000101");
+./MON/MON3215.xfdl:function fn_search()
+./MON/MON3215.xfdl:   	gdsSql.setColumn(nRow, "sqlId", "MON3215.ff_header000101");
+./MON/MON3215.xfdl:function fn_search_list()
+./MON/MON3215.xfdl:   	gdsSql.setColumn(nRow, "sqlId", "MON3215.ff_chart000101");
+./MON/MON3221.xfdl:function fn_header()
+./MON/MON3221.xfdl:   	gdsSql.setColumn(nRow,"sqlId","MON3221.header000101");
+./MON/MON3221.xfdl:function fn_search()
+./MON/MON3221.xfdl:	gdsSql.setColumn(nRow, "sqlId", "MON3221.ff_data000101");
+./MON/MON3221.xfdl:function fn_searchChart(sPtfCd, sFptfCd, sChartTp)
+./MON/MON3221.xfdl:   	gdsSql.setColumn(nRow,"sqlId","MON3221.ff_chart000101");
+./MON/MON3223.xfdl:function fn_header()
+./MON/MON3223.xfdl:	gdsSql.setColumn(nRow, "sqlId", "MON3223.header000101");
+./MON/MON3223.xfdl:function fn_search()
+./MON/MON3223.xfdl:	gdsSql.setColumn(nRow, "sqlId", "MON3223.ff_data100101");
+./MON/MON3223.xfdl:	gdsSql.setColumn(nRow, "sqlId", "MON3223.ff_data200101");
+./MON/MON3223.xfdl:	gdsSql.setColumn(nRow, "sqlId", "MON3223.ff_data300101");
+./MON/MON3223.xfdl:function fn_chart1()
+./MON/MON3223.xfdl:	gdsSql.setColumn(nRow,"sqlId","MON3223.ff_chart000101");
+./MON/MON3223.xfdl:function fn_chart2(cell, row)
+./MON/MON3223.xfdl:	gdsSql.setColumn(nRow,"sqlId","MON3223.ff_chart000201");
+./MON/MON3227.xfdl:function fn_header()
+./MON/MON3227.xfdl:		gdsSql.setColumn(nRow,"sqlId","MON3227.header000101");
+./MON/MON3227.xfdl:function fn_search()
+./MON/MON3227.xfdl:				gdsSql.setColumn(nRow,"sqlId","MON3227.data000101");
+./MON/MON3227.xfdl:				gdsSql.setColumn(nRow,"sqlId","MON3227.data000102");
+./MON/MON3227.xfdl:function fn_subSearch()
+./MON/MON3227.xfdl:				gdsSql.setColumn(nRow,"sqlId","MON3227.data000201");
+./MON/MON3227.xfdl:				gdsSql.setColumn(nRow,"sqlId","MON3227.data000202");
+./MON/MON3301.xfdl:function fn_search()
+./MON/MON3301.xfdl:	gdsSql.setColumn(nRow,"sqlId","MON3301.ins_FSBD_R_ANLYS_MSTR");
+./MON/MON3301.xfdl:	gdsSql.setColumn(nRow,"sqlDs","Iud1");
+./MON/MON3301.xfdl:	gdsSql.setColumn(nRow,"sqlId","MON3301.ins_FSBD_R_ANLYS_PTF_LIST");
+./MON/MON3301.xfdl:	gdsSql.setColumn(nRow,"sqlDs","Iud2");	
+./MON/MON3301.xfdl:function fn_dataSearch()
+./MON/MON3301.xfdl:   	gdsSql.setColumn(nRow, "sqlId","MON3301.header000101");
+./MON/MON3301.xfdl:   	gdsSql.setColumn(nRow, "sqlId","MON3301.data000101");    
+./MON/MON3302.xfdl:function fn_search()
+./MON/MON3302.xfdl:   	gdsSql.setColumn(nRow, "sqlId","MON3302.data000101");
+./MON/MON3302.xfdl:function fn_bm_anl_chk()
+./MON/MON3302.xfdl:   	gdsSql.setColumn(nRow, "sqlId","MON3302.chk_Benchmark");	
+./MON/MON3302.xfdl:function fn_makeBmData()
+./MON/MON3302.xfdl:   	gdsSql.setColumn(nRow, "sqlId", "MON3302.ins_FSSY_R_ENG_JOB_BM");
+./MON/MON3302.xfdl:	gdsSql.setColumn(nRow, "sqlDs", "ds_save");
+./MON/MON3302.xfdl:function fn_EQRA_DLY()
+./MON/MON3302.xfdl:   	gdsSql.setColumn(nRow, "sqlId",  "MON3302.ins_FSSY_R_ENG_JOB");
+./MON/MON3302.xfdl:	gdsSql.setColumn(nRow, "sqlDs", "ds_save");
+./MON/MON3302.xfdl:function fn_searchSub()
+./MON/MON3302.xfdl:   	gdsSql.setColumn(nRow, "sqlId",  "MON3302.data000102");
+./MON/MON3311.xfdl:function fn_search()
+./MON/MON3311.xfdl:   	gdsSql.setColumn(nRow,"sqlId","MON3311.data000101");
+./MON/MON3315.xfdl:function fn_search()
+./MON/MON3315.xfdl:   	gdsSql.setColumn(nRow,"sqlId","MON3315.data000101");
+./MON/MON3316.xfdl:function fn_search()
+./MON/MON3316.xfdl:   	gdsSql.setColumn(nRow,"sqlId","MON3316.header000101");
+./MON/MON3316.xfdl:   	gdsSql.setColumn(nRow,"sqlId","MON3316.data000101");
+./MON/MON3317.xfdl:function fn_search()
+./MON/MON3317.xfdl:   	gdsSql.setColumn(nRow,"sqlId","MON3317.chart100101");
+./MON/MON3317.xfdl:function fn_search_two()
+./MON/MON3317.xfdl:	gdsSql.setColumn(nRow,"sqlId","MON3317.chart300101");
+./MON/MON3317P1.xfdl:function fn_search()
+./MON/MON3317P1.xfdl:   	gdsSql.setColumn(nRow, "sqlId","MON3317.data000101_pop01");
+./MON/MON3318.xfdl:function fn_search()
+./MON/MON3318.xfdl:   	gdsSql.setColumn(nRow, "sqlId","MON3318.chart100101");
+./MON/MON3322.xfdl:function fn_search()
+./MON/MON3322.xfdl:   	gdsSql.setColumn(nRow,"sqlId","MON3322.head000101");
+./MON/MON3322.xfdl:   	gdsSql.setColumn(nRow,"sqlId","MON3322.data000101");
+./MON/MON3326.xfdl:function fn_search()
+./MON/MON3326.xfdl:   	gdsSql.setColumn(nRow,"sqlId","MON3326.data000101");
+./MON/MON3351.xfdl:function fn_headerSearch()
+./MON/MON3351.xfdl:   	gdsSql.setColumn(nRow, "sqlId","MON3351.ff_header000101");
+./MON/MON3351.xfdl:function fn_search()
+./MON/MON3351.xfdl:		gdsSql.setColumn(nRow,"sqlId","MON3351.ff_data000101");
+./MON/MON3351.xfdl:		gdsSql.setColumn(nRow,"sqlId","MON3351.ff_data000102");
+./MON/MON3351P1.xfdl:function fn_search()
+./MON/MON3351P1.xfdl:   	gdsSql.setColumn(nRow, "sqlId", "MON3351.pop000101");
+./MON/MON3351_bak.xfdl:function fn_headerSearch()
+./MON/MON3351_bak.xfdl:   	gdsSql.setColumn(nRow, "sqlId","MON3351.ff_header000101");
+./MON/MON3351_bak.xfdl:function fn_search()
+./MON/MON3351_bak.xfdl:		gdsSql.setColumn(nRow,"sqlId","MON3351.ff_data000101");
+./MON/MON3351_bak.xfdl:		gdsSql.setColumn(nRow,"sqlId","MON3351.ff_data000102");
+./MON/MON3352.xfdl:function fn_search()
+./MON/MON3352.xfdl:  	gdsSql.setColumn(nRow, "sqlId", "MON3352.ff_header000101");		
+./MON/MON3352.xfdl:		gdsSql.setColumn(nRow,"sqlId","MON3352.ff_data000101");
+./MON/MON3352.xfdl:		gdsSql.setColumn(nRow,"sqlId","MON3352.ff_data000102");
+./MON/MON3352_bak.xfdl:function fn_search()
+./MON/MON3352_bak.xfdl:  	gdsSql.setColumn(nRow, "sqlId", "MON3352.ff_header000101");		
+./MON/MON3352_bak.xfdl:		gdsSql.setColumn(nRow,"sqlId","MON3352.ff_data000101");
+./MON/MON3352_bak.xfdl:		gdsSql.setColumn(nRow,"sqlId","MON3352.ff_data000102");
+./MON/MON3401.xfdl:function fn_search()
+./MON/MON3401.xfdl:   	gdsSql.setColumn(nRow, "sqlId","MON3401.ff_data000101");
+./MON/MON3401.xfdl:function fn_comCode()
+./MON/MON3401.xfdl:   	gdsSql.setColumn(nRow, "sqlId","MON3401.getType");
+./MON/MON3401.xfdl:   	gdsSql.setColumn(nRow, "sqlId","MON3401.getAST");
+./MON/MON3402.xfdl:function fn_getTyp()
+./MON/MON3402.xfdl:	gdsSql.setColumn(nRow,"sqlId","MON3402.getType");
+./MON/MON3402.xfdl:function fn_search()
+./MON/MON3402.xfdl:	gdsSql.setColumn(nRow,"sqlId","MON3402.data000101");
+./MON/MON3405.xfdl:function fn_search()
+./MON/MON3405.xfdl:   	gdsSql.setColumn(nRow, "sqlId","MON3405.data000101");
+./MON/MON3405P1.xfdl:function fn_search()
+./MON/MON3405P1.xfdl:   	gdsSql.setColumn(nRow, "sqlId","MON3405.getType");
+./MON/MON3409.xfdl:function fn_search()
+./MON/MON3409.xfdl:   	gdsSql.setColumn(nRow, "sqlId","MON3409.ff_data000101");
+./MON/MON3501.xfdl:function fn_search()
+./MON/MON3501.xfdl:  	gdsSql.setColumn(nRow, "sqlId", "MON3501.header000101");
+./MON/MON3501.xfdl:   	gdsSql.setColumn(nRow, "sqlId", "MON3501.data000101");
+./MON/MON3505.xfdl:function fn_searchHead()
+./MON/MON3505.xfdl:		gdsSql.setColumn(nRow, "sqlId", "MON3505.header000101");
+./MON/MON3505.xfdl:		gdsSql.setColumn(nRow, "sqlId", "MON3505.ff_header000101");
+./MON/MON3505.xfdl:function fn_search()
+./MON/MON3505.xfdl:		gdsSql.setColumn(nRow, "sqlId", "MON3505.data000101");
+./MON/MON3505.xfdl:		gdsSql.setColumn(nRow, "sqlId", "MON3505.ff_data000101");
+./MON/MON3505P1.xfdl:function fn_search()
+./MON/MON3505P1.xfdl:  	gdsSql.setColumn(nRow, "sqlId", "MON3505.ff_pop000101");
+./MON/MON3509.xfdl:function fn_header()
+./MON/MON3509.xfdl:  	gdsSql.setColumn(nRow,"sqlId","MON3509.header000101");
+./MON/MON3509.xfdl:function fn_search()
+./MON/MON3509.xfdl:  	gdsSql.setColumn(nRow,"sqlId","MON3509.data000101");
+./MON/MON3511.xfdl:function fn_getPtfGrp()
+./MON/MON3511.xfdl:   	gdsSql.setColumn(nRow, "sqlId","MON3511.comm000101");
+./MON/MON3511.xfdl:function fn_search()
+./MON/MON3511.xfdl:		gdsSql.setColumn(nRow,"sqlId","MON3511.data00010"+ sIdxTp);
+./MON/MON3511.xfdl:function fn_chartSearch(ptfCdStr)
+./MON/MON3511.xfdl:		gdsSql.setColumn(nRow,"sqlId","MON3511.chart000101");
+./MON/MON3511.xfdl:		gdsSql.setColumn(nRow,"sqlId","MON3511.chart000102");
+./MON/MON3511_bak.xfdl:function fn_getPtfGrp()
+./MON/MON3511_bak.xfdl:   	gdsSql.setColumn(nRow, "sqlId","MON3511.comm000101");
+./MON/MON3511_bak.xfdl:function fn_search()
+./MON/MON3511_bak.xfdl:		gdsSql.setColumn(nRow,"sqlId","MON3511.data00010"+ sIdxTp);
+./MON/MON3511_bak.xfdl:function fn_chartSearch(ptfCdStr)
+./MON/MON3511_bak.xfdl:		gdsSql.setColumn(nRow,"sqlId","MON3511.chart000101");
+./MON/MON3511_bak.xfdl:		gdsSql.setColumn(nRow,"sqlId","MON3511.chart000102");
+./MON/MON3515.xfdl:function fn_getPtfGrp()
+./MON/MON3515.xfdl:   	gdsSql.setColumn(nRow, "sqlId","MON3515.comm000101");
+./MON/MON3515.xfdl:function fn_headSearch()
+./MON/MON3515.xfdl:		gdsSql.setColumn(nRow ,"sqlId","MON3515.header000101");
+./MON/MON3515.xfdl:		gdsSql.setColumn(nRow ,"sqlId","MON3515.header000102");
+./MON/MON3515.xfdl:function fn_search()
+./MON/MON3515.xfdl:		gdsSql.setColumn(nRow, "sqlId","MON3515.data000101");
+./MON/MON3515.xfdl:		gdsSql.setColumn(nRow ,"sqlId","MON3515.data000102");
+./MON/MON3515_bak.xfdl:function fn_getPtfGrp()
+./MON/MON3515_bak.xfdl:   	gdsSql.setColumn(nRow, "sqlId","MON3515.comm000101");
+./MON/MON3515_bak.xfdl:function fn_headSearch()
+./MON/MON3515_bak.xfdl:		gdsSql.setColumn(nRow ,"sqlId","MON3515.header000101");
+./MON/MON3515_bak.xfdl:		gdsSql.setColumn(nRow ,"sqlId","MON3515.header000102");
+./MON/MON3515_bak.xfdl:function fn_search()
+./MON/MON3515_bak.xfdl:		gdsSql.setColumn(nRow, "sqlId","MON3515.data000101");
+./MON/MON3515_bak.xfdl:		gdsSql.setColumn(nRow ,"sqlId","MON3515.data000102");
+./MON/MON3519.xfdl:function fn_search()
+./MON/MON3519.xfdl:	gdsSql.setColumn(nRow, "sqlId","MON3519.data000101");
+./MON/MON3601.xfdl:function fn_header()
+./MON/MON3601.xfdl:   	gdsSql.setColumn(nRow, "sqlId","MON3601.header000101");
+./MON/MON3601.xfdl:function fn_search()
+./MON/MON3601.xfdl:   	gdsSql.setColumn(nRow, "sqlId","MON3601.data000101");
+./MON/MON3601.xfdl:   	gdsSql.setColumn(nRow, "sqlId","MON3601.chart000101");
+./MON/MON3601P1.xfdl:function fn_search()
+./MON/MON3601P1.xfdl:   	gdsSql.setColumn(nRow, "sqlId","MON3601.popup");
+./MON/MON3603.xfdl:function fn_search()
+./MON/MON3603.xfdl:  	gdsSql.setColumn(nRow, "sqlId", "MON3603.data000101");
+./PLN/PLN4021.xfdl:function fn_sendTran(sTranDvcd)
+./PLN/PLN4021.xfdl:		gdsSql.setColumn(nRow, "sqlId", "PLN4021.data100101");
+./PLN/PLN4021.xfdl:		gdsSql.setColumn(nRow, "sqlId", "PLN4021.data100201");
+./PLN/PLN4021.xfdl:		gdsSql.setColumn(nRow, "sqlId", "PLN4021.data200101");
+./PLN/PLN4021.xfdl:		gdsSql.setColumn(nRow, "sqlId", "PLN4021.data200202");
+./PLN/PLN4021.xfdl:		gdsSql.setColumn(nRow, "sqlId", "PLN4021.data200201");
+./PLN/PLN4021.xfdl:		gdsSql.setColumn(nRow, "sqlId", "PLN4021.data200104");
+./PLN/PLN4021.xfdl:		gdsSql.setColumn(nRow, "sqlId", "PLN4021.data300101");
+./PLN/PLN4021.xfdl:		gdsSql.setColumn(nRow, "sqlId", "PLN4021.header300102");
+./PLN/PLN4021.xfdl:		gdsSql.setColumn(nRow, "sqlId", "PLN4021.data300102");
+./PLN/PLN4021.xfdl:		gdsSql.setColumn(nRow, "sqlId", "PLN4021.header300201");
+./PLN/PLN4021.xfdl:		gdsSql.setColumn(nRow, "sqlId", "PLN4021.data300201");
+./PLN/PLN4021.xfdl:		gdsSql.setColumn(nRow, "sqlId", "PLN4021.data400101");
+./PLN/PLN4021.xfdl:		gdsSql.setColumn(nRow, "sqlId", "PLN4021.header500101");
+./PLN/PLN4021.xfdl:		gdsSql.setColumn(nRow, "sqlId", "PLN4021.header500201"); // 평가일
+./PLN/PLN4021.xfdl:		gdsSql.setColumn(nRow, "sqlId", "PLN4021.data500101");
+./PLN/PLN4021.xfdl:		gdsSql.setColumn(nRow, "sqlId", "PLN4021.data200102"); // 산출일
+./PLN/PLN4021.xfdl:		gdsSql.setColumn(nRow, "sqlId", "PLN4021.data200103"); // 평가일
+./PLN/PLN4021.xfdl:		gdsSql.setColumn(nRow, "sqlId", "PLN4021.combo400101"); // 금리, 임금상승률
+./PLN/PLN4021.xfdl:		gdsSql.setColumn(nRow, "sqlId", "PLN4021.combo500101"); // 평가일
+./PLN/PLN4021.xfdl:		gdsSql.setColumn(nRow, "sqlId", "PLN4021.ins_T_ALM_MSTR");
+./PLN/PLN4021.xfdl:		gdsSql.setColumn(nRow, "sqlDs", "Iud");
+./PLN/PLN4021.xfdl:		gdsSql.setColumn(nRow, "sqlId", "PLN4021.mgr_T_ALM_SENS_MT"); 
+./PLN/PLN4021.xfdl:		gdsSql.setColumn(nRow, "sqlDs", "Iud");
+./PLN/PLN4021.xfdl:		gdsSql.setColumn(nRow, "sqlId", "PLN4021.ins_T_ALM_SENS_RESULT");
+./PLN/PLN4021.xfdl:		gdsSql.setColumn(nRow, "sqlDs", "Iud");
+./PLN/PLN4021.xfdl:		gdsSql.setColumn(nRow, "sqlId", "PLN4021.mgr_T_ALM_MT");
+./PLN/PLN4021.xfdl:		gdsSql.setColumn(nRow, "sqlDs", "Iud");
+./PLN/PLN4021.xfdl:		gdsSql.setColumn(nRow, "sqlId", "PLN4021.ins_T_CASHFLOW");
+./PLN/PLN4021.xfdl:		gdsSql.setColumn(nRow, "sqlDs", "Iud");
+./PLN/PLN4021.xfdl:		gdsSql.setColumn(nRow, "sqlId", "PLN4021.mgr_T_YIELDCURVE");
+./PLN/PLN4021.xfdl:		gdsSql.setColumn(nRow, "sqlDs", "Iud");
+./PLN/PLN4021.xfdl:		gdsSql.setColumn(nRow, "sqlId", "PLN4021.del_T_ALM_MSTR");
+./PLN/PLN4021.xfdl:		gdsSql.setColumn(nRow, "sqlDs", "Iud");
+./PLN/PLN4021.xfdl:		gdsSql.setColumn(nRow, "sqlId", "PLN4021.del_T_ALM_SEN_MT");
+./PLN/PLN4021.xfdl:		gdsSql.setColumn(nRow, "sqlDs", "Iud");
+./PLN/PLN4021.xfdl:		gdsSql.setColumn(nRow, "sqlId", "PLN4021.del_T_ALM_SENS_RESULT");
+./PLN/PLN4021.xfdl:		gdsSql.setColumn(nRow, "sqlDs", "Iud");
+./PLN/PLN4021.xfdl:		gdsSql.setColumn(nRow, "sqlId", "PLN4021.del_T_CASHFLOW");
+./PLN/PLN4021.xfdl:		gdsSql.setColumn(nRow, "sqlDs", "Iud");
+./PLN/PLN4021P1.xfdl:function fn_sendTran(sTranDvcd)
+./PLN/PLN4021P1.xfdl:		gdsSql.setColumn(nRow, "sqlId", "PLN4021.pop3002_data00");
+./PLN/PLN4021P1.xfdl:		gdsSql.setColumn(nRow, "sqlId", "PLN4021.pop3002_header000101");
+./PLN/PLN4021P1.xfdl:		gdsSql.setColumn(nRow, "sqlId", "PLN4021.pop3002_data000101");
+./PLN/PLN4021P1.xfdl:		gdsSql.setColumn(nRow, "sqlId", "PLN4021.pop3002_data000201");
+./PLN/PLN4021P1.xfdl:		gdsSql.setColumn(nRow, "sqlId", "PLN4021.pop3002_data000302");
+./PLN/PLN4021P1.xfdl:		gdsSql.setColumn(nRow, "sqlId", "PLN4021.pop3002_data000300");
+./PLN/PLN4021P1.xfdl:		gdsSql.setColumn(nRow, "sqlId", "PLN4021.pop3002_header000301");
+./PLN/PLN4021P1.xfdl:		gdsSql.setColumn(nRow, "sqlId", "PLN4021.pop3002_data000301");
+./PLN/PLN4021P1.xfdl:		gdsSql.setColumn(nRow, "sqlId", "PLN4021.mgr_FSBD_CORR_EST_MT");
+./PLN/PLN4021P1.xfdl:		gdsSql.setColumn(nRow, "sqlDs", "Iud");
+./PLN/PLN4021P1.xfdl:		gdsSql.setColumn(nRow, "sqlId", "PLN4021.mgr_FSBD_RTN_EST_MT");
+./PLN/PLN4021P1.xfdl:		gdsSql.setColumn(nRow, "sqlDs", "Iud2");
+./PLN/PLN4021P1.xfdl:		gdsSql.setColumn(nRow, "sqlId", "PLN4021.upd_T_ALM_MSTR"); 
+./PLN/PLN4021P1.xfdl:		gdsSql.setColumn(nRow, "sqlDs", "Iud");
+./PLN/PLN4021P1.xfdl:		gdsSql.setColumn(nRow, "sqlId", "PLN4021.mgr_FSBD_CORR_EST_MT_IN"); 
+./PLN/PLN4021P1.xfdl:		gdsSql.setColumn(nRow, "sqlDs", "Iud");
+./PLN/PLN4021P1.xfdl:		gdsSql.setColumn(nRow, "sqlId", "PLN4021.mgr_FSBD_RTN_EST_MT_IN");
+./PLN/PLN4021P1.xfdl:		gdsSql.setColumn(nRow, "sqlDs", "Iud2");
+./PLN/PLN4021P2.xfdl:function fn_search()
+./PLN/PLN4021P2.xfdl:   	gdsSql.setColumn(nRow, "sqlId","PLN4021.pop3002_pop01");
+./PLN/PLN4021P3.xfdl:function fn_sendTran(sTranDvcd)
+./PLN/PLN4021P3.xfdl:		gdsSql.setColumn(nRow, "sqlId", "PLN4021.pop3001_header01");
+./PLN/PLN4021P3.xfdl:		gdsSql.setColumn(nRow, "sqlId", "PLN4021.pop3001_data01");
+./PLN/PLN4021P3.xfdl:		gdsSql.setColumn(nRow, "sqlId", "PLN4021.pop3001_data02");
+./PLN/PLN4021P3.xfdl:		gdsSql.setColumn(nRow, "sqlId", "PLN4021.pop3001_data02");
+./PLN/PLN4021P3.xfdl:		gdsSql.setColumn(nRow, "sqlId", "PLN4021.ins_T_ALM_COPYASSET");
+./PLN/PLN4021P3.xfdl:		gdsSql.setColumn(nRow, "sqlDs", "Iud");
+./PLN/PLN4021P3.xfdl:		gdsSql.setColumn(nRow, "sqlId", "PLN4021.del_T_ALM_COPYASSET");
+./PLN/PLN4021P3.xfdl:		gdsSql.setColumn(nRow, "sqlDs", "Iud");
+./PLN/PLN4021P4.xfdl:function fn_sendTran(sTranDvcd)
+./PLN/PLN4021P4.xfdl:		gdsSql.setColumn(nRow, "sqlId", "PLN4021.pop3003_data01");
+./PLN/PLN4021P4.xfdl:		gdsSql.setColumn(nRow, "sqlId", "PLN4021.pop3003_data02");
+./PLN/PLN4021P4.xfdl:		gdsSql.setColumn(nRow, "sqlId", "PLN4021.ins_T_ALM_COPYASSET");
+./PLN/PLN4021P4.xfdl:		gdsSql.setColumn(nRow, "sqlDs", "Iud");
+./PLN/PLN4021P4.xfdl:		gdsSql.setColumn(nRow, "sqlId", "PLN4021.mgr_R_T_ALM_COPYASSET");
+./PLN/PLN4021P4.xfdl:		gdsSql.setColumn(nRow, "sqlDs", "Iud");
+./PLN/PLN4021P4.xfdl:		gdsSql.setColumn(nRow, "sqlId", "PLN4021.del_T_ALM_COPYASSET");
+./PLN/PLN4021P4.xfdl:		gdsSql.setColumn(nRow, "sqlDs", "Iud");
+./PLN/PLN4101.xfdl:function fn_search()
+./PLN/PLN4101.xfdl:   	gdsSql.setColumn(nRow, "sqlId","PLN4101.data000101");
+./PLN/PLN4101.xfdl:function fn_detailSearch(ds_detailList,fv_astGrpId,alTyp)
+./PLN/PLN4101.xfdl:   	gdsSql.setColumn(nRow, "sqlId","PLN4101.data000201");
+./PLN/PLN4101.xfdl:function fn_copySave()
+./PLN/PLN4101.xfdl:  	gdsSql.setColumn(nRow, "sqlId","PLN4101.ins_FSBD_AST_GRP_MSTR");
+./PLN/PLN4101.xfdl:	gdsSql.setColumn(nRow, "sqlDs", "ds_save1");
+./PLN/PLN4101.xfdl:function fn_delete()
+./PLN/PLN4101.xfdl:  	gdsSql.setColumn(nRow, "sqlId", "PLN4101.del_FSBD_AST_GRP_MSTR");
+./PLN/PLN4101.xfdl:	gdsSql.setColumn(nRow, "sqlDs", "ds_save1");
+./PLN/PLN4101.xfdl:function fn_deleteSub1(ds)
+./PLN/PLN4101.xfdl:  	gdsSql.setColumn(nRow, "sqlId", "PLN4101.del_FSBD_AST_GRP_MT_1");
+./PLN/PLN4101.xfdl:	gdsSql.setColumn(nRow, "sqlDs", "ds_save1");
+./PLN/PLN4101.xfdl:function fn_deleteSub2()
+./PLN/PLN4101.xfdl:  	gdsSql.setColumn(nRow, "sqlId", "PLN4101.del_FSBD_AST_GRP_MT_2");
+./PLN/PLN4101.xfdl:function fn_deleteSub3(ds)
+./PLN/PLN4101.xfdl:  	gdsSql.setColumn(nRow, "sqlId", "PLN4101.del_FSBD_AST_GRP_MT_3");
+./PLN/PLN4101P1.xfdl:function fn_search()
+./PLN/PLN4101P1.xfdl:   	gdsSql.setColumn(nRow,"sqlId","PLN4101.data000101_pop01");
+./PLN/PLN4101P1.xfdl:function fn_analysisYn()
+./PLN/PLN4101P1.xfdl:   	gdsSql.setColumn(nRow,"sqlId","PLN4101.data000101_pop02");
+./PLN/PLN4101P1.xfdl:function fn_save()
+./PLN/PLN4101P1.xfdl:  	gdsSql.setColumn(nRow,"sqlId","PLN4101.mgr_FSBD_AST_GRP_MSTR_MERGE");
+./PLN/PLN4101P1.xfdl:	gdsSql.setColumn(nRow, "sqlDs", "ds_list");
+./PLN/PLN4101P2.xfdl:function fn_search()
+./PLN/PLN4101P2.xfdl:   	gdsSql.setColumn(nRow,"sqlId","PLN4101.data000101_pop03");
+./PLN/PLN4101P2.xfdl:function fn_ptfChk_select()
+./PLN/PLN4101P2.xfdl:   	gdsSql.setColumn(nRow,"sqlId","PLN4101.data000101_pop04");
+./PLN/PLN4101P2.xfdl:function fn_save()
+./PLN/PLN4101P2.xfdl:  	gdsSql.setColumn(nRow,"sqlId","PLN4101.mgr_FSBD_AST_GRP_MT");
+./PLN/PLN4101P2.xfdl:	gdsSql.setColumn(nRow, "sqlDs", "Iud");
+./PLN/PLN4101P2.xfdl:		gdsSql.setColumn(nRow,"sqlId","PLN4101.mgr_FSBD_AST_GRP_MT_DEBT");
+./PLN/PLN4101P2.xfdl:		gdsSql.setColumn(nRow, "sqlDs", "Iud");
+./PLN/PLN4101P2.xfdl:function fn_FileUploadSave()
+./PLN/PLN4101P2.xfdl:	gdsSql.setColumn(nRow,"sqlId","PLN4101.ins_FSOD_PTF_RTN");
+./PLN/PLN4101P2.xfdl:	gdsSql.setColumn(nRow, "sqlDs", "ds_excel");
+./PLN/PLN4101P2.xfdl:	gdsSql.setColumn(nRow,"sqlId","PLN4101.ins_FSBD_PTF_MSTR");
+./PLN/PLN4101P2.xfdl:	gdsSql.setColumn(nRow, "sqlDs", "ds_ptf");	
+./PLN/PLN4101P3.xfdl:function fn_ptfSearch()
+./PLN/PLN4101P3.xfdl:	gdsSql.setColumn(nRow,"sqlId","POPUP.pop4_99B2");
+./PLN/PLN4101P3.xfdl:	gdsSql.setColumn(nRow,"sqlId","PLN4101.data000101_pop05");	
+./PLN/PLN4105.xfdl:function fn_search()
+./PLN/PLN4105.xfdl:   	gdsSql.setColumn(nRow, "sqlId","PLN4105.data000101");
+./PLN/PLN4105.xfdl:function fn_headSearch()
+./PLN/PLN4105.xfdl:   	gdsSql.setColumn(nRow, "sqlId","PLN4105.headr100201");
+./PLN/PLN4105.xfdl:function fn_detailSearch()
+./PLN/PLN4105.xfdl:   	gdsSql.setColumn(nRow, "sqlId","PLN4105.data100202");
+./PLN/PLN4105.xfdl:   	gdsSql.setColumn(nRow, "sqlId","PLN4105.chart200201");  
+./PLN/PLN4201.xfdl:function fn_search()
+./PLN/PLN4201.xfdl:  	gdsSql.setColumn(nRow, "sqlId", "PLN4201.data100101");
+./PLN/PLN4201.xfdl:function fn_saveScn()
+./PLN/PLN4201.xfdl:	gdsSql.setColumn(nRow, "sqlId", "PLN4201.ins_FSBD_AA_OPTM_MT");
+./PLN/PLN4201.xfdl:	gdsSql.setColumn(nRow, "sqlDs", "ds_list10");
+./PLN/PLN4201.xfdl:	gdsSql.setColumn(nRow, "sqlId", "PLN4201.upd_FSBD_AA_OPTM_MT");
+./PLN/PLN4201.xfdl:	gdsSql.setColumn(nRow, "sqlDs", "ds_list10");
+./PLN/PLN4201.xfdl:function fn_saveCopy()
+./PLN/PLN4201.xfdl:	gdsSql.setColumn(nRow, "sqlId",  "PLN4201.ins_COPY_FSBD_AA_OPTM_MT");
+./PLN/PLN4201.xfdl:	gdsSql.setColumn(nRow, "sqlDs",  "ds_list10");
+./PLN/PLN4201.xfdl:function fn_deleteScn()
+./PLN/PLN4201.xfdl:	gdsSql.setColumn(nRow, "sqlId",  "PLN4201.del_FSBD_AA_OPTM_MT");
+./PLN/PLN4201.xfdl:	gdsSql.setColumn(nRow, "sqlDs","ds_list10");
+./PLN/PLN4201.xfdl:function fn_searchTabData(argArr)
+./PLN/PLN4201.xfdl:		gdsSql.setColumn(nRow, "sqlId", "PLN4201." + argArr[i]['sqlId']);
+./PLN/PLN4201.xfdl:function fn_ins_Tab3_2_Common(sArgument)
+./PLN/PLN4201.xfdl:	gdsSql.setColumn(nRow, "sqlId", "PLN4201.ins_Tab3_2_Common");
+./PLN/PLN4201.xfdl:function fn_riskFree()
+./PLN/PLN4201.xfdl:  	gdsSql.setColumn(nRow, "sqlId", "PLN4201.data310201_RiskFree");
+./PLN/PLN4201.xfdl:function fn_searchAstGrpSub()
+./PLN/PLN4201.xfdl:  	gdsSql.setColumn(nRow, "sqlId",  "PLN4201.data200201");
+./PLN/PLN4201.xfdl:function fn_saveBase()
+./PLN/PLN4201.xfdl:	gdsSql.setColumn(nRow, "sqlId", "PLN4201.upd_OCBT_AA_OPTM_MT_MID");
+./PLN/PLN4201.xfdl:	gdsSql.setColumn(nRow, "sqlDs", "ds_list312");
+./PLN/PLN4201.xfdl:function fn_sel_Tab3_1chk()
+./PLN/PLN4201.xfdl:  	gdsSql.setColumn(nRow, "sqlId", "PLN4201.data310101_CHK");
+./PLN/PLN4201.xfdl:function fn_sel_Tab3_2chk()
+./PLN/PLN4201.xfdl:  	gdsSql.setColumn(nRow, "sqlId", "PLN4201.data320101_CHK");
+./PLN/PLN4201.xfdl:function fn_AssetUpdate30()
+./PLN/PLN4201.xfdl:	gdsSql.setColumn(nRow, "sqlId", "PLN4201.mgr_FSBD_RTN_EST_MT");
+./PLN/PLN4201.xfdl:	gdsSql.setColumn(nRow, "sqlDs", "ds_list30");
+./PLN/PLN4201.xfdl:function fn_AssetSave31()
+./PLN/PLN4201.xfdl:	gdsSql.setColumn(nRow, "sqlId",   "PLN4201.mgr_FSBD_VOL_EST_MT_AO");
+./PLN/PLN4201.xfdl:	gdsSql.setColumn(nRow, "sqlDs", "ds_list31");
+./PLN/PLN4201.xfdl:	gdsSql.setColumn(nRow, "sqlId",   "PLN4201.mgr_FSBD_VOL_EST_MT_LI");
+./PLN/PLN4201.xfdl:	gdsSql.setColumn(nRow, "sqlDs", "ds_AssetL31");
+./PLN/PLN4201.xfdl:function fn_AssetSave32()
+./PLN/PLN4201.xfdl:	gdsSql.setColumn(nRow, "sqlId",   "PLN4201.mgr_FSBD_CORR_EST_MT_AO");
+./PLN/PLN4201.xfdl:	gdsSql.setColumn(nRow, "sqlDs", "save01");
+./PLN/PLN4201.xfdl:	gdsSql.setColumn(nRow, "sqlId",  "PLN4201.mgr_FSBD_CORR_EST_MT_LI");
+./PLN/PLN4201.xfdl:	gdsSql.setColumn(nRow, "sqlDs", "save02");		
+./PLN/PLN4201.xfdl:function fn_FSbdRtnEstMtEndSave()
+./PLN/PLN4201.xfdl:	gdsSql.setColumn(nRow, "sqlId", "PLN4201.mgr_FSBD_RTN_EST_MT_END");
+./PLN/PLN4201.xfdl:	gdsSql.setColumn(nRow, "sqlDs", "ds_save30");
+./PLN/PLN4201.xfdl:function fn_AssetSave4040()
+./PLN/PLN4201.xfdl:	gdsSql.setColumn(nRow, "sqlId", "PLN4201.mgr_FSBD_AST_CC_MT");
+./PLN/PLN4201.xfdl:	gdsSql.setColumn(nRow, "sqlDs", "ds_list4020");
+./PLN/PLN4201.xfdl:function fn_Delete4210()
+./PLN/PLN4201.xfdl:	gdsSql.setColumn(nRow, "sqlId", "PLN4201.del_FSBD_AST_CC_MT_C_R");
+./PLN/PLN4201.xfdl:	gdsSql.setColumn(nRow, "sqlDs", "ds_Asset4040");
+./PLN/PLN4201.xfdl:function fn_Save4030()
+./PLN/PLN4201.xfdl:	gdsSql.setColumn(nRow, "sqlId", "PLN4201.upd_FSBD_AA_OPTM_MT");
+./PLN/PLN4201.xfdl:	gdsSql.setColumn(nRow, "sqlDs", "ds_Save4030");
+./PLN/PLN4201.xfdl:function fn_Save5020()
+./PLN/PLN4201.xfdl:	gdsSql.setColumn(nRow, "sqlId",   "PLN4201.mgr_FSBD_RTN_EST_CHG");
+./PLN/PLN4201.xfdl:	gdsSql.setColumn(nRow, "sqlDs", "ds_Avg1");
+./PLN/PLN4201.xfdl:	gdsSql.setColumn(nRow, "sqlId",   "PLN4201.mgr_FSBD_VOL_EST_CHG");
+./PLN/PLN4201.xfdl:	gdsSql.setColumn(nRow, "sqlDs", "ds_Std1");		
+./PLN/PLN4201.xfdl:	gdsSql.setColumn(nRow, "sqlId",   "PLN4201.mgr_FSBD_CORR_EST_CHG");
+./PLN/PLN4201.xfdl:	gdsSql.setColumn(nRow, "sqlDs", "ds_Corr1");		
+./PLN/PLN4201.xfdl:	gdsSql.setColumn(nRow, "sqlId",   "PLN4201.mgr_FSBD_EST_CHG_LI");
+./PLN/PLN4201.xfdl:	gdsSql.setColumn(nRow, "sqlDs", "ds_save50");		
+./PLN/PLN4201.xfdl:function tab_main_tabpage5_Button02_onclick(obj:Button,  e:ClickEventInfo)
+./PLN/PLN4201.xfdl:	gdsSql.setColumn(nRow, "sqlId", "PLN4201.data500101_ChkOptimize");
+./PLN/PLN4201.xfdl:function fn_runOptimize()
+./PLN/PLN4201.xfdl:	gdsSql.setColumn(nRow, "sqlId", "PLN4201.ins_FSOD_AA_OPTM_EXEC_RSLT");
+./PLN/PLN4201.xfdl:	gdsSql.setColumn(nRow, "sqlDs", "ds_save50");
+./PLN/PLN4201P1.xfdl:function fn_search()
+./PLN/PLN4201P1.xfdl:	gdsSql.setColumn(nRow, "sqlId", "PLN4201.data310301_pop01");
+./PLN/PLN4201P1.xfdl:function fn_Save()
+./PLN/PLN4201P1.xfdl:	gdsSql.setColumn(nRow, "sqlId", "PLN4201.upd_FSBD_RTN_EST_MT_BBM");
+./PLN/PLN4201P1.xfdl:	gdsSql.setColumn(nRow, "sqlDs", "ds_list");
+./PLN/PLN4201P2.xfdl:function fn_search()
+./PLN/PLN4201P2.xfdl:	gdsSql.setColumn(nRow, "sqlId", "PLN4201.ins_bf_pop0204");
+./PLN/PLN4201P2.xfdl:function fn_CAPM()
+./PLN/PLN4201P2.xfdl:	gdsSql.setColumn(nRow, "sqlId", "PLN4201.data310301_pop02");
+./PLN/PLN4201P2.xfdl:function fn_Save()
+./PLN/PLN4201P2.xfdl:	gdsSql.setColumn(nRow, "sqlId", "PLN4201.upd_FSBD_RTN_EST_MT_CAPM");	
+./PLN/PLN4201P2.xfdl:	gdsSql.setColumn(nRow, "sqlDs", "ds_list");
+./PLN/PLN4201P3.xfdl:function fn_search()
+./PLN/PLN4201P3.xfdl:	gdsSql.setColumn(nRow, "sqlId", "PLN4201.data310301_pop03");
+./PLN/PLN4201P3.xfdl:function fn_Save()
+./PLN/PLN4201P3.xfdl:	gdsSql.setColumn(nRow, "sqlId", "PLN4201.upd_FSBD_AA_OPTM_MT_BL");
+./PLN/PLN4201P3.xfdl:	gdsSql.setColumn(nRow, "sqlDs", "ds_save01");
+./PLN/PLN4201P3.xfdl:	gdsSql.setColumn(nRow, "sqlId", "PLN4201.upd_FSBD_RTN_EST_MT_BL");
+./PLN/PLN4201P3.xfdl:	gdsSql.setColumn(nRow, "sqlDs", "ds_save02");
+./PLN/PLN4201P3.xfdl:	gdsSql.setColumn(nRow, "sqlId", "PLN4201.upd_FSBD_RTN_EST_MT_BL_R");
+./PLN/PLN4201P3.xfdl:	gdsSql.setColumn(nRow, "sqlDs", "ds_save03");
+./PLN/PLN4201P4.xfdl:function fn_search()
+./PLN/PLN4201P4.xfdl:	gdsSql.setColumn(nRow, "sqlId", "PLN4201.ins_bf_pop0204");
+./PLN/PLN4201P4.xfdl:function fn_Historical()
+./PLN/PLN4201P4.xfdl:  	gdsSql.setColumn(nRow, "sqlId", "PLN4201.data310301_pop04");
+./PLN/PLN4201P4.xfdl:function fn_Save()
+./PLN/PLN4201P4.xfdl:	gdsSql.setColumn(nRow, "sqlId", "PLN4201.upd_FSBD_RTN_EST_MT_HS");
+./PLN/PLN4201P4.xfdl:	gdsSql.setColumn(nRow, "sqlDs", "ds_list");
+./PLN/PLN4201P5.xfdl:function fn_astId()
+./PLN/PLN4201P5.xfdl:	gdsSql.setColumn(nRow, "sqlId", "PLN4201.data420101_pop05_astCd");
+./PLN/PLN4201P5.xfdl:function fn_search()
+./PLN/PLN4201P5.xfdl:	gdsSql.setColumn(nRow, "sqlId", "PLN4201.data420101_pop05");
+./PLN/PLN4201P5.xfdl:function fn_grpSeq()
+./PLN/PLN4201P5.xfdl:	gdsSql.setColumn(nRow, "sqlId", "PLN4201.data420101_pop05_GrpSeq");
+./PLN/PLN4201P5.xfdl:function fn_Save()
+./PLN/PLN4201P5.xfdl:	gdsSql.setColumn(nRow, "sqlId", "PLN4201.mgr_FSBD_AST_CC_MT_POP5");
+./PLN/PLN4201P5.xfdl:	gdsSql.setColumn(nRow, "sqlDs", "ds_list");
+./PLN/PLN4201P6.xfdl:function fn_astId()
+./PLN/PLN4201P6.xfdl:	gdsSql.setColumn(nRow, "sqlId", "PLN4201.data420101_pop05_astCd");
+./PLN/PLN4201P6.xfdl:function fn_search()
+./PLN/PLN4201P6.xfdl:	gdsSql.setColumn(nRow, "sqlId", "PLN4201.data430101_pop06_01");
+./PLN/PLN4201P6.xfdl:	gdsSql.setColumn(nRow, "sqlId", "PLN4201.data430101_pop06_02");
+./PLN/PLN4201P6.xfdl:function fn_grpSeq()
+./PLN/PLN4201P6.xfdl:	gdsSql.setColumn(nRow, "sqlId", "PLN4201.data420101_pop05_GrpSeq");
+./PLN/PLN4201P6.xfdl:function fn_Save()
+./PLN/PLN4201P6.xfdl:	gdsSql.setColumn(nRow, "sqlId", "PLN4201.mgr_FSBD_AST_CC_MT_POP6");
+./PLN/PLN4201P6.xfdl:	gdsSql.setColumn(nRow, "sqlDs", "ds_save");
+./PLN/PLN4201P7.xfdl:function fn_search()
+./PLN/PLN4201P7.xfdl:	gdsSql.setColumn(nRow, "sqlId", "PLN4201.data400201_pop07");
+./PLN/PLN4201P7.xfdl:function fn_Save()
+./PLN/PLN4201P7.xfdl:	gdsSql.setColumn(nRow, "sqlId", "PLN4201.upd_FSBD_AA_OPTM_MT_POP7");
+./PLN/PLN4201P7.xfdl:	gdsSql.setColumn(nRow, "sqlDs", "ds_list");
+./PLN/PLN4205.xfdl:function fn_search()
+./PLN/PLN4205.xfdl:   	gdsSql.setColumn(nRow, "sqlId","PLN4205.data100101");
+./PLN/PLN4205.xfdl:function fn_search_result(scnId)
+./PLN/PLN4205.xfdl:   	gdsSql.setColumn(nRow, "sqlId","PLN4205.data100201");
+./PLN/PLN4205.xfdl:function fn_searchTab2(argArr)
+./PLN/PLN4205.xfdl:		gdsSql.setColumn(nRow, "sqlId", "PLN4205." + argArr[i]['sqlId']);
+./PLN/PLN4205.xfdl:function fn_searchTabData()
+./PLN/PLN4205.xfdl:		gdsSql.setColumn(nRow, "sqlId", "PLN4205." + argArr[i]['sqlId']);
+./PLN/PLN4205.xfdl:function fn_searchTabData2()
+./PLN/PLN4205.xfdl:    gdsSql.setColumn(nRow, "sqlId","PLN4205.chart300104");
+./PLN/PLN4205.xfdl:   	gdsSql.setColumn(nRow, "sqlId","PLN4205.chart300101");
+./PLN/PLN4205.xfdl:   	gdsSql.setColumn(nRow, "sqlId","PLN4205.chart300102");
+./PLN/PLN4205.xfdl:   	gdsSql.setColumn(nRow, "sqlId","PLN4205.chart300105");
+./PLN/PLN4205.xfdl:function fn_deleteTest()
+./PLN/PLN4205.xfdl:	gdsSql.setColumn(nRow, "sqlId",  "PLN4205.del_FSOD_AA_OPTM_EXEC_RSLT");
+./PLN/PLN4205.xfdl:	gdsSql.setColumn(nRow, "sqlDs","ds_list11");
+./PLN/PLN4209.xfdl:function fn_sendTran(sTranDvcd)
+./PLN/PLN4209.xfdl:		gdsSql.setColumn(nRow, "sqlId", "PLN4209.data000101");
+./PLN/PLN4209.xfdl:		gdsSql.setColumn(nRow, "sqlId", "PLN4209.data000201");
+./PLN/PLN4209.xfdl:		gdsSql.setColumn(nRow, "sqlId", "PLN4209.data000301");
+./PLN/PLN4209.xfdl:		gdsSql.setColumn(nRow, "sqlId", "PLN4209.header000303");
+./PLN/PLN4209.xfdl:		gdsSql.setColumn(nRow, "sqlId", "PLN4209.data000302");
+./PLN/PLN4209.xfdl:		gdsSql.setColumn(nRow, "sqlId", "PLN4209.data000303");
+./PLN/PLN4209.xfdl:		gdsSql.setColumn(nRow, "sqlId", "PLN4209.data000401");
+./PLN/PLN4209.xfdl:		gdsSql.setColumn(nRow, "sqlId", "PLN4209.ins_FSBD_AA_OPTM_MT");
+./PLN/PLN4209.xfdl:		gdsSql.setColumn(nRow, "sqlDs", "Iud");
+./PLN/PLN4209.xfdl:		gdsSql.setColumn(nRow, "sqlId", "PLN4209.mgr_FSOD_AA_OPTM_EXEC_RSLT"); // 상태저장
+./PLN/PLN4209.xfdl:		gdsSql.setColumn(nRow, "sqlDs", "Iud");
+./PLN/PLN4209.xfdl:		gdsSql.setColumn(nRow, "sqlId", "PLN4209.mgr_FSBD_CORR_EST_MT"); // 산출1
+./PLN/PLN4209.xfdl:		gdsSql.setColumn(nRow, "sqlDs", "Iud");
+./PLN/PLN4209.xfdl:		gdsSql.setColumn(nRow, "sqlId", "PLN4209.mgr_FSBD_CORR_EST_CHG_1"); // 산출2
+./PLN/PLN4209.xfdl:		gdsSql.setColumn(nRow, "sqlDs", "Iud2");
+./PLN/PLN4209.xfdl:		gdsSql.setColumn(nRow, "sqlId", "PLN4209.mgr_FSBD_CORR_EST_CHG_2"); // 산출결과저장 -- 사용자가 산출결과를 임의로 변경하여 저장 가능
+./PLN/PLN4209.xfdl:		gdsSql.setColumn(nRow, "sqlDs", "Iud");
+./PLN/PLN4209.xfdl:		gdsSql.setColumn(nRow, "sqlId", "PLN4209.mgr_FSOD_AA_OPTM_RSLT_CTR"); // 전략비중저장
+./PLN/PLN4209.xfdl:		gdsSql.setColumn(nRow, "sqlDs", "Iud");
+./PLN/PLN4209.xfdl:		gdsSql.setColumn(nRow, "sqlId", "PLN4209.mgr_FSOD_AA_OPTM_EXEC_RSLT"); // 상태저장
+./PLN/PLN4209.xfdl:		gdsSql.setColumn(nRow, "sqlDs", "Iud2");
+./PLN/PLN4209.xfdl:		gdsSql.setColumn(nRow, "sqlId", "PLN4209.mgr_FSOD_AA_OPTM_RSLT_CTR"); // 전략비중저장
+./PLN/PLN4209.xfdl:		gdsSql.setColumn(nRow, "sqlDs", "Iud");
+./PLN/PLN4209.xfdl:		gdsSql.setColumn(nRow, "sqlId", "PLN4209.mgr_FSOD_AA_OPTM_EXEC_RSLT"); // 상태저장
+./PLN/PLN4209.xfdl:		gdsSql.setColumn(nRow, "sqlDs", "Iud2");
+./PLN/PLN4209.xfdl:		gdsSql.setColumn(nRow, "sqlId", "PLN4209.mgr_FSOD_AA_OPTM_RSLT_CTR_R"); // 최적화
+./PLN/PLN4209.xfdl:		gdsSql.setColumn(nRow, "sqlDs", "Iud3");
+./PLN/PLN4209.xfdl:		gdsSql.setColumn(nRow, "sqlId", "PLN4209.del_FSBD_AA_OPTM_MT");
+./PLN/PLN4209.xfdl:		gdsSql.setColumn(nRow, "sqlDs", "Iud");
+./PLN/PLN4209.xfdl:		gdsSql.setColumn(nRow, "sqlId", "PLN4209.del_FSOD_AA_OPTM_EXEC_RSLT");
+./PLN/PLN4209.xfdl:		gdsSql.setColumn(nRow, "sqlDs", "Iud");
+./PLN/PLN4209P1.xfdl:function fn_search()
+./PLN/PLN4209P1.xfdl:   	gdsSql.setColumn(nRow, "sqlId","PLN4209.data000101_pop01");
+./PLN/PLN4211.xfdl:function fn_search()
+./PLN/PLN4211.xfdl:	gdsSql.setColumn(nRow,"sqlId","PLN4211.data000101");
+./PLN/PLN4211.xfdl:function fn_headerSearch()
+./PLN/PLN4211.xfdl:  	gdsSql.setColumn(nRow, "sqlId", "PLN4211.header000201");
+./PLN/PLN4211.xfdl:function fn_subSearch()
+./PLN/PLN4211.xfdl:	gdsSql.setColumn(nRow,"sqlId","PLN4211.data000201");
+./PLN/PLN4311.xfdl:function fn_search()
+./PLN/PLN4311.xfdl:   	gdsSql.setColumn(nRow, "sqlId",(fv_ptfSe == "U" ? "PLN4311.data000101" : "PLN4311.data000102"));
+./PLN/PLN4311.xfdl:function fn_chartSearch()
+./PLN/PLN4311.xfdl:			gdsSql.setColumn(nRow, "sqlId","PLN4311."+subprc[i]);
+./PLN/PLN4311.xfdl:function fn_chartSearch_in()
+./PLN/PLN4311.xfdl:        gdsSql.setColumn(nRow, "sqlId","PLN4311."+subprc[i]);
+./PLN/PLN4311.xfdl:function fn_chkObs()
+./PLN/PLN4311.xfdl:   	gdsSql.setColumn(nRow, "sqlId","PLN4311.data000103");
+./PLN/PLN4311.xfdl:function fn_save()
+./PLN/PLN4311.xfdl:	  gdsSql.setColumn(nRow, "sqlId", "PLN4311."+eval("tranList." + key));
+./PLN/PLN4311.xfdl:	  gdsSql.setColumn(nRow, "sqlDs", key);
+./PLN/PLN4311.xfdl:function fn_calc_return()
+./PLN/PLN4311.xfdl:	gdsSql.setColumn(nRow, "sqlId", "PLN4311.ins_FSOD_ALTN_PTF_RTN_"+div_search.rdo_ptfSe.value);
+./PLN/PLN4311.xfdl:	gdsSql.setColumn(nRow, "sqlDs", "ds_save1");
+./PLN/PLN4311.xfdl:function fn_calc_return_alt()
+./PLN/PLN4311.xfdl:	gdsSql.setColumn(nRow, "sqlId", "PLN4311.ins_FSOD_ALTN_PTF_RTN_2_"+cbo_wgtTyp.value);
+./PLN/PLN4311.xfdl:	gdsSql.setColumn(nRow, "sqlDs", "ds_save1");
+./PLN/PLN4311.xfdl:function fn_delete()
+./PLN/PLN4311.xfdl:	gdsSql.setColumn(nRow, "sqlId", "PLN4311.del_FSOD_ALTN_PTF_WGT");
+./PLN/PLN4311.xfdl:	gdsSql.setColumn(nRow, "sqlDs", "Iud");
+./PLN/PLN4321.xfdl:function fn_setAnalysis()
+./PLN/PLN4321.xfdl:	gdsSql.setColumn(nRow,"sqlId","PLN4321.ins_FSBD_R_ANLYS_MSTR");
+./PLN/PLN4321.xfdl:	gdsSql.setColumn(nRow,"sqlDs","Iud1");
+./PLN/PLN4321.xfdl:	gdsSql.setColumn(nRow,"sqlId","PLN4321.ins_FSOD_R_ST_RSLT");
+./PLN/PLN4321.xfdl:	gdsSql.setColumn(nRow,"sqlDs","Iud2");	
+./PLN/PLN4321.xfdl:function fn_dataSearch()
+./PLN/PLN4321.xfdl:   	gdsSql.setColumn(nRow, "sqlId","PLN4321.header100101");
+./PLN/PLN4321.xfdl:   	gdsSql.setColumn(nRow, "sqlId","PLN4321.DATA100101");
+./PLN/PLN4321.xfdl:   	gdsSql.setColumn(nRow, "sqlId","PLN4321.DATA200101");
+./PLN/PLN4321.xfdl:   	gdsSql.setColumn(nRow, "sqlId","PLN4321.DATA300101"); 	
+./PLN/PLN4321.xfdl:   	gdsSql.setColumn(nRow, "sqlId","PLN4321.DATA400101"); 	
+./PLN/PLN4321.xfdl:function fn_chartSearch(scnCd)
+./PLN/PLN4321.xfdl:   	gdsSql.setColumn(nRow, "sqlId","PLN4321.ff_CHART000101");
+./PLN/PLN4321P1.xfdl:function fn_search()
+./PLN/PLN4321P1.xfdl:	gdsSql.setColumn(nRow,"sqlId","PLN4321.pop_SCN");
+./PLN/PLN4326.xfdl:function fn_search()
+./PLN/PLN4326.xfdl:	gdsSql.setColumn(nRow,"sqlId","PLN4326.ins_FSBD_R_ANLYS_MSTR");
+./PLN/PLN4326.xfdl:	gdsSql.setColumn(nRow,"sqlDs","Iud1");
+./PLN/PLN4326.xfdl:function fn_ChkSearch()
+./PLN/PLN4326.xfdl:   	gdsSql.setColumn(nRow, "sqlId","PLN4326.chk_Portfolio");
+./PLN/PLN4326.xfdl:function fn_headerSearch()
+./PLN/PLN4326.xfdl:   	gdsSql.setColumn(nRow, "sqlId","PLN4326.header000101");
+./PLN/PLN4326.xfdl:   	gdsSql.setColumn(nRow, "sqlId","PLN4326.header000102");
+./PLN/PLN4326.xfdl:function fn_bodySearch()
+./PLN/PLN4326.xfdl:   	gdsSql.setColumn(nRow, "sqlId","PLN4326.data000101");
+./PLN/PLN4331.xfdl:function fn_search()
+./PLN/PLN4331.xfdl:   	gdsSql.setColumn(nRow, "sqlId","PLN4331.data000101");
+./PLN/PLN4331.xfdl:function fn_chartSearch(scnCd)
+./PLN/PLN4331.xfdl:   	gdsSql.setColumn(nRow, "sqlId","PLN4331.ff_chart000101");
+./PLN/PLN4341.xfdl:function fn_searchMacro()
+./PLN/PLN4341.xfdl:   	gdsSql.setColumn(nRow,"sqlId","PLN4341.comm000101");
+./PLN/PLN4341.xfdl:function fn_search()
+./PLN/PLN4341.xfdl:   	gdsSql.setColumn(nRow,"sqlId","PLN4341.data000101");
+./PLN/PLN4341.xfdl:function fn_dtlSearch(scnCd)
+./PLN/PLN4341.xfdl:   	gdsSql.setColumn(nRow,"sqlId","PLN4341.data000201");
+./PLN/PLN4341.xfdl:function fn_save(scnSimTcd)
+./PLN/PLN4341.xfdl:  	  gdsSql.setColumn(nRow, "sqlId", "PLN4341.mgr_FSBD_SCN_MSTR_EVENT");
+./PLN/PLN4341.xfdl:  	  gdsSql.setColumn(nRow, "sqlId", "PLN4341.mgr_FSBD_SCN_MSTR_ECO");
+./PLN/PLN4341.xfdl:	gdsSql.setColumn(nRow, "sqlDs", "ds_save1");
+./PLN/PLN4341.xfdl:function fn_deletePrc()
+./PLN/PLN4341.xfdl:	gdsSql.setColumn(nRow, "sqlId", "PLN4341.del_FSBD_SCN_MSTR");
+./PLN/PLN4341.xfdl:	gdsSql.setColumn(nRow, "sqlDs", "Iud");
+./PLN/PLN4341.xfdl:function fn_getNewScnCd()
+./PLN/PLN4341.xfdl:   	gdsSql.setColumn(nRow,"sqlId","PLN4341.data000401");
+./PLN/PLN4341.xfdl:function fn_chartSearch(scnSimTcd)
+./PLN/PLN4341.xfdl:	  gdsSql.setColumn(nRow,"sqlId","PLN4341.chart010102");
+./PLN/PLN4341.xfdl:	  gdsSql.setColumn(nRow,"sqlId","PLN4341.chart020104");
+./PLN/PLN4341.xfdl:function fn_calculChart(scnSimTcd, paramStr)
+./PLN/PLN4341.xfdl:	  gdsSql.setColumn(nRow,"sqlId","PLN4341.chart010101");
+./PLN/PLN4341.xfdl:		gdsSql.setColumn(nRow,"sqlId","PLN4341.chart020101");
+./PLN/PLN4341.xfdl:		gdsSql.setColumn(nRow,"sqlId","PLN4341.chart020102");
+./PLN/PLN4341.xfdl:		gdsSql.setColumn(nRow,"sqlId","PLN4341.chart020103");
+./PLN/PLN4401.xfdl:function fn_search()
+./PLN/PLN4401.xfdl:	gdsSql.setColumn(nRow, "sqlId", "PLN4401.data000101");
+./PLN/PLN4401.xfdl:function chk_data(PTF_CD)
+./PLN/PLN4401.xfdl:	gdsSql.setColumn(nRow,"sqlId","PLN4401.chk_data");
+./PLN/PLN4401.xfdl:function fn_savePtf(sqlId)
+./PLN/PLN4401.xfdl:	gdsSql.setColumn(nRow, "sqlId", "PLN4401." + sqlId);
+./PLN/PLN4401.xfdl:	gdsSql.setColumn(nRow, "sqlDs", dsName);
+./PLN/PLN4401.xfdl:function fn_deletePtf()
+./PLN/PLN4401.xfdl:	gdsSql.setColumn(nRow, "sqlId", "PLN4401.del_FSOD_PTF_RTN");
+./PLN/PLN4401.xfdl:	gdsSql.setColumn(nRow, "sqlDs", "ds_list01");
+./PLN/PLN4401.xfdl:	gdsSql.setColumn(nRow, "sqlId", "PLN4401.del_FSBD_PTF_MSTR");
+./PLN/PLN4401.xfdl:	gdsSql.setColumn(nRow, "sqlDs", "ds_list01");
+./PLN/PLN4421.xfdl:function fn_headSearch()
+./PLN/PLN4421.xfdl:   	gdsSql.setColumn(nRow, "sqlId","PLN4421.header000101");
+./PLN/PLN4421.xfdl:function fn_search()
+./PLN/PLN4421.xfdl:   	gdsSql.setColumn(nRow, "sqlId","PLN4421.data000101");
+./PLN/PLN4421.xfdl:   	gdsSql.setColumn(nRow, "sqlId","PLN4421.chart000101");
+./PLN/PLN4421.xfdl:   	gdsSql.setColumn(nRow, "sqlId","PLN4421.data000201");
+./PLN/PLN4433.xfdl:function fn_search()
+./PLN/PLN4433.xfdl:	gdsSql.setColumn(nRow, "sqlId", "PLN4433.data000101");
+./PLN/PLN4433.xfdl:	gdsSql.setColumn(nRow, "sqlId", "PLN4433.data010101");
+./PLN/PLN4433.xfdl:	gdsSql.setColumn(nRow, "sqlId", "PLN4433.data010102");
+./PLN/PLN4433.xfdl:	gdsSql.setColumn(nRow, "sqlId", "PLN4433.data010103");
+./PLN/PLN4433.xfdl:	gdsSql.setColumn(nRow, "sqlId", "PLN4433.data020101");
+./PLN/PLN4433.xfdl:	gdsSql.setColumn(nRow, "sqlId", "PLN4433.data030101");
+./PLN/PLN4433.xfdl:	gdsSql.setColumn(nRow, "sqlId", "PLN4433.data040101");
+./PLN/PLN4433.xfdl:function fn_search_bch_time()
+./PLN/PLN4433.xfdl:	gdsSql.setColumn(nRow, "sqlId", "PLN4433.getLastExecTime");
+./PLN/PLN4433.xfdl:function fn_save1()
+./PLN/PLN4433.xfdl:	gdsSql.setColumn(nRow, "sqlId", "PLN4433.mgr_FSBD_FA_RCRD_MT");
+./PLN/PLN4433.xfdl:	gdsSql.setColumn(nRow, "sqlDs", "ds_save01");	
+./PLN/PLN4433.xfdl:	gdsSql.setColumn(nRow, "sqlId", "PLN4433.mgr_FSBD_FOR_ETF_TRD");
+./PLN/PLN4433.xfdl:	gdsSql.setColumn(nRow, "sqlDs", "ds_save02");
+./PLN/PLN4433.xfdl:function fn_getETFprice(newETFcode)
+./PLN/PLN4433.xfdl:	gdsSql.setColumn(nRow, "sqlId", "PLN4433.getETFprice");
+./PLN/PLN4441.xfdl:function fn_search()
+./PLN/PLN4441.xfdl:	gdsSql.setColumn(nRow, "sqlId", "PLN4441.ff_data000101");
+./PLN/PLN4441.xfdl:	gdsSql.setColumn(nRow, "sqlId", "PLN4441.ff_data100101");
+./PLN/PLN4441.xfdl:	gdsSql.setColumn(nRow, "sqlId", "PLN4441.ff_data200101");
+./PLN/PLN4441.xfdl:	gdsSql.setColumn(nRow, "sqlId", "PLN4441.ff_data300101");
+./PLN/PLN4441.xfdl:function fn_saveData()
+./PLN/PLN4441.xfdl:	gdsSql.setColumn(nRow, "sqlId", "PLN4441.mgr_ff_FSBD_PTF_CSH_SR_MT");
+./PLN/PLN4441.xfdl:	gdsSql.setColumn(nRow, "sqlDs", "Iud");	
+./PLN/PLN4441.xfdl:function fn_deleteData()
+./PLN/PLN4441.xfdl:	gdsSql.setColumn(nRow, "sqlId", "PLN4441.del_ff_FSBD_PTF_CSH_SR_MT");
+./PLN/PLN4441.xfdl:	gdsSql.setColumn(nRow, "sqlDs", "Iud");	
+./PLN/PLN4441P1.xfdl:function fn_search()
+./PLN/PLN4441P1.xfdl:   	gdsSql.setColumn(nRow, "sqlId","PLN4441.ff_pop000101");
+./PLN/PLN4446.xfdl:function fn_search()
+./PLN/PLN4446.xfdl:	gdsSql.setColumn(nRow, "sqlId", "PLN4446.ff_data100101");
+./PLN/PLN4446.xfdl:	gdsSql.setColumn(nRow, "sqlId", "PLN4446.ff_data100201");
+./PLN/PLN4446.xfdl:	gdsSql.setColumn(nRow, "sqlId", "PLN4446.ff_data100401");
+./PLN/PLN4446.xfdl:function fn_search2(subrow)
+./PLN/PLN4446.xfdl:	gdsSql.setColumn(nRow, "sqlId", "PLN4446.ff_data100301");
+./PLN/PLN4446.xfdl:	gdsSql.setColumn(nRow, "sqlId", "PLN4446.ff_data100302");
+./PLN/PLN4446.xfdl:function fn_subSearch()
+./PLN/PLN4446.xfdl:	gdsSql.setColumn(nRow, "sqlId", "PLN4446.ff_data200101");
+./PLN/PLN4446.xfdl:	gdsSql.setColumn(nRow, "sqlId", "PLN4446.ff_data200102");
+./PLN/PLN4446.xfdl:function fn_saveData()
+./PLN/PLN4446.xfdl:	gdsSql.setColumn(nRow, "sqlId", "PLN4446.upd_ff_FSBD_PTF_CSH_SR_MT");
+./PLN/PLN4446.xfdl:	gdsSql.setColumn(nRow, "sqlDs", "Iud");	
+./PLN/PLN4446.xfdl:function fn_deleteData()
+./PLN/PLN4446.xfdl:	gdsSql.setColumn(nRow, "sqlId", "PLN4446.del_ff_FSBD_PTF_CSH_SR_MT");
+./PLN/PLN4446.xfdl:	gdsSql.setColumn(nRow, "sqlDs", "Iud");	
+./PLN/PLN4501.xfdl:function fn_search01()
+./PLN/PLN4501.xfdl:	gdsSql.setColumn(nRow, "sqlId", "PLN4501.data000101");
+./PLN/PLN4501.xfdl:function fn_search02()
+./PLN/PLN4501.xfdl:	gdsSql.setColumn(nRow, "sqlId", "PLN4501.data000202");
+./PLN/PLN4501.xfdl:function fn_search03()
+./PLN/PLN4501.xfdl:	gdsSql.setColumn(nRow, "sqlId", "PLN4501.data000301");
+./PLN/PLN4501.xfdl:function fn_addPtf()
+./PLN/PLN4501.xfdl:	gdsSql.setColumn(nRow, "sqlId", "PLN4501.data000201");
+./PLN/PLN4501.xfdl:function fn_savePtf()
+./PLN/PLN4501.xfdl:	gdsSql.setColumn(nRow, "sqlId", "PLN4501.mgr_FSBD_PTF_MSTR");
+./PLN/PLN4501.xfdl:	gdsSql.setColumn(nRow, "sqlDs", "Iud");	
+./PLN/PLN4501.xfdl:function fn_saveWgt()
+./PLN/PLN4501.xfdl:	gdsSql.setColumn(nRow, "sqlId", "PLN4501.mgr_FSBD_VPTF_WGT_MT");
+./PLN/PLN4501.xfdl:	gdsSql.setColumn(nRow, "sqlDs", "Iud");	
+./PLN/PLN4501.xfdl:function fn_delete(sTcd)
+./PLN/PLN4501.xfdl:		gdsSql.setColumn(nRow, "sqlId", "PLN4501.del_FSBD_PTF_MSTR");
+./PLN/PLN4501.xfdl:		gdsSql.setColumn(nRow, "sqlId", "PLN4501.del_FSBD_VPTF_WGT_MT");
+./PLN/PLN4501.xfdl:	gdsSql.setColumn(nRow, "sqlDs", "Iud");	
+./PLN/PLN4501.xfdl.20231018:function fn_search01()
+./PLN/PLN4501.xfdl.20231018:	gdsSql.setColumn(nRow, "sqlId", "PLN4501.data000101");
+./PLN/PLN4501.xfdl.20231018:function fn_search02()
+./PLN/PLN4501.xfdl.20231018:	gdsSql.setColumn(nRow, "sqlId", "PLN4501.data000202");
+./PLN/PLN4501.xfdl.20231018:function fn_search03()
+./PLN/PLN4501.xfdl.20231018:	gdsSql.setColumn(nRow, "sqlId", "PLN4501.data000301");
+./PLN/PLN4501.xfdl.20231018:function fn_addPtf()
+./PLN/PLN4501.xfdl.20231018:	gdsSql.setColumn(nRow, "sqlId", "PLN4501.data000201");
+./PLN/PLN4501.xfdl.20231018:function fn_savePtf()
+./PLN/PLN4501.xfdl.20231018:	gdsSql.setColumn(nRow, "sqlId", "PLN4501.mgr_FSBD_PTF_MSTR");
+./PLN/PLN4501.xfdl.20231018:	gdsSql.setColumn(nRow, "sqlDs", "Iud");	
+./PLN/PLN4501.xfdl.20231018:function fn_saveWgt()
+./PLN/PLN4501.xfdl.20231018:	gdsSql.setColumn(nRow, "sqlId", "PLN4501.mgr_FSBD_VPTF_WGT_MT");
+./PLN/PLN4501.xfdl.20231018:	gdsSql.setColumn(nRow, "sqlDs", "Iud");	
+./PLN/PLN4501.xfdl.20231018:function fn_delete(sTcd)
+./PLN/PLN4501.xfdl.20231018:		gdsSql.setColumn(nRow, "sqlId", "PLN4501.del_FSBD_PTF_MSTR");
+./PLN/PLN4501.xfdl.20231018:		gdsSql.setColumn(nRow, "sqlId", "PLN4501.del_FSBD_VPTF_WGT_MT");
+./PLN/PLN4501.xfdl.20231018:	gdsSql.setColumn(nRow, "sqlDs", "Iud");	
+./PLN/PLN4505.xfdl:function fn_header()
+./PLN/PLN4505.xfdl:   	gdsSql.setColumn(nRow,"sqlId","PLN4505.header000101");
+./PLN/PLN4505.xfdl:function fn_search()
+./PLN/PLN4505.xfdl:   	gdsSql.setColumn(nRow,"sqlId","PLN4505.data000101");
+./PLN/PLN4505.xfdl:function fn_chartSearch()
+./PLN/PLN4505.xfdl:   	gdsSql.setColumn(nRow,"sqlId","PLN4505.chart000101");   
+./PLN/PLN4506.xfdl:function fn_search()
+./PLN/PLN4506.xfdl:   	gdsSql.setColumn(nRow, "sqlId", "PLN4506.data000101");
+./PLN/PLN4506.xfdl:function fn_chkObs()
+./PLN/PLN4506.xfdl:   	gdsSql.setColumn(nRow, "sqlId", "PLN4506.data000102");
+./PLN/PLN4506.xfdl:function fn_delete()
+./PLN/PLN4506.xfdl:	gdsSql.setColumn(nRow, "sqlId", "PLN4506.del_FSOD_ALTN_PTF_WGT");
+./PLN/PLN4506.xfdl:	gdsSql.setColumn(nRow, "sqlDs", "Iud");
+./PLN/PLN4506.xfdl:function fn_save()
+./PLN/PLN4506.xfdl:	gdsSql.setColumn(nRow, "sqlId", "PLN4506.ins_FSOD_ALTN_PTF_WGT_PTF");
+./PLN/PLN4506.xfdl:	gdsSql.setColumn(nRow, "sqlDs", "ds_save1");
+./PLN/PLN4506.xfdl:function fn_calc_return()
+./PLN/PLN4506.xfdl:	gdsSql.setColumn(nRow, "sqlId", "PLN4506.ins_FSOD_ALTN_PTF_RTN");
+./PLN/PLN4506.xfdl:	gdsSql.setColumn(nRow, "sqlDs", "ds_save1");
+./PLN/PLN4506.xfdl:function fn_chartHeader()
+./PLN/PLN4506.xfdl:   	gdsSql.setColumn(nRow, "sqlId", "PLN4506.header000301");
+./PLN/PLN4506.xfdl:function fn_chartSearch()
+./PLN/PLN4506.xfdl:   	gdsSql.setColumn(nRow, "sqlId", "PLN4506.chart000301");
+./PLN/PLN4506.xfdl:   	gdsSql.setColumn(nRow, "sqlId", "PLN4506.chart000302");
+./PLN/PLN4506.xfdl:   	gdsSql.setColumn(nRow, "sqlId", "PLN4506.chart000401");
+./PLN/PLN4506.xfdl:   	gdsSql.setColumn(nRow, "sqlId", "PLN4506.chart000402");
+./PLN/PLN4506.xfdl:function fn_chartSearch_in()
+./PLN/PLN4506.xfdl:   	gdsSql.setColumn(nRow, "sqlId", "PLN4506.chart000401");
+./PLN/PLN4506.xfdl:   	gdsSql.setColumn(nRow, "sqlId", "PLN4506.chart000402");   	
+./POP/POP716A.xfdl:function btn_search_onclick(obj:Button,  e:ClickEventInfo)
+./POP/POP716A.xfdl:  	gdsSql.setColumn(nRow, "sqlId", "ADM9237.POP716A_data0010");
+./POP/POP717A.xfdl:function fn_searchUser()
+./POP/POP717A.xfdl:  	gdsSql.setColumn(nRow, "sqlId", "ADM9241.POP717A_data0010");
+./POP/POP733A.xfdl:function fn_search()
+./POP/POP733A.xfdl:	gdsSql.setColumn(nRow,"sqlId","ADM9225.chk0010");
+./POP/POP733A.xfdl:function fn_conFirm()
+./POP/POP733A.xfdl:			gdsSql.setColumn(nRow,"sqlId","ADM9225.udp_FSBD_PTF_REL_MT_POP");
+./POP/POP733A.xfdl:			gdsSql.setColumn(nRow,"sqlDs","Iud");
+./POP/POP738A.xfdl:function fn_search()
+./POP/POP738A.xfdl:  	gdsSql.setColumn(nRow, "sqlId", "POPUP.pop_738A");
+./POP/POP740A.xfdl:function fn_search()
+./POP/POP740A.xfdl:  	gdsSql.setColumn(nRow, "sqlId", "ADM9305.740A_POP");
+./POP/POP740B.xfdl:function fn_search()
+./POP/POP740B.xfdl:  	gdsSql.setColumn(nRow, "sqlId", "ADM9305.740B_POP");
+./POP/POP99.xfdl:function fn_search(fileGrpId)
+./POP/POP99.xfdl:	gdsSql.setColumn(nRow,"sqlId","COMMON.atchFileMTInfo");
+./POP/POP99.xfdl:function fn_fileDeleteDataset()
+./POP/POP99.xfdl:	gdsSql.setColumn(nRow,"sqlId","COMMON.del_FSBD_ATCH_FILE_MT");
+./POP/POP99.xfdl:	gdsSql.setColumn(nRow,"sqlDs","ds_filesDel");//
+./POP/POP99.xfdl:function fn_fileDeleteFile()
+./POP/POP99.xfdl:				gdsSql.setColumn(nRow,"path",FILE_SERVER_PATH+paramFileTypeCd);
+./POP/POP99.xfdl:				gdsSql.setColumn(nRow,"fileName",sFileName);
+./POP/POP99A1.xfdl:function fn_search()
+./POP/POP99A1.xfdl:  	gdsSql.setColumn(nRow, "sqlId", "pop_99A1");
+./POP/POP99A2.xfdl:function fn_search()
+./POP/POP99A2.xfdl:  	gdsSql.setColumn(nRow, "sqlId", "POPUP.pop_99A1");
+./POP/POP99B1.xfdl:function fn_comboSearch()
+./POP/POP99B1.xfdl:   	gdsSql.setColumn(nRow, "sqlId", "POPUP.pop2_99B2_combo");
+./POP/POP99B1.xfdl: 	gdsSql.setColumn(nRow, "sqlId", "POPUP.pop5_99B2_1");
+./POP/POP99B1.xfdl:   	gdsSql.setColumn(nRow, "sqlId", "POPUP.pop5_99B2_2");
+./POP/POP99B1.xfdl:function fn_ptfSearch()
+./POP/POP99B1.xfdl:		gdsSql.setColumn(nRow,"sqlId","POPUP.pop1_99B2");//포트폴리오
+./POP/POP99B1.xfdl:		gdsSql.setColumn(nRow,"sqlId","POPUP.pop2_99B2");
+./POP/POP99B1.xfdl:		gdsSql.setColumn(nRow,"sqlId","POPUP.pop3_99B2");
+./POP/POP99B1.xfdl:		gdsSql.setColumn(nRow,"sqlId","POPUP.pop4_99B2");
+./POP/POP99B1.xfdl:		gdsSql.setColumn(nRow, "sqlId", "POPUP.pop5_99B2"); //공모펀드
+./POP/POP99B1.xfdl:		gdsSql.setColumn(nRow,"sqlId","pop_99G1");
+./POP/POP99B1.xfdl:		gdsSql.setColumn(nRow,"sqlId","pop_99P1");
+./POP/POP99B1.xfdl:function fn_ptfDelete()
+./POP/POP99B1.xfdl:	gdsSql.setColumn(nRow,"sqlId","POPUP.del_FSBD_PTF_USER_LIST");
+./POP/POP99B1.xfdl:	gdsSql.setColumn(nRow,"sqlDs","ds_ptfList_del");
+./POP/POP99B1.xfdl:function fn_ptfInSert()
+./POP/POP99B1.xfdl:	gdsSql.setColumn(nRow,"sqlId","POPUP.ins_FSBD_PTF_USER_LIST");
+./POP/POP99B1.xfdl:	gdsSql.setColumn(nRow,"sqlDs","ds_ptfList");
+./POP/POP99B2.xfdl:function fn_comboSearch()
+./POP/POP99B2.xfdl:   	gdsSql.setColumn(nRow, "sqlId", "POPUP.pop2_99B2_combo");
+./POP/POP99B2.xfdl: 	gdsSql.setColumn(nRow, "sqlId", "POPUP.pop5_99B2_1");
+./POP/POP99B2.xfdl:   	gdsSql.setColumn(nRow, "sqlId", "POPUP.pop5_99B2_2");
+./POP/POP99B2.xfdl:function fn_userPtfSearch()
+./POP/POP99B2.xfdl:   	gdsSql.setColumn(nRow,"sqlId","defPortio");
+./POP/POP99B2.xfdl:function fn_ptfSearch()
+./POP/POP99B2.xfdl:		gdsSql.setColumn(nRow,"sqlId","POPUP.pop1_99B2");//포트폴리오
+./POP/POP99B2.xfdl:		gdsSql.setColumn(nRow,"sqlId","POPUP.pop2_99B2");
+./POP/POP99B2.xfdl:		gdsSql.setColumn(nRow,"sqlId","POPUP.pop3_99B2");
+./POP/POP99B2.xfdl:		gdsSql.setColumn(nRow,"sqlId","POPUP.pop4_99B2");
+./POP/POP99B2.xfdl:		gdsSql.setColumn(nRow, "sqlId", "POPUP.pop5_99B2"); //공모펀드
+./POP/POP99B2.xfdl:			gdsSql.setColumn(nRow,"sqlId","pop_99G1_HUG");//HUG전용
+./POP/POP99B2.xfdl:			gdsSql.setColumn(nRow,"sqlId","pop_99G1");
+./POP/POP99B2.xfdl:		gdsSql.setColumn(nRow,"sqlId","pop_99P1");
+./POP/POP99B2.xfdl:function fn_ptfDelete()
+./POP/POP99B2.xfdl:	gdsSql.setColumn(nRow,"sqlId","POPUP.del_FSBD_PTF_USER_LIST");
+./POP/POP99B2.xfdl:	gdsSql.setColumn(nRow,"sqlDs","ds_ptfList_del");
+./POP/POP99B2.xfdl:function fn_ptfSave()
+./POP/POP99B2.xfdl:	gdsSql.setColumn(nRow,"sqlId","POPUP.ins_FSBD_PTF_USER_LIST");
+./POP/POP99B2.xfdl:	gdsSql.setColumn(nRow,"sqlDs","ds_ptfList_cp");
+./POP/POP99B_HUG.xfdl:function fn_comboSearch()
+./POP/POP99B_HUG.xfdl:   	gdsSql.setColumn(nRow, "sqlId", "POPUP.pop2_99B2_combo");
+./POP/POP99B_HUG.xfdl: 	gdsSql.setColumn(nRow, "sqlId", "POPUP.pop5_99B2_1");
+./POP/POP99B_HUG.xfdl:   	gdsSql.setColumn(nRow, "sqlId", "POPUP.pop5_99B2_2");
+./POP/POP99B_HUG.xfdl:function fn_userPtfSearch()
+./POP/POP99B_HUG.xfdl:   	gdsSql.setColumn(nRow,"sqlId","defPortio");
+./POP/POP99B_HUG.xfdl:function fn_ptfSearch()
+./POP/POP99B_HUG.xfdl:		gdsSql.setColumn(nRow,"sqlId","POPUP.pop1_99B2");//포트폴리오
+./POP/POP99B_HUG.xfdl:		gdsSql.setColumn(nRow,"sqlId","POPUP.pop2_99B2");
+./POP/POP99B_HUG.xfdl:		gdsSql.setColumn(nRow,"sqlId","POPUP.pop3_99B2");
+./POP/POP99B_HUG.xfdl:		gdsSql.setColumn(nRow,"sqlId","POPUP.pop4_99B2");
+./POP/POP99B_HUG.xfdl:		gdsSql.setColumn(nRow, "sqlId", "POPUP.pop5_99B2"); //공모펀드
+./POP/POP99B_HUG.xfdl:		gdsSql.setColumn(nRow,"sqlId","pop_99G1");
+./POP/POP99B_HUG.xfdl:		gdsSql.setColumn(nRow,"sqlId","pop_99P1");
+./POP/POP99B_HUG.xfdl:function fn_ptfDelete()
+./POP/POP99B_HUG.xfdl:	gdsSql.setColumn(nRow,"sqlId","POPUP.del_FSBD_PTF_USER_LIST");
+./POP/POP99B_HUG.xfdl:	gdsSql.setColumn(nRow,"sqlDs","ds_ptfList_del");
+./POP/POP99B_HUG.xfdl:function fn_ptfSave()
+./POP/POP99B_HUG.xfdl:	gdsSql.setColumn(nRow,"sqlId","POPUP.ins_FSBD_PTF_USER_LIST");
+./POP/POP99B_HUG.xfdl:	gdsSql.setColumn(nRow,"sqlDs","ds_ptfList_cp");
+./POP/POP99C1.xfdl:function fn_search()
+./POP/POP99C1.xfdl:   	gdsSql.setColumn(nRow, "sqlId","POPUP.pop_99C1");
+./POP/POP99D1.xfdl:function fn_Search()
+./POP/POP99D1.xfdl:		gdsSql.setColumn(nRow,"sqlId","POPUP.pop_99D1"); //종목
+./POP/POP99D1.xfdl:		gdsSql.setColumn(nRow,"sqlId","POPUP.pop_99D2"); //국내주식
+./POP/POP99D1.xfdl:		gdsSql.setColumn(nRow,"sqlId","POPUP.pop_99D3"); //국내채권 발행사
+./POP/POP99D1.xfdl:function fn_userPtfSearch()
+./POP/POP99D1.xfdl:   	gdsSql.setColumn(nRow,"sqlId","POPUP.pop_99D_def");
+./POP/POP99D1.xfdl:function fn_ptfDelete()
+./POP/POP99D1.xfdl:	gdsSql.setColumn(nRow,"sqlId","POPUP.del_FSBD_PTF_USER_LIST");
+./POP/POP99D1.xfdl:	gdsSql.setColumn(nRow,"sqlDs","ds_ptfList_del");
+./POP/POP99D1.xfdl:function fn_ptfSave()
+./POP/POP99D1.xfdl:	gdsSql.setColumn(nRow,"sqlId","POPUP.ins_FSBD_PTF_USER_LIST");
+./POP/POP99D1.xfdl:	gdsSql.setColumn(nRow,"sqlDs","ds_list_cp");
+./POP/POP99F2.xfdl:function fn_search()
+./POP/POP99F2.xfdl:	gdsSql.setColumn(nRow,"sqlId","");
+./POP/POP99I1.xfdl:function fn_search()
+./POP/POP99I1.xfdl:  	gdsSql.setColumn(nRow, "sqlId", "POPUP.pop4_99I1");
+./POP/POP99L1.xfdl:function fn_search()
+./POP/POP99L1.xfdl:  	gdsSql.setColumn(nRow, "sqlId", "pop_99L1");
+./POP/POP99M1.xfdl:function fn_search()
+./POP/POP99M1.xfdl:   	gdsSql.setColumn(nRow, "sqlId","POPUP.pop_99M1");
+./POP/POP99O1.xfdl:function fn_search()
+./POP/POP99O1.xfdl:   	gdsSql.setColumn(nRow, "sqlId","POPUP.pop_99O1");
+./POP/POPLOCK.xfdl:function fn_confirmPwd()
+./POP/POPLOCK.xfdl:	gdsSql.setColumn(nRow,"sqlId","COMMON.userInfo"); 	
+./RPT/RPT5101.xfdl:function fn_search()
+./RPT/RPT5101.xfdl:   	gdsSql.setColumn(nRow, "sqlId","RPT5101.ff_data000101");
+./RPT/RPT5101.xfdl:   	    gdsSql.setColumn(nRow, "sqlId","RPT5101.ff_header000101");  //분기보고서
+./RPT/RPT5101.xfdl:		gdsSql.setColumn(nRow, "sqlId","RPT5101.ff_header000102");  //월간보고서
+./RPT/RPT5101.xfdl:function fn_wgtSearch()
+./RPT/RPT5101.xfdl:   	gdsSql.setColumn(nRow, "sqlId","RPT5101.ff_data000201");
+./RPT/RPT5102.xfdl:function fn_search()
+./RPT/RPT5102.xfdl:		gdsSql.setColumn(nRow, "sqlId","RPT5102.ff_data100101");
+./RPT/RPT5102.xfdl:		gdsSql.setColumn(nRow, "sqlId","RPT5102.ff_data100102");
+./RPT/RPT5102.xfdl:		gdsSql.setColumn(nRow, "sqlId","RPT5102.ff_data100201");
+./RPT/RPT5102.xfdl:		gdsSql.setColumn(nRow, "sqlId","RPT5102.ff_data100301");
+./RPT/RPT5102.xfdl:		gdsSql.setColumn(nRow, "sqlId","RPT5102.ff_data100302");
+./RPT/RPT5102.xfdl:		gdsSql.setColumn(nRow, "sqlId","RPT5102.ff_data100303");
+./RPT/RPT5102.xfdl:		gdsSql.setColumn(nRow, "sqlId","RPT5102.ff_data200101");
+./RPT/RPT5102.xfdl:		gdsSql.setColumn(nRow, "sqlId","RPT5102.ff_data200102");
+./RPT/RPT5102.xfdl:		gdsSql.setColumn(nRow, "sqlId","RPT5102.ff_data200201");
+./RPT/RPT5102.xfdl:		gdsSql.setColumn(nRow, "sqlId","RPT5102.ff_data200202");
+./RPT/RPT5102.xfdl:		gdsSql.setColumn(nRow, "sqlId","RPT5102.ff_data200203");
+./RPT/RPT5102.xfdl:		gdsSql.setColumn(nRow, "sqlId","RPT5102.ff_data200204");
+./RPT/RPT5102.xfdl:		gdsSql.setColumn(nRow, "sqlId","RPT5102.ff_data200205");
+./RPT/RPT5102.xfdl:		gdsSql.setColumn(nRow, "sqlId","RPT5102.ff_data200206");
+./RPT/RPT5102.xfdl:		gdsSql.setColumn(nRow, "sqlId","RPT5102.ff_data200207");
+./RPT/RPT5102.xfdl:		gdsSql.setColumn(nRow, "sqlId","RPT5102.ff_data200208");
+./RPT/RPT5103.xfdl:function fn_searchGrp()
+./RPT/RPT5103.xfdl:   	gdsSql.setColumn(nRow, "sqlId","RPT5103.ff_comm100101");
+./RPT/RPT5103.xfdl:function fn_aSearch()
+./RPT/RPT5103.xfdl:	gdsSql.setColumn(nRow, "sqlId", "RPT5103.ff_data100101");
+./RPT/RPT5103.xfdl:function fn_search()
+./RPT/RPT5103.xfdl:	gdsSql.setColumn(nRow, "sqlId", "RPT5103.ff_data200101");
+./RPT/RPT5103.xfdl:	gdsSql.setColumn(nRow, "sqlId", "RPT5103.ff_data200201");
+./RPT/RPT5103.xfdl:	gdsSql.setColumn(nRow, "sqlId", "RPT5103.ff_data200202");
+./RPT/RPT5103.xfdl:	gdsSql.setColumn(nRow, "sqlId", "RPT5103.ff_data200301");
+./RPT/RPT5103.xfdl:	gdsSql.setColumn(nRow, "sqlId", "RPT5103.ff_data200401");
+./RPT/RPT5104.xfdl:function fn_chk_date()
+./RPT/RPT5104.xfdl:   	gdsSql.setColumn(nRow, "sqlId","RPT5104.ff_chk_date");
+./RPT/RPT5104.xfdl:function fn_search()
+./RPT/RPT5104.xfdl:   	gdsSql.setColumn(nRow, "sqlId","RPT5104.ff_data000101"); // 펀드기본정보
+./RPT/RPT5104.xfdl:   	gdsSql.setColumn(nRow, "sqlId","RPT5104.ff_data000201"); // 운용성과
+./RPT/RPT5104.xfdl:   	gdsSql.setColumn(nRow, "sqlId","RPT5104.ff_data000301"); // 기준가 추이
+./RPT/RPT5104.xfdl:   	gdsSql.setColumn(nRow, "sqlId","RPT5104.ff_data000401"); // 펀드성과
+./RPT/RPT5104.xfdl:   	gdsSql.setColumn(nRow, "sqlId","RPT5104.ff_chart000101"); // 전략적 비중
+./RPT/RPT5104.xfdl:   	gdsSql.setColumn(nRow, "sqlId","RPT5104.ff_chart000201"); // 전략별 성과
+./RPT/RPT5104.xfdl:   	gdsSql.setColumn(nRow, "sqlId","RPT5104.ff_header000501"); // Correlation_header
+./RPT/RPT5104.xfdl:   	gdsSql.setColumn(nRow, "sqlId","RPT5104.ff_header000601"); // 환매예상일정_header
+./RPT/RPT5104.xfdl:function fn_search2()
+./RPT/RPT5104.xfdl:   	gdsSql.setColumn(nRow, "sqlId","RPT5104.ff_data000501"); // Correlation
+./RPT/RPT5104.xfdl:   	gdsSql.setColumn(nRow, "sqlId","RPT5104.ff_data000601"); // 환매예상일정
+./RPT/RPT5105.xfdl:function fn_search()
+./RPT/RPT5105.xfdl:   	gdsSql.setColumn(nRow, "sqlId","RPT5105.ff_data000101");
+./SAMPLE/SAMPLE01.xfdl:function fn_search()
+./SAMPLE/SAMPLE01.xfdl:   	gdsSql.setColumn(nRow,"sqlId","rq_WTBD_ALT_PTF_MSTR");
+./SAMPLE/SAMPLE01.xfdl:function fn_save()
+./SAMPLE/SAMPLE01.xfdl:	gdsSql.setColumn(nRow, "SVC_ID", "tr_WTBD_ALT_PTF_MSTR");
+./SAMPLE/SAMPLE01.xfdl:	gdsSql.setColumn(nRow, "sqlDs", "ds_save1");
+./SAMPLE/SAMPLE04.xfdl:function fn_search()
+./SAMPLE/SAMPLE04.xfdl:	gdsSql.setColumn(nRow,"sqlId","SAMPLE04.head000101");
+./SAMPLE/SAMPLE04.xfdl:	gdsSql.setColumn(nRow,"sqlId","SAMPLE04.data000101");
+./SAMPLE/TRANSACTION_INSERT_입력삭제.xfdl:function search()
+./SAMPLE/TRANSACTION_INSERT_입력삭제.xfdl:   	gdsSql.setColumn(nRow,"sqlId","PLN5421_rq");
+./SAMPLE/TRANSACTION_INSERT_입력삭제.xfdl:   	gdsSql.setColumn(nRow,"sqlTp","CHART0010");
+./SAMPLE/TRANSACTION_INSERT_입력삭제.xfdl:function fn_save()
+./SAMPLE/TRANSACTION_INSERT_입력삭제.xfdl:	gdsSql.setColumn(nRow, "SVC_ID", "tr_WTBD_ALT_PTF_MSTR");
+./SAMPLE/TRANSACTION_INSERT_입력삭제.xfdl:	gdsSql.setColumn(nRow, "sqlDs", "ds_save1");
+./SAMPLE/TRANSACTION_SELECT.xfdl:function search()
+./SAMPLE/TRANSACTION_SELECT.xfdl:    gdsSql.setColumn(nRow,"sqlId","STS2411.data000101");
+./SGW/SGW8611.xfdl:function fn_search()
+./SGW/SGW8611.xfdl:   	gdsSql.setColumn(nRow,"sqlId","SGW8611.ff_data000101");    
+./SGW/SGW8612.xfdl:function fn_search()
+./SGW/SGW8612.xfdl:   	gdsSql.setColumn(nRow,"sqlId","SGW8612.header000101");//헤더조회
+./SGW/SGW8612.xfdl:   	gdsSql.setColumn(nRow,"sqlId","SGW8612.header000101_bm");//BM헤더조회
+./SGW/SGW8612.xfdl:	gdsSql.setColumn(nRow,"sqlId","SGW8612.ff_data000101");//데이타 리스트조회
+./SGW/SGW8612.xfdl:	gdsSql.setColumn(nRow,"sqlId","SGW8612.ff_chart000101");//챠트리 스트조회
+./SGW/SGW8613.xfdl:function fn_search()
+./SGW/SGW8613.xfdl:   	gdsSql.setColumn(nRow, "sqlId","SGW8613.ff_data000101");
+./SGW/SGW8613.xfdl:function fn_chartSearch(freqTyp)
+./SGW/SGW8613.xfdl:   	gdsSql.setColumn(nRow, "sqlId","SGW8613.header000101");
+./SGW/SGW8613.xfdl:   	gdsSql.setColumn(nRow, "sqlId","SGW8613.ff_chart000101");
+./SGW/SGW8614.xfdl:function fn_search()
+./SGW/SGW8614.xfdl:	gdsSql.setColumn(nRow,"sqlId","SGW8614.ff_data000101");
+./SGW/SGW8621.xfdl:function fn_search()
+./SGW/SGW8621.xfdl:  	gdsSql.setColumn(nRow, "sqlId", "STS2302.data000101");
+./SGW/SGW8622.xfdl:function fn_search()
+./SGW/SGW8622.xfdl:		gdsSql.setColumn(nRow, "sqlId", "STS2402.data000101"); 
+./SGW/SGW8622.xfdl:		gdsSql.setColumn(nRow, "sqlId", "STS2402.ff_data000102");
+./SGW/SGW8623.xfdl:function fn_search()
+./SGW/SGW8623.xfdl:  	gdsSql.setColumn(nRow,"sqlId","HUG8523.data000101");
+./SGW/SGW8623.xfdl:function fn_chartSearch()
+./SGW/SGW8623.xfdl:  	gdsSql.setColumn(nRow,"sqlId","HUG8523.header000101");
+./SGW/SGW8623.xfdl:function fn_chartData()
+./SGW/SGW8623.xfdl:  	gdsSql.setColumn(nRow,"sqlId","HUG8523.chart000101");
+./SGW/SGW8631.xfdl:function fn_search()
+./SGW/SGW8631.xfdl:		gdsSql.setColumn(nRow,"sqlId","SGW8631.data1000101");
+./SGW/SGW8631.xfdl:		gdsSql.setColumn(nRow,"sqlId","SGW8631.data2000101");
+./SGW/SGW8632.xfdl:function fn_search()
+./SGW/SGW8632.xfdl:	gdsSql.setColumn(nRow, "sqlId", "SGW8632.header000101"); //header	
+./SGW/SGW8632.xfdl:	gdsSql.setColumn(nRow, "sqlId", "SGW8632.data"+tIdx+"00101"); //STD
+./SGW/SGW8633.xfdl:function fn_search()
+./SGW/SGW8633.xfdl:   	gdsSql.setColumn(nRow, "sqlId","MON3123.data000101");
+./SGW/SGW8633.xfdl:function fn_searchSub()
+./SGW/SGW8633.xfdl:   	gdsSql.setColumn(nRow, "sqlId","MON3123.data000102");
+./SGW/SGW8633.xfdl:function fv_ins_VaR_R_ENG()
+./SGW/SGW8633.xfdl:	gdsSql.setColumn(nRow, "sqlId", "MON3123.ins_FSSY_R_ENG_JOB");	
+./SGW/SGW8633.xfdl:	gdsSql.setColumn(nRow, "sqlDs", "ds_save1");
+./SGW/SGW8634.xfdl:function fn_upSearch()
+./SGW/SGW8634.xfdl:   	gdsSql.setColumn(nRow, "sqlId","MON3125.data000101");
+./SGW/SGW8634.xfdl:function fn_rowSearch(upRow)
+./SGW/SGW8634.xfdl:   	gdsSql.setColumn(nRow, "sqlId","MON3125.data000201");
+./SGW/SGW8635.xfdl:function fn_sendTran(sTranDvcd)
+./SGW/SGW8635.xfdl:		gdsSql.setColumn(nRow, "sqlId", "MON3115.dat100101");
+./SGW/SGW8635.xfdl:		gdsSql.setColumn(nRow, "sqlId", "MON3115.chart100101");
+./SGW/SGW8635.xfdl:		gdsSql.setColumn(nRow, "sqlId", "HUG8535.data100201");
+./SGW/SGW8635.xfdl:		gdsSql.setColumn(nRow, "sqlId", "SGW8635.data200101");
+./SGW/SGW8635.xfdl:		gdsSql.setColumn(nRow, "sqlId", "SGW8635.data200201");
+./SGW/SGW8641.xfdl:function fn_search()
+./SGW/SGW8641.xfdl:	gdsSql.setColumn(nRow,"sqlId","MON3141.data000101");
+./SGW/SGW8641.xfdl:function fn_detailSearch()
+./SGW/SGW8641.xfdl:   	gdsSql.setColumn(nRow,"sqlId","MON3141.data000201");
+./SGW/SGW8641.xfdl:function fn_aplcSearch()
+./SGW/SGW8641.xfdl:   	gdsSql.setColumn(nRow, "sqlId","MON3141.pop000102");
+./SGW/SGW8641.xfdl:function fn_saveListSearch(lmtCd,ptfCd)
+./SGW/SGW8641.xfdl:   	gdsSql.setColumn(nRow,"sqlId","MON3141.data000301");
+./SGW/SGW8641.xfdl:function fn_newLmtSearch(ptfCd)
+./SGW/SGW8641.xfdl:   	gdsSql.setColumn(nRow,"sqlId","MON3141.data000304");
+./SGW/SGW8641.xfdl:function fn_newLmtSearch_one(ptfCd)
+./SGW/SGW8641.xfdl:   	gdsSql.setColumn(nRow,"sqlId","MON3141.data000305");
+./SGW/SGW8641.xfdl:function fn_save()
+./SGW/SGW8641.xfdl:	gdsSql.setColumn(nRow,"sqlId","MON3141.mgr_FSBD_LMT_MT");
+./SGW/SGW8641.xfdl:	gdsSql.setColumn(nRow, "sqlDs","ds_save1");
+./SGW/SGW8641.xfdl:	gdsSql.setColumn(nRow,"sqlId","MON3141.mgr_FSBD_LMT_INP_MT");
+./SGW/SGW8641.xfdl:	gdsSql.setColumn(nRow, "sqlDs","ds_save");	
+./SGW/SGW8641.xfdl:function fn_aplcDelete()
+./SGW/SGW8641.xfdl:	gdsSql.setColumn(nRow,"sqlId","MON3141.del_FSBD_LMT_INP_MT");	
+./SGW/SGW8641.xfdl:function fn_delete()
+./SGW/SGW8641.xfdl:		gdsSql.setColumn(nRow,"sqlId","MON3141.del_FSBD_LMT_MT");
+./SGW/SGW8641.xfdl:		gdsSql.setColumn(nRow,"sqlDs","Iud");
+./SGW/SGW8641.xfdl:		gdsSql.setColumn(nRow,"sqlId","MON3141.del_FSBD_LMT_INP_MT");
+./SGW/SGW8641.xfdl:		gdsSql.setColumn(nRow,"sqlDs","Iud");					 
+./SGW/SGW8642.xfdl:function fn_enddate()
+./SGW/SGW8642.xfdl:   	gdsSql.setColumn(nRow, "sqlId","MON3143.data000102");
+./SGW/SGW8642.xfdl:function fn_search()
+./SGW/SGW8642.xfdl:   	gdsSql.setColumn(nRow, "sqlId","MON3143.data000101");
+./SGW/SGW8642.xfdl:function fn_search2()
+./SGW/SGW8642.xfdl:   	gdsSql.setColumn(nRow, "sqlId","MON3143.data000201");
+./SGW/SGW8642.xfdl:function fn_search3()
+./SGW/SGW8642.xfdl:   	gdsSql.setColumn(nRow, "sqlId","MON3143.data000301");
+./SGW/SGW8642P1.xfdl:function fn_search()
+./SGW/SGW8642P1.xfdl:	gdsSql.setColumn(nRow, "sqlId", "MON3143.pop000101");
+./SGW/SGW8642P1.xfdl:function fn_save()
+./SGW/SGW8642P1.xfdl:	gdsSql.setColumn(nRow, "sqlId", "MON3143.mgr_FSOD_PTF_LMT_DATA");
+./SGW/SGW8642P1.xfdl:	gdsSql.setColumn(nRow, "sqlDs", "ds_list");
+./SGW/SGW8642P1.xfdl:function fn_update()
+./SGW/SGW8642P1.xfdl:	gdsSql.setColumn(nRow, "sqlId", "MON3143.mgr_FSOD_PTF_LMT_DATA_VIO");
+./SGW/SGW8642P1.xfdl:	gdsSql.setColumn(nRow, "sqlDs", "ds_list");
+./STS/STS2101.xfdl:function fn_search()
+./STS/STS2101.xfdl:	gdsSql.setColumn(nRow,"sqlId","STS2101.data100101");
+./STS/STS2101.xfdl:function fn_tab2Search(ptf_cd)
+./STS/STS2101.xfdl:  	gdsSql.setColumn(nRow,"sqlId","STS2101.data200101");
+./STS/STS2101.xfdl:function fn_chart()
+./STS/STS2101.xfdl:	gdsSql.setColumn(nRow,"sqlId","STS2101.chart100101");
+./STS/STS2101.xfdl:	gdsSql.setColumn(nRow,"sqlId","STS2101.chart100201"); 
+./STS/STS2101.xfdl:	gdsSql.setColumn(nRow,"sqlId","STS2101.chart100201"); 
+./STS/STS2101.xfdl:	gdsSql.setColumn(nRow,"sqlId","STS2101.chart100201");
+./STS/STS2206.xfdl:function fn_sendTran(sTranDvcd)
+./STS/STS2206.xfdl:		gdsSql.setColumn(nRow, "sqlId", "STS2206.ff_data100101");
+./STS/STS2206.xfdl:		gdsSql.setColumn(nRow, "sqlId", "STS2206.ff_data000201");
+./STS/STS2301.xfdl:function fn_header()
+./STS/STS2301.xfdl:  	gdsSql.setColumn(nRow, "sqlId", "STS2301.ft_header200101");
+./STS/STS2301.xfdl:function fn_search()
+./STS/STS2301.xfdl:  	gdsSql.setColumn(nRow, "sqlId", sqlIdStr);
+./STS/STS2301.xfdl:function fn_subSearch()
+./STS/STS2301.xfdl:  	gdsSql.setColumn(nRow, "sqlId", "STS2301.ft_data"+tIdx+"00201");
+./STS/STS2301.xfdl:		gdsSql.setColumn(nRow, "sqlId", "STS2301.ft_chart"+tIdx+"00101");
+./STS/STS2301.xfdl:			gdsSql.setColumn(nRow, "sqlId", "STS2301.ft_chart300201");
+./STS/STS2302.xfdl:function fn_search()
+./STS/STS2302.xfdl:		gdsSql.setColumn(nRow, "sqlId", "STS2302.ff_data000101"); 
+./STS/STS2302.xfdl:		gdsSql.setColumn(nRow, "sqlId", "STS2302.ff_data000102");
+./STS/STS2304.xfdl:function fn_search()
+./STS/STS2304.xfdl:	gdsSql.setColumn(nRow, "sqlId", "STS2304.chart100101");
+./STS/STS2304.xfdl:	gdsSql.setColumn(nRow, "sqlId", "STS2304.chart100201");
+./STS/STS2304.xfdl:	gdsSql.setColumn(nRow, "sqlId", "STS2304.chart100301"); 
+./STS/STS2304.xfdl:	gdsSql.setColumn(nRow, "sqlId", "STS2304.chart100401");
+./STS/STS2304.xfdl:	gdsSql.setColumn(nRow, "sqlId", "STS2304.chart100501");
+./STS/STS2304.xfdl:	gdsSql.setColumn(nRow, "sqlId", "STS2304.chart100601");
+./STS/STS2304.xfdl:	gdsSql.setColumn(nRow, "sqlId", "STS2304.header200101");
+./STS/STS2306.xfdl:function fn_searchHead()
+./STS/STS2306.xfdl:	gdsSql.setColumn(nRow,"sqlId","STS2306.head000101");
+./STS/STS2306.xfdl:function fn_search()
+./STS/STS2306.xfdl:	gdsSql.setColumn(nRow,"sqlId","STS2306.data000101");
+./STS/STS2401.xfdl:function fn_search()
+./STS/STS2401.xfdl:	gdsSql.setColumn(nRow, "sqlId", sqlIdStr);
+./STS/STS2401.xfdl:function fn_subSearch()
+./STS/STS2401.xfdl:		gdsSql.setColumn(nRow, "sqlId", sqlIdStr1);
+./STS/STS2401.xfdl:		gdsSql.setColumn(nRow, "sqlId", sqlIdStr1);
+./STS/STS2401.xfdl:		gdsSql.setColumn(nRow, "sqlId", sqlIdStr2);
+./STS/STS2402.xfdl:function fn_search()
+./STS/STS2402.xfdl:		gdsSql.setColumn(nRow, "sqlId", "STS2402.ff_data000101"); 
+./STS/STS2402.xfdl:		gdsSql.setColumn(nRow, "sqlId", "STS2402.ff_data000102");
+./STS/STS2421.xfdl:function fn_search()
+./STS/STS2421.xfdl:   	gdsSql.setColumn(nRow,"sqlId","STS2421.ff_data000101");
+./STS/STS2421.xfdl:   	gdsSql.setColumn(nRow,"sqlId","STS2421.ff_data000201");
+./STS/STS2421.xfdl:   	gdsSql.setColumn(nRow,"sqlId","STS2421.ff_data000301");
+./STS/STS2426.xfdl:function fn_search1_1()
+./STS/STS2426.xfdl:  	gdsSql.setColumn(nRow, "sqlId", "STS2426.ff_data000101");
+./STS/STS2426.xfdl:  	gdsSql.setColumn(nRow, "sqlId", "STS2426.ff_data000102");
+./STS/STS2426.xfdl:function fn_search1_2()
+./STS/STS2426.xfdl:  	gdsSql.setColumn(nRow, "sqlId", "STS2426.ff_data000103");
+./STS/STS2426.xfdl:function fn_search2_1()
+./STS/STS2426.xfdl:  	gdsSql.setColumn(nRow, "sqlId", "STS2426.ff_data000201");
+./STS/STS2426.xfdl:function fn_search2_2()
+./STS/STS2426.xfdl:  	gdsSql.setColumn(nRow, "sqlId", "STS2426.ff_data000301");
+./STS/STS2426.xfdl:function fn_search2_3()
+./STS/STS2426.xfdl:  	gdsSql.setColumn(nRow, "sqlId", "STS2426.ff_data000401");
+./STS/STS2501.xfdl:function fn_search()
+./STS/STS2501.xfdl:   	gdsSql.setColumn(nRow,"sqlId","STS2501.data000101");
+./STS/STS2501.xfdl:function fn_subSearch(row)
+./STS/STS2501.xfdl:   	gdsSql.setColumn(nRow,"sqlId","STS2501.ff_data000201");
+./STS/STS2502.xfdl:function fn_search()
+./STS/STS2502.xfdl:  	gdsSql.setColumn(nRow,"sqlId","STS2502.data000101");
+./STS/STS2503.xfdl:function fn_search()
+./STS/STS2503.xfdl:   	gdsSql.setColumn(nRow,"sqlId","STS2503.header000101");
+./STS/STS2503.xfdl:		gdsSql.setColumn(nRow,"sqlId","STS2503.ff_data000101");
+./STS/STS2503.xfdl:		gdsSql.setColumn(nRow,"sqlId","STS2503.ff_chart000101");
+./STS/STS2503.xfdl:		gdsSql.setColumn(nRow,"sqlId","STS2503.ff_data000201");
+./STS/STS2503.xfdl:		gdsSql.setColumn(nRow,"sqlId","STS2503.ff_chart000201");
+./STS/STS2504.xfdl:function fn_searchHead()
+./STS/STS2504.xfdl:	gdsSql.setColumn(nRow, "sqlId", "STS2504.header000101");
+./STS/STS2504.xfdl:function fn_search()
+./STS/STS2504.xfdl:	gdsSql.setColumn(nRow, "sqlId", "STS2504.data000101");
+./STS/STS2504.xfdl:function fn_searchChartHead()
+./STS/STS2504.xfdl:	gdsSql.setColumn(nRow, "sqlId", "STS2504.header000102");
+./STS/STS2504.xfdl:function fn_searchChart()
+./STS/STS2504.xfdl:	gdsSql.setColumn(nRow, "sqlId", "STS2504.chart000101");
+./STS/STS2505.xfdl:function fn_search()
+./STS/STS2505.xfdl:  	gdsSql.setColumn(nRow,"sqlId","STS2505.data00010"+nIdx);
+./STS/STS2505.xfdl:function fn_subSearch()
+./STS/STS2505.xfdl:   	gdsSql.setColumn(nRow,"sqlId","STS2505.data000201");
+./STS/STS2505.xfdl:function fn_chartInfo()
+./STS/STS2505.xfdl:   	gdsSql.setColumn(nRow,"sqlId","STS2505.chart000101");
+./STS/STS2505.xfdl: function fn_chartData()
+./STS/STS2505.xfdl:	gdsSql.setColumn(nRow,"sqlId","STS2505.chart000102");
+./STS/STS2506.xfdl:function fn_searchHead()
+./STS/STS2506.xfdl:	gdsSql.setColumn(nRow, "sqlId", "STS2506.header000101");
+./STS/STS2506.xfdl:function fn_search()
+./STS/STS2506.xfdl:	gdsSql.setColumn(nRow, "sqlId", "STS2506.data000101");
+./STS/STS2506.xfdl:function fn_searchChartHead()
+./STS/STS2506.xfdl:	gdsSql.setColumn(nRow, "sqlId", "STS2506.header000102");
+./STS/STS2506.xfdl:function fn_searchChart()
+./STS/STS2506.xfdl:	gdsSql.setColumn(nRow, "sqlId", "STS2506.chart000101");
+./STS/STS2506.xfdl:function fn_getStDt(sEndDt)
+./STS/STS2506.xfdl:	gdsSql.setColumn(nRow, "sqlId", "STS2506.getSt_Dt");
+./STS/STS2507.xfdl:function fn_search()
+./STS/STS2507.xfdl:	gdsSql.setColumn(nRow,"sqlId","STS2507.header000101");
+./STS/STS2507.xfdl:function fn_dataSearch()
+./STS/STS2507.xfdl:		gdsSql.setColumn(nRow,"sqlId","STS2507.data000101"); // 업종
+./STS/STS2507.xfdl:		gdsSql.setColumn(nRow,"sqlId","STS2507.data000102"); // 사이즈
+./STS/STS2507.xfdl:function fn_chartDataSearch()
+./STS/STS2507.xfdl:	gdsSql.setColumn(nRow,"sqlId","STS2507.chart000101"); // 업종
+./STS/STS2507.xfdl:	gdsSql.setColumn(nRow,"sqlId","STS2507.chart000102"); // 사이즈
+./STS/STS2508.xfdl:function fn_searchHead()
+./STS/STS2508.xfdl:	gdsSql.setColumn(nRow, "sqlId", "STS2508.header000101");
+./STS/STS2508.xfdl:function fn_search()
+./STS/STS2508.xfdl:	gdsSql.setColumn(nRow, "sqlId", "STS2508.data000101");
+./STS/STS2508.xfdl:function fn_searchChartHead()
+./STS/STS2508.xfdl:	gdsSql.setColumn(nRow, "sqlId", "STS2508.header000102");
+./STS/STS2508.xfdl:function fn_searchChart()
+./STS/STS2508.xfdl:	gdsSql.setColumn(nRow, "sqlId", "STS2508.chart000101");
+./STS/STS2509.xfdl:function fn_search()
+./STS/STS2509.xfdl:   	gdsSql.setColumn(nRow, "sqlId","STS2509.header000101");
+./STS/STS2509.xfdl:	if(div_search.cbo_gubun.value == "IDST")gdsSql.setColumn(nRow, "sqlId","STS2509.data000101");
+./STS/STS2509.xfdl:	else gdsSql.setColumn(nRow, "sqlId","STS2509.data000102"); 
+./STS/STS2509.xfdl:function fn_chartDataSearch()
+./STS/STS2509.xfdl:	gdsSql.setColumn(nRow, "sqlId","STS2509.chart000101");
+./STS/STS2509.xfdl:   	gdsSql.setColumn(nRow, "sqlId","STS2509.chart000102");
+./STS/STS2510.xfdl:function fn_searchHead()
+./STS/STS2510.xfdl:	gdsSql.setColumn(nRow, "sqlId", "STS2510.header000101");
+./STS/STS2510.xfdl:function fn_search()
+./STS/STS2510.xfdl:	gdsSql.setColumn(nRow, "sqlId", "STS2510.data000101");
+./STS/STS2510.xfdl:function fn_searchChartHead()
+./STS/STS2510.xfdl:	gdsSql.setColumn(nRow, "sqlId", "STS2510.header000102");
+./STS/STS2510.xfdl:function fn_searchChart()
+./STS/STS2510.xfdl:	gdsSql.setColumn(nRow, "sqlId", "STS2510.chart000101");
+./STS/STS2510.xfdl:function fn_getStDt(sEndDt)
+./STS/STS2510.xfdl:	gdsSql.setColumn(nRow, "sqlId", "STS2510.getSt_Dt");
+./STS/STS2511.xfdl:function fn_headSearch()
+./STS/STS2511.xfdl:   	gdsSql.setColumn(nRow, "sqlId","STS2511.ff_header000101");
+./STS/STS2511.xfdl:function fn_search()
+./STS/STS2511.xfdl:		gdsSql.setColumn(nRow, "sqlId", "STS2511.ff_data000101");	
+./STS/STS2513.xfdl:function fn_headSearch()
+./STS/STS2513.xfdl:  	gdsSql.setColumn(nRow, "sqlId", "STS2513.header000101");
+./STS/STS2513.xfdl:function fn_search()
+./STS/STS2513.xfdl:	gdsSql.setColumn(nRow,"sqlId","STS2513.data000101");
+./STS/STS2601.xfdl:function fn_search()
+./STS/STS2601.xfdl:   	gdsSql.setColumn(nRow,"sqlId","STS2601.data000101");
+./STS/STS2601.xfdl:function fn_searchSub(subRow)
+./STS/STS2601.xfdl:   	gdsSql.setColumn(nRow,"sqlId","STS2601.ff_data000201");
+./STS/STS2602.xfdl:function fn_search()
+./STS/STS2602.xfdl: 	gdsSql.setColumn(nRow,"sqlId","STS2602.data000101");
+./STS/STS2603.xfdl:function fn_search()
+./STS/STS2603.xfdl:   	gdsSql.setColumn(nRow,"sqlId","STS2603.data000101");
+./STS/STS2603.xfdl:function fn_subSearch(subRow)
+./STS/STS2603.xfdl:   	gdsSql.setColumn(nRow,"sqlId","STS2603.data000201");
+./STS/STS2603.xfdl:function fn_chartInfo()
+./STS/STS2603.xfdl:   	gdsSql.setColumn(nRow,"sqlId","STS2603.chart000101");
+./STS/STS2603.xfdl:function fn_chartData()
+./STS/STS2603.xfdl:	gdsSql.setColumn(nRow,"sqlId","STS2603.chart000102");
+./STS/STS2605.xfdl:function fn_search()
+./STS/STS2605.xfdl:	gdsSql.setColumn(nRow,"sqlId","STS2605.data000101");
+./STS/STS2605.xfdl:	gdsSql.setColumn(nRow,"sqlId","STS2605.data000201");
+./STS/STS2605.xfdl:	gdsSql.setColumn(nRow,"sqlId","STS2605.chart000101");
+./STS/STS2605.xfdl:function fn_chartSearch(subRow)
+./STS/STS2605.xfdl:	gdsSql.setColumn(nRow,"sqlId","STS2605.chart000201");
+./STS/STS2606.xfdl:function fn_search()
+./STS/STS2606.xfdl:	gdsSql.setColumn(nRow, "sqlId","STS2606.chart000101");
+./STS/STS2607.xfdl:function fn_search()
+./STS/STS2607.xfdl:   	gdsSql.setColumn(nRow, "sqlId","STS2607.data000101");
+./STS/STS2607.xfdl:   	gdsSql.setColumn(nRow, "sqlId","STS2607.chart000101"); //범례
+./STS/STS2607.xfdl:	gdsSql.setColumn(nRow, "sqlId","STS2607.chart000102");
+./STS/STS2607.xfdl:function fn_subSearch(subRow)
+./STS/STS2607.xfdl:   	gdsSql.setColumn(nRow, "sqlId","STS2607.data000201");
+./STS/STS2701.xfdl:function fn_search()
+./STS/STS2701.xfdl:  	gdsSql.setColumn(nRow,"sqlId","STS2701.data00010"+nIdx);
+./STS/STS2701.xfdl:function fn_chartInfo()
+./STS/STS2701.xfdl:  	gdsSql.setColumn(nRow, "sqlId", "STS2701.header000101");	// RJB 차트 서비스 변경
+./STS/STS2701.xfdl:function fn_chartData()
+./STS/STS2701.xfdl:  	gdsSql.setColumn(nRow, "sqlId", "STS2701.chart00010" + nIdx);	
+./STS/STS2702.xfdl:function fn_search()
+./STS/STS2702.xfdl:	gdsSql.setColumn(nRow,"sqlId","STS2702.ff_data000101");
+./STS/STS2702.xfdl:function fn_chartSearch1(subRow)
+./STS/STS2702.xfdl:	gdsSql.setColumn(nRow, "sqlId","STS2702.ff_chart000101");
+./STS/STS2702P1.xfdl:function fn_search()
+./STS/STS2702P1.xfdl:	gdsSql.setColumn(nRow,"sqlId","STS2702.pop000101");
+./STS/STS2703.xfdl:function fn_headSearch()
+./STS/STS2703.xfdl:   	gdsSql.setColumn(nRow, "sqlId","STS2703.header000101");
+./STS/STS2703.xfdl:function fn_search()
+./STS/STS2703.xfdl:		gdsSql.setColumn(nRow, "sqlId","STS2703.data000101");
+./STS/STS2703.xfdl:		gdsSql.setColumn(nRow, "sqlId","STS2703.data000102");
+./STS/STS2703.xfdl:		gdsSql.setColumn(nRow, "sqlId","STS2703.data000103");
+./STS/STS2703.xfdl:function fn_chartSearch()
+./STS/STS2703.xfdl:		gdsSql.setColumn(nRow, "sqlId","STS2703.chart000101");
+./STS/STS2703.xfdl:		gdsSql.setColumn(nRow, "sqlId","STS2703.chart000102");
+./STS/STS2703.xfdl:		gdsSql.setColumn(nRow, "sqlId","STS2703.chart000201");
+./STS/STS2703.xfdl:		gdsSql.setColumn(nRow, "sqlId","EXE2703.chart000103");
+./STS/STS2705.xfdl:function fn_search()
+./STS/STS2705.xfdl:   	gdsSql.setColumn(nRow, "sqlId","STS2705.header000101");
+./STS/STS2705.xfdl:		gdsSql.setColumn(nRow, "sqlId","STS2705.data000101");
+./STS/STS2705.xfdl:		gdsSql.setColumn(nRow, "sqlId","STS2705.data000102");
+./STS/STS2705.xfdl:function fn_subSearch()
+./STS/STS2705.xfdl:   	gdsSql.setColumn(nRow, "sqlId","STS2705.data000201");
+./STS/STS2705.xfdl:   	gdsSql.setColumn(nRow, "sqlId","STS2705.chart000101");
+./STS/STS2705.xfdl:   	gdsSql.setColumn(nRow, "sqlId","STS2705.chart000201");
+./STS/STS2711.xfdl:function fn_search()
+./STS/STS2711.xfdl:  	gdsSql.setColumn(nRow,"sqlId","STS2711.data000101");
+./STS/STS2711.xfdl:function fn_chartSearch()
+./STS/STS2711.xfdl:  	gdsSql.setColumn(nRow,"sqlId","STS2711.header000101");
+./STS/STS2711.xfdl:function fn_chartData()
+./STS/STS2711.xfdl:  	gdsSql.setColumn(nRow,"sqlId","STS2711.chart000101");
+./STS/STS2713.xfdl:function fn_search()
+./STS/STS2713.xfdl:	gdsSql.setColumn(nRow,"sqlId","STS2713.header000101"); 
+./STS/STS2713.xfdl:	gdsSql.setColumn(nRow,"sqlId","STS2713.data000101"); 
+./STS/STS2713.xfdl:function fn_chartSearch()
+./STS/STS2713.xfdl:	gdsSql.setColumn(nRow,"sqlId","STS2713.chart000101");
+./STS/STS2713.xfdl:		gdsSql.setColumn(nRow,"sqlId","STS2713.chart000201");
+./STS/STS2715.xfdl:function fn_header()
+./STS/STS2715.xfdl:  	gdsSql.setColumn(nRow,"sqlId","STS2715.header000101");
+./STS/STS2715.xfdl:function fn_search()
+./STS/STS2715.xfdl:		gdsSql.setColumn(nRow,"sqlId","STS2715.data000101");
+./STS/STS2715.xfdl:		gdsSql.setColumn(nRow,"sqlId","STS2715.data000102");
+./STS/STS2715.xfdl:		gdsSql.setColumn(nRow,"sqlId","STS2715.data000103");
+./STS/STS2715.xfdl:function fn_subSearch()
+./STS/STS2715.xfdl:	gdsSql.setColumn(nRow,"sqlId","STS2715.data000201"); 
+./STS/STS2715.xfdl:function fn_chart()
+./STS/STS2715.xfdl:		gdsSql.setColumn(nRow,"sqlId","STS2715.chart000101");
+./STS/STS2715.xfdl:		gdsSql.setColumn(nRow,"sqlId","STS2715.chart000102");
+./STS/STS2715.xfdl:		gdsSql.setColumn(nRow,"sqlId","STS2715.chart000103");
+./STS/STS2716.xfdl:function fn_search()
+./STS/STS2716.xfdl:  	gdsSql.setColumn(nRow, "sqlId", "STS2716.data000101");
+./STS/STS2717.xfdl:function fn_search()
+./STS/STS2717.xfdl:  	gdsSql.setColumn(nRow, "sqlId", "STS2717.data000101");
+./STS/STS2718.xfdl:function fn_search()
+./STS/STS2718.xfdl:   	gdsSql.setColumn(nRow, "sqlId", "STS2718.data000101");
+./STS/STS2719.xfdl:function fn_search()
+./STS/STS2719.xfdl:   	gdsSql.setColumn(nRow, "sqlId", "STS2719.data000101");
+./STS/STS2721.xfdl:function fn_search()
+./STS/STS2721.xfdl:  	gdsSql.setColumn(nRow, "sqlId", "STS2721.data000101");
+./STS/STS2721.xfdl:function fn_searchChart(chartRow)
+./STS/STS2721.xfdl:	gdsSql.setColumn(nRow,"sqlId","STS2721.chart000101");
+./STS/STS2723.xfdl:function fn_search()
+./STS/STS2723.xfdl:  	gdsSql.setColumn(nRow, "sqlId", "STS2723.data000101");
+./STS/STS2723.xfdl:function fn_chartSearch(ptfCd1, ptfCd2)
+./STS/STS2723.xfdl:	gdsSql.setColumn(nRow,"sqlId","STS2723.chart000101");
+./STS/STS2723.xfdl:	gdsSql.setColumn(nRow,"sqlId","STS2723.chart000201");
+./STS/STS2725.xfdl:function fn_search()
+./STS/STS2725.xfdl: 		gdsSql.setColumn(nRow,"sqlId","STS2725.data100101");
+./STS/STS2725.xfdl:		gdsSql.setColumn(nRow,"sqlId","STS2725.data200101");
+./STS/STS2725.xfdl:		gdsSql.setColumn(nRow,"sqlId","STS2725.data300101");
+./STS/STS2725.xfdl:		gdsSql.setColumn(nRow,"sqlId","STS2725.data400101");
+./STS/STS2725.xfdl:function fn_subSearch()
+./STS/STS2725.xfdl:	gdsSql.setColumn(nRow,"sqlId","STS2725.ff_data000201");
+./STS/STS2727.xfdl:function fn_search()
+./STS/STS2727.xfdl:	gdsSql.setColumn(nRow,"sqlId","STS2727.ff_data000101");
+./STS/STS2727.xfdl:function fn_subSearch()
+./STS/STS2727.xfdl:	gdsSql.setColumn(nRow,"sqlId","STS2727.ff_data000201");	
+./STS/STS2727P1.xfdl:function fn_search()
+./STS/STS2727P1.xfdl:  	gdsSql.setColumn(nRow, "sqlId", "STS2727.ff_pop000101");
+./STS/STS2729.xfdl:function fn_search()
+./STS/STS2729.xfdl:	gdsSql.setColumn(nRow, "sqlId","STS2729.data000101");
+./STS/STS2731.xfdl:function fn_search()
+./STS/STS2731.xfdl:   	gdsSql.setColumn(nRow, "sqlId", "STS2731.data000101");
+./STS/STS2731.xfdl:function fn_saveAll()
+./STS/STS2731.xfdl:   	gdsSql.setColumn(nRow, "sqlId", "STS2731.mgr_FSBD_LMT_MT");
+./STS/STS2731.xfdl:	gdsSql.setColumn(nRow, "sqlDs", "Iud");
+./STS/STS2733.xfdl:function fn_sendTran(sTranDvcd)
+./STS/STS2733.xfdl:		gdsSql.setColumn(nRow, "sqlId", "STS2733.ff_data000101");
+./STS/STS2733.xfdl:		gdsSql.setColumn(nRow, "sqlId", "STS2733.ff_chart100101");
+./STS/STS2733.xfdl:		gdsSql.setColumn(nRow, "sqlId", "STS2733.data200101");
+./STS/STS2801.xfdl:function fn_sendTran(sTranDvcd)
+./STS/STS2801.xfdl:		gdsSql.setColumn(nRow, "sqlId", "STS2801.data000101");
+./STS/STS2801.xfdl:		gdsSql.setColumn(nRow, "sqlId", "STS2801.mgr_FSBD_HF_ITM_AST_MSTR");
+./STS/STS2801.xfdl:		gdsSql.setColumn(nRow, "sqlDs", "Iud");
+./STS/STS2801.xfdl:		gdsSql.setColumn(nRow, "sqlId", "STS2801.del_FSBD_HF_ITM_AST_MSTR");
+./STS/STS2801.xfdl:		gdsSql.setColumn(nRow, "sqlDs", "Iud");
+./STS/STS2801P1.xfdl:function fn_search()
+./STS/STS2801P1.xfdl:   	gdsSql.setColumn(nRow, "sqlId","STS2801.pop_2801");
+./STS/STS2802.xfdl:function fn_search()
+./STS/STS2802.xfdl:  	gdsSql.setColumn(nRow, "sqlId", "STS2802.data200101");	// 좌측 그리드 조회
+./STS/STS2802.xfdl:  	gdsSql.setColumn(nRow, "sqlId", "STS2802.data100101");	// 마스터 탭
+./STS/STS2802.xfdl:  	gdsSql.setColumn(nRow, "sqlId", "STS2802.data300101");	// BM관리 탭 	
+./STS/STS2802.xfdl:function fn_searchSub()
+./STS/STS2802.xfdl:	gdsSql.setColumn(nRow, "sqlId", "STS2802.data200201");	// 우측 그리드 조회
+./STS/STS2802.xfdl:function fn_searchSub2()
+./STS/STS2802.xfdl:  	gdsSql.setColumn(nRow, "sqlId", "STS2802.data300201");	// BM관리 탭 	
+./STS/STS2802.xfdl:function fn_saveTab1()
+./STS/STS2802.xfdl:	gdsSql.setColumn(nRow, "sqlId", "STS2802.mgr_FSBD_PTF_MSTR");	// 저장	
+./STS/STS2802.xfdl:	gdsSql.setColumn(nRow, "sqlDs", "Iud");	
+./STS/STS2802.xfdl:function fn_saveTab2()
+./STS/STS2802.xfdl:	gdsSql.setColumn(nRow, "sqlId", "STS2802.mgr_FSBD_PTF_REL_MT");	// 저장	
+./STS/STS2802.xfdl:	gdsSql.setColumn(nRow, "sqlDs", "Iud");	
+./STS/STS2802.xfdl:function fn_saveTab3()
+./STS/STS2802.xfdl:	gdsSql.setColumn(nRow, "sqlId", "STS2802.mgr_FSBD_PTF_REL_MT_BM");	// 저장	
+./STS/STS2802.xfdl:	gdsSql.setColumn(nRow, "sqlDs", "Iud");	
+./STS/STS2802.xfdl:function fn_deleteTab1()
+./STS/STS2802.xfdl:	gdsSql.setColumn(nRow, "sqlId", "STS2802.del_FSBD_PTF_MSTR");	// 삭제	
+./STS/STS2802.xfdl:	gdsSql.setColumn(nRow, "sqlDs", "Iud");
+./STS/STS2802.xfdl:function fn_deleteTab2()
+./STS/STS2802.xfdl:	gdsSql.setColumn(nRow, "sqlId", "STS2802.del_FSBD_PTF_REL_MT");	// 삭제	
+./STS/STS2802.xfdl:	gdsSql.setColumn(nRow, "sqlDs", "Iud");
+./STS/STS2802.xfdl:function fn_deleteTab3()
+./STS/STS2802.xfdl:		gdsSql.setColumn(nRow, "sqlId", "STS2802.del_FSBD_PTF_REL_MT_BM");
+./STS/STS2802.xfdl:		gdsSql.setColumn(nRow, "sqlDs", "Iud");
+./STS/STS2802.xfdl:	gdsSql.setColumn(nRow,"sqlId","STS2802.del_FSBD_PTF_REL_MT_BM");
+./STS/STS2802.xfdl:	gdsSql.setColumn(nRow,"sqlDs","Iud");
+./STS/STS2802P1.xfdl:function fn_search()
+./STS/STS2802P1.xfdl:	gdsSql.setColumn(nRow, "sqlId", "STS2802.pop200101");
+./STS/STS2802P2.xfdl:function fn_search()
+./STS/STS2802P2.xfdl:	gdsSql.setColumn(nRow, "sqlId", "STS2802.pop100101");
+./STS/STS2802_bak.xfdl:function fn_search()
+./STS/STS2802_bak.xfdl:  	gdsSql.setColumn(nRow, "sqlId", "STS2802.data200101");	// 좌측 그리드 조회
+./STS/STS2802_bak.xfdl:  	gdsSql.setColumn(nRow, "sqlId", "STS2802.data100101");	// 마스터 탭
+./STS/STS2802_bak.xfdl:function fn_searchSub()
+./STS/STS2802_bak.xfdl:	gdsSql.setColumn(nRow, "sqlId", "STS2802.data200201");	// 우측 그리드 조회
+./STS/STS2802_bak.xfdl:function fn_saveTab1()
+./STS/STS2802_bak.xfdl:	gdsSql.setColumn(nRow, "sqlId", "STS2802.mgr_FSBD_PTF_MSTR");	// 저장	
+./STS/STS2802_bak.xfdl:	gdsSql.setColumn(nRow, "sqlDs", "Iud");	
+./STS/STS2802_bak.xfdl:function fn_saveTab2()
+./STS/STS2802_bak.xfdl:	gdsSql.setColumn(nRow, "sqlId", "STS2802.mgr_FSBD_PTF_REL_MT");	// 저장	
+./STS/STS2802_bak.xfdl:	gdsSql.setColumn(nRow, "sqlDs", "Iud");	
+./STS/STS2802_bak.xfdl:function fn_deleteTab1()
+./STS/STS2802_bak.xfdl:	gdsSql.setColumn(nRow, "sqlId", "STS2802.del_FSBD_PTF_MSTR");	// 삭제	
+./STS/STS2802_bak.xfdl:	gdsSql.setColumn(nRow, "sqlDs", "Iud");
+./STS/STS2802_bak.xfdl:function fn_deleteTab2()
+./STS/STS2802_bak.xfdl:	gdsSql.setColumn(nRow, "sqlId", "STS2802.del_FSBD_PTF_REL_MT");	// 삭제	
+./STS/STS2802_bak.xfdl:	gdsSql.setColumn(nRow, "sqlDs", "Iud");
+./STS/STS2803.xfdl:function fn_search()
+./STS/STS2803.xfdl:	gdsSql.setColumn(nRow, "sqlId", "STS2803.data000101");
+./STS/STS2803.xfdl:function fn_searchSub()
+./STS/STS2803.xfdl:	gdsSql.setColumn(nRow, "sqlId", "STS2803.data000201");
+./STS/STS2803.xfdl:function fn_insert(sKind)
+./STS/STS2803.xfdl:		gdsSql.setColumn(nRow, "sqlId", "STS2803.mgr_FSBD_PTF_UL_EVL_COMP_1");
+./STS/STS2803.xfdl:		gdsSql.setColumn(nRow, "sqlId", "STS2803.mgr_FSBD_PTF_UL_EVL_COMP_RTN");
+./STS/STS2803.xfdl:		gdsSql.setColumn(nRow, "sqlId", "STS2803.mgr_FSBD_PTF_UL_EVL_COMP_PRC");
+./STS/STS2803.xfdl:		gdsSql.setColumn(nRow, "sqlId", "STS2803.mgr_FSBD_PTF_UL_EVL_COMP_UNT");
+./STS/STS2803.xfdl:		gdsSql.setColumn(nRow, "sqlId", "STS2803.mgr_FSBD_PTF_UL_EVL_COMP_PRIN");
+./STS/STS2803.xfdl:	gdsSql.setColumn(nRow, "sqlDs", "Iud");	
+./STS/STS2803.xfdl:function fn_delList()
+./STS/STS2803.xfdl:	gdsSql.setColumn(nRow, "sqlId", "STS2803.del_FSBD_PTF_UL_EVL_COMP");
+./STS/STS2803.xfdl:	gdsSql.setColumn(nRow, "sqlDs", "ds_delete");
+./STS/STS2803P1.xfdl:function fn_search()
+./STS/STS2803P1.xfdl:	gdsSql.setColumn(nRow, "sqlId", "STS2803.pop000101");	//	그리드 조회	
+./STS/STS2803P1.xfdl:	gdsSql.setColumn(nRow, "sqlId", "STS2803.pop000201");	// 데이터 산출기간 시작일 조회 
+./STS/STS2803P1.xfdl:function fn_searchCmptDt()
+./STS/STS2803P1.xfdl:	gdsSql.setColumn(nRow, "sqlId", "STS2803.pop000301");
+./STS/STS2803P1.xfdl:function fn_save(sKind)
+./STS/STS2803P1.xfdl:		gdsSql.setColumn(nRow, "sqlId", "STS2803.mgr_FSBD_PTF_UL_EVL_COMP_AGG");
+./STS/STS2803P1.xfdl:		gdsSql.setColumn(nRow, "sqlId", "STS2803.mgr_FSBD_PTF_UL_EVL_COMP_AGG_RTN");
+./STS/STS2803P1.xfdl:		gdsSql.setColumn(nRow, "sqlId", "STS2803.mgr_FSBD_PTF_UL_EVL_COMP_AGG_PRC");
+./STS/STS2803P1.xfdl:		gdsSql.setColumn(nRow, "sqlId", "STS2803.mgr_FSBD_PTF_UL_EVL_COMP_AGG_UNT");
+./STS/STS2803P1.xfdl:		gdsSql.setColumn(nRow, "sqlId", "STS2803.mgr_FSBD_PTF_UL_EVL_COMP_AGG_PRIN");
+./STS/STS2803P1.xfdl:	gdsSql.setColumn(nRow, "sqlDs", "Iud");	
+./STS/STS2803_bak.xfdl:function fn_search()
+./STS/STS2803_bak.xfdl:	gdsSql.setColumn(nRow, "sqlId", "STS2803.data000101");
+./STS/STS2803_bak.xfdl:function fn_searchSub()
+./STS/STS2803_bak.xfdl:	gdsSql.setColumn(nRow, "sqlId", "STS2803.data000201");
+./STS/STS2803_bak.xfdl:function fn_insert(sKind)
+./STS/STS2803_bak.xfdl:		gdsSql.setColumn(nRow, "sqlId", "STS2803.mgr_FSBD_PTF_UL_EVL_COMP_1");
+./STS/STS2803_bak.xfdl:		gdsSql.setColumn(nRow, "sqlId", "STS2803.mgr_FSBD_PTF_UL_EVL_COMP_RTN");
+./STS/STS2803_bak.xfdl:		gdsSql.setColumn(nRow, "sqlId", "STS2803.mgr_FSBD_PTF_UL_EVL_COMP_PRC");
+./STS/STS2803_bak.xfdl:		gdsSql.setColumn(nRow, "sqlId", "STS2803.mgr_FSBD_PTF_UL_EVL_COMP_UNT");
+./STS/STS2803_bak.xfdl:		gdsSql.setColumn(nRow, "sqlId", "STS2803.mgr_FSBD_PTF_UL_EVL_COMP_PRIN");
+./STS/STS2803_bak.xfdl:	gdsSql.setColumn(nRow, "sqlDs", "Iud");	
+./STS/STS2803_bak.xfdl:function fn_delList()
+./STS/STS2803_bak.xfdl:	gdsSql.setColumn(nRow, "sqlId", "STS2803.del_FSBD_PTF_UL_EVL_COMP");
+./STS/STS2803_bak.xfdl:	gdsSql.setColumn(nRow, "sqlDs", "ds_delete");
+./STS/STS2809.xfdl:function fn_sendTran(sTranDvcd)
+./STS/STS2809.xfdl:		gdsSql.setColumn(nRow, "sqlId", "STS2809.header000101");
+./STS/STS2809.xfdl:		gdsSql.setColumn(nRow, "sqlId", "STS2809.data000101");
+./STS/STS2809_bak.xfdl:function fn_sendTran(sTranDvcd)
+./STS/STS2809_bak.xfdl:		gdsSql.setColumn(nRow, "sqlId", "STS2809.header000101");
+./STS/STS2809_bak.xfdl:		gdsSql.setColumn(nRow, "sqlId", "STS2809.data000101");
+./STS/STS2811.xfdl:function fn_searchProc()
+./STS/STS2811.xfdl:   	gdsSql.setColumn(nRow, "sqlId", "STS2811.data000101");
+./STS/STS2811.xfdl:function fn_searchHeader()
+./STS/STS2811.xfdl:   	gdsSql.setColumn(nRow, "sqlId", "STS2811.header000101");
+./STS/STS2811.xfdl:function fn_search()
+./STS/STS2811.xfdl:   	gdsSql.setColumn(nRow, "sqlId", "STS2811.data000201");	// 상단 그리드 조회
+./STS/STS2811.xfdl:   	gdsSql.setColumn(nRow, "sqlId", "STS2811.chart000101");	// 차트 조회	
+./STS/STS2813.xfdl:function fn_headSearch()
+./STS/STS2813.xfdl:   	gdsSql.setColumn(nRow, "sqlId", "STS2813.header000101");	// 그리드 헤더
+./STS/STS2813.xfdl:function fn_search(sPftCd)
+./STS/STS2813.xfdl:   	gdsSql.setColumn(nRow, "sqlId", "STS2813.data000101");	// 그리드
+./STS/STS2813.xfdl:function fn_chart(sGobun)
+./STS/STS2813.xfdl:   	gdsSql.setColumn(nRow, "sqlId", "STS2813.chart000101");  // 차트	
+./STS/STS2813_bak.xfdl:function fn_headSearch()
+./STS/STS2813_bak.xfdl:   	gdsSql.setColumn(nRow, "sqlId", "STS2813.header000101");	// 그리드 헤더
+./STS/STS2813_bak.xfdl:function fn_search(sPftCd)
+./STS/STS2813_bak.xfdl:   	gdsSql.setColumn(nRow, "sqlId", "STS2813.data000101");	// 그리드
+./STS/STS2813_bak.xfdl:function fn_chart(sGobun)
+./STS/STS2813_bak.xfdl:   	gdsSql.setColumn(nRow, "sqlId", "STS2813.chart000101");  // 차트	
+./STS/STS2815.xfdl:function fn_search()
+./STS/STS2815.xfdl:   	gdsSql.setColumn(nRow, "sqlId", "STS2815.data000101");  // 상단 그리드
+./STS/STS2815.xfdl:   	gdsSql.setColumn(nRow, "sqlId", "STS2815.chart000101");	// 좌측 차트
+./STS/STS2815.xfdl:   	gdsSql.setColumn(nRow, "sqlId", "STS2815.chart000201");	// 우측 차트
+./STS/STS2815_bak.xfdl:function fn_search()
+./STS/STS2815_bak.xfdl:   	gdsSql.setColumn(nRow, "sqlId", "STS2815.data000101");  // 상단 그리드
+./STS/STS2815_bak.xfdl:   	gdsSql.setColumn(nRow, "sqlId", "STS2815.chart000101");	// 좌측 차트
+./STS/STS2815_bak.xfdl:   	gdsSql.setColumn(nRow, "sqlId", "STS2815.chart000201");	// 우측 차트
+./STS/STS2817.xfdl:function fn_chk_date()
+./STS/STS2817.xfdl:   	gdsSql.setColumn(nRow, "sqlId","STS2817.ff_chk_date");
+./STS/STS2817.xfdl:function fn_search()
+./STS/STS2817.xfdl:   	gdsSql.setColumn(nRow, "sqlId","STS2817.ff_data000101"); // 펀드기본정보
+./STS/STS2817.xfdl:   	gdsSql.setColumn(nRow, "sqlId","STS2817.ff_data000201"); // 운용성과
+./STS/STS2817.xfdl:   	gdsSql.setColumn(nRow, "sqlId","STS2817.ff_data000301"); // 기준가 추이
+./STS/STS2817.xfdl:   	gdsSql.setColumn(nRow, "sqlId","STS2817.ff_data000401"); // 펀드성과
+./STS/STS2817.xfdl:   	gdsSql.setColumn(nRow, "sqlId","STS2817.ff_chart000101"); // 전략적 비중
+./STS/STS2817.xfdl:   	gdsSql.setColumn(nRow, "sqlId","STS2817.ff_chart000201"); // 전략별 성과
+./STS/STS2817.xfdl:   	gdsSql.setColumn(nRow, "sqlId","STS2817.ff_header000501"); // Correlation_header
+./STS/STS2817.xfdl:   	gdsSql.setColumn(nRow, "sqlId","STS2817.ff_header000601"); // 환매예상일정_header
+./STS/STS2817.xfdl:function fn_search2()
+./STS/STS2817.xfdl:   	gdsSql.setColumn(nRow, "sqlId","STS2817.ff_data000501"); // Correlation
+./STS/STS2817.xfdl:   	gdsSql.setColumn(nRow, "sqlId","STS2817.ff_data000601"); // 환매예상일정
