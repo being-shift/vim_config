@@ -1,4 +1,3 @@
-
 " Use a line cursor within insert mode and a block cursor everywhere else.
 " Reference chart of values:
 "   Ps = 0  -> blinking block.
@@ -18,17 +17,22 @@ set list lcs=trail:·,tab:├─
 set cursorline
 set hls
 "set ic
-"set clipboard=unnamedplus
+set clipboard=unnamedplus
 set t_RV=ttymouse=xterm2
 set splitbelow
 set splitright
 set tags +=../tags,tags
-set background=dark
+" set background=green
 filetype on
 set encoding=utf-8
+" 특수기호 표현식
+"set nolist
 
-colorscheme one
-hi search ctermbg=130
+" colorscheme Atom "One
+" searh 배경
+hi Search ctermfg=black ctermbg=lightblue guifg=black guibg=lime" ctermbg=130
+"highlight Search ctermfg=black ctermbg=lightblue guifg=black guibg=lime
+hi IncSearch ctermfg=black ctermbg=yellow guifg=black guibg=lime
 hi CursorLine cterm=NONE ctermbg=235
 hi CursorLineNR cterm=bold ctermbg=235
 hi VertSplit ctermfg=black ctermbg=black
@@ -49,15 +53,12 @@ let g:indent_guides_guide_size = 1
 let g:indent_guides_enable_on_vim_startup = 1
 let g:indent_guides_auto_colors = 0
 let g:rainbow#pairs = [['(', ')'], ['{', '}'], ['[', ']']]
-
-" 자동 완성 목록의 배경색과 텍스트 색상 설정
-highlight Pmenu ctermfg=black ctermbg=LightGray guifg=black guibg=LightGray
-highlight PmenuSel ctermfg=white ctermbg=Blue gui=reverse
-
+" nerd ^G 표현식 제거
+let g:NERDTreeNodeDelimiter = "\u00a0"
+" 파일형식에 따라 들여쓰기 옵션을 자동으로 설정
 filetype plugin indent off
-
-autocmd VimEnter,Colorscheme * :hi IndentGuidesOdd  ctermfg=darkgreen ctermbg=236
-autocmd VimEnter,Colorscheme * :hi IndentGuidesEven ctermfg=darkgreen ctermbg=237
+" autocmd VimEnter,Colorscheme * :hi IndentGuidesOdd  ctermfg=darkgreen ctermbg=236
+" autocmd VimEnter,Colorscheme * :hi IndentGuidesEven ctermfg=darkgreen ctermbg=237
 autocmd FileType * RainbowParentheses
 
 function! g:BuffetSetCustomColors()
@@ -79,7 +80,7 @@ function! VTerm(...)
 	if a:0 == 0
 		vert term
 	else
-		execute "vert term ++cols=".a:1
+		ecute "vert term ++cols=".a:1
 	endif
 endfunction
 
@@ -108,6 +109,9 @@ nmap <leader>8 <Plug>BuffetSwitch(8)
 nmap <leader>9 <Plug>BuffetSwitch(9)
 nmap <leader>0 <Plug>BuffetSwitch(10)
 
+"fugitive bug canceler : 오동작하면 한번 실행해서 해결할 수 있음
+nnoremap p ""p
+
 vmap <C-c> "+y
 vmap <C-x> "+c
 vmap <C-v> "*c<Esc>"+p
@@ -132,8 +136,11 @@ else
 endif
 
 nmap <silent> gd <Plug>(coc-definition)
-nmap <silent> gy <Plug>(coc-type-definition)
+"nmap <silent> gy <Plug>(coc-type-definition)
 nmap <silent> gi <Plug>(coc-implementation)
 nmap <silent> gr <Plug>(coc-references)
 
 let g:coc_snippet_next = '<tab>'
+
+" autocmd FileType java colorscheme *
+
