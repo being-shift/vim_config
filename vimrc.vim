@@ -1,4 +1,3 @@
-
 " Use a line cursor within insert mode and a block cursor everywhere else.
 " Reference chart of values:
 "   Ps = 0  -> blinking block.
@@ -17,17 +16,18 @@ set ts=4
 set list lcs=trail:·,tab:├─
 set cursorline
 set hls
-"set ic
-"set clipboard=unnamedplus
+set ic
+set clipboard=unnamedplus
 set t_RV=ttymouse=xterm2
 set splitbelow
 set splitright
-set tags +=../tags,tags
+set tags +=../**/tags,./tags
 set background=dark
-filetype on
+syntax on
+filetype plugin indent on
 set encoding=utf-8
 
-colorscheme one
+colorscheme retrobox
 hi search ctermbg=130
 hi CursorLine cterm=NONE ctermbg=235
 hi CursorLineNR cterm=bold ctermbg=235
@@ -49,38 +49,38 @@ let g:indent_guides_guide_size = 1
 let g:indent_guides_enable_on_vim_startup = 1
 let g:indent_guides_auto_colors = 0
 let g:rainbow#pairs = [['(', ')'], ['{', '}'], ['[', ']']]
+" NERDTree ^G 처리
+let g:NERDTreeNodeDelimiter = "\u00a0"
 
 " 자동 완성 목록의 배경색과 텍스트 색상 설정
-highlight Pmenu ctermfg=black ctermbg=LightGray guifg=black guibg=LightGray
-highlight PmenuSel ctermfg=white ctermbg=Blue gui=reverse
-
-filetype plugin indent off
+hi Pmenu ctermfg=black ctermbg=LightGray guifg=black guibg=LightGray
+hi PmenuSel ctermfg=white ctermbg=Blue gui=reverse
 
 autocmd VimEnter,Colorscheme * :hi IndentGuidesOdd  ctermfg=darkgreen ctermbg=236
 autocmd VimEnter,Colorscheme * :hi IndentGuidesEven ctermfg=darkgreen ctermbg=237
 autocmd FileType * RainbowParentheses
 
 function! g:BuffetSetCustomColors()
-	hi! BuffetTab ctermfg=190 ctermbg=234
-	hi! BuffetBuffer ctermfg=85 ctermbg=234
-	hi! BuffetCurrentBuffer cterm=bold ctermfg=17 ctermbg=190
-	hi! BuffetActiveBuffer cterm=bold ctermfg=white ctermbg=234
+    hi! BuffetTab ctermfg=190 ctermbg=234
+    hi! BuffetBuffer ctermfg=85 ctermbg=234
+    hi! BuffetCurrentBuffer cterm=bold ctermfg=17 ctermbg=190
+    hi! BuffetActiveBuffer cterm=bold ctermfg=white ctermbg=234
 endfunction
 
 function! Term(...)
-	if a:0 == 0
-		term ++rows=10
-	else
-		execute "term ++rows=".a:1
-	endif
+    if a:0 == 0
+        term ++rows=10
+    else
+        execute "term ++rows=".a:1
+    endif
 endfunction
 
 function! VTerm(...)
-	if a:0 == 0
-		vert term
-	else
-		execute "vert term ++cols=".a:1
-	endif
+    if a:0 == 0
+        vert term
+    else
+        execute "vert term ++cols=".a:1
+    endif
 endfunction
 
 command! -nargs=? Term call Term(<f-args>)
@@ -107,11 +107,8 @@ nmap <leader>7 <Plug>BuffetSwitch(7)
 nmap <leader>8 <Plug>BuffetSwitch(8)
 nmap <leader>9 <Plug>BuffetSwitch(9)
 nmap <leader>0 <Plug>BuffetSwitch(10)
-
-vmap <C-c> "+y
-vmap <C-x> "+c
-vmap <C-v> "*c<Esc>"+p
-imap <C-v> <Esc>"+pi
+" NERDTreeFind를 수동으로 실행할 수 있는 키맵 설정
+" nmap <leader>nf :NERDTreeFind<CR>
 
 "여기에서 부터 coc설정
 inoremap <silent><expr> <TAB>
@@ -137,3 +134,8 @@ nmap <silent> gi <Plug>(coc-implementation)
 nmap <silent> gr <Plug>(coc-references)
 
 let g:coc_snippet_next = '<tab>'
+
+vmap <C-c> "+y
+vmap <C-x> "+c
+vmap <C-v> "*c<Esc>"+p
+imap <C-v> <Esc>"+pi
