@@ -44,3 +44,6 @@
 [submodule "pack/plugins/start/vim-dadbod-ui"]
 	path = pack/plugins/start/vim-dadbod-ui
 	url = https://github.com/kristijanhusak/vim-dadbod-ui.git
+[submodule "/Users/mac/.vim/pack/plugins/start/ale"]
+	path = /Users/mac/.vim/pack/plugins/start/ale
+	url = https://github.com/dense-analysis/ale.git
